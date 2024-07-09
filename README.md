@@ -1,38 +1,45 @@
-# create-svelte
+# WIP
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+For now the data has been extracted but it is not organized/documented in any way.
 
-## Creating a project
+## Task List
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Documentation
+    - [x] Write basic README
+    - [ ] Add images to better present the game
+    - [ ] Write a PLANNING file to organize, and plan, things out
+    - [ ] License?
+    - [ ] Contribute?
+    - [ ] Guidelines?
+- Data extraction
+    - [x] Extract meaningful quantity of data
+    - [ ] Organize scrapper to run by command line (no source code modifications to perform actions)
+    - [ ] Write JSON schema of the data
+    - [ ] Document utility functions and exposed CLI
+- Game
+    - [x] Write seeded PRNG function that changes every day.
+    - [ ] Write the game flow
+    - [ ] Design mobile and desktop user interface
+    - [ ] Schematize componentization of UI items
+    - [ ] - _in progress_ - create autocomplete/dropdown component for nikke input
+    - [ ] Style components to look simmilar to the game
+    - [ ] Persist guesses in `localStorage`
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Future plans
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- Add a never ending mode, where the player can play as many times as they want
+- Add a share results option (in a way that doesn't spoil the answer)
+- Add a mode to guess the _"nikke of the day"_'s weapon name (after finishing the daily mode)
+- Add a mode to guess the _"nikke of the day"_'s squad name (after finishing the daily mode)
 
-## Developing
+# Nikkle
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+*Your daily nikke*
 
-```bash
-npm run dev
+Nikkle is a game where you guess the right nikke. Each attempt will show what's right or wrong with your guess, get it right in 6 attempts and you win!
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+The name comes from joining the words *nikke* and *wordle* (and sounds like nickel), and the inspiration comes from [Genshindle](https://us.genshindle.com) and [Loldle](https://loldle.net)
 
-## Building
+## How to play
 
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Start with a random guess, let's say `Snow White`. The game will show you what's right with this guess (it's a SSR, Code Iron, Pilgrim, ..., etc). Make new educated guesses. Rinse and repeat until you get it right or have no attempts left.
