@@ -1,0 +1,597 @@
+[
+    {
+        "name": "Rapi",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Rapi",
+        "image_url": "RapiS.png"
+    },
+    {
+        "name": "Neon",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Neon",
+        "image_url": "NeonS.png"
+    },
+    {
+        "name": "Snow White",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Snow_White",
+        "image_url": "Snow_WhiteS.png"
+    },
+    {
+        "name": "Delta",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Delta",
+        "image_url": "DeltaS.png"
+    },
+    {
+        "name": "Mica",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Mica",
+        "image_url": "MicaS.png"
+    },
+    {
+        "name": "Diesel",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Diesel",
+        "image_url": "DieselS.png"
+    },
+    {
+        "name": "Miranda",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Miranda",
+        "image_url": "MirandaS.png"
+    },
+    {
+        "name": "Emma",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Emma",
+        "image_url": "EmmaS.png"
+    },
+    {
+        "name": "Privaty",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Privaty",
+        "image_url": "PrivatyS.png"
+    },
+    {
+        "name": "Signal",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Signal",
+        "image_url": "SignalS.png"
+    },
+    {
+        "name": "Eunhwa",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Eunhwa",
+        "image_url": "EunhwaS.png"
+    },
+    {
+        "name": "Guillotine",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Guillotine",
+        "image_url": "GuillotineS.png"
+    },
+    {
+        "name": "Belorta",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Belorta",
+        "image_url": "BelortaS.png"
+    },
+    {
+        "name": "Soldier EG",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Soldier_EG",
+        "image_url": "Soldier_EGS.png"
+    },
+    {
+        "name": "Soldier FA",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Soldier_FA",
+        "image_url": "Soldier_FAS.png"
+    },
+    {
+        "name": "Soldier OW",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Soldier_OW",
+        "image_url": "Soldier_OWS.png"
+    },
+    {
+        "name": "Scarlet",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Scarlet",
+        "image_url": "ScarletS.png"
+    },
+    {
+        "name": "Noah",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Noah",
+        "image_url": "NoahS.png"
+    },
+    {
+        "name": "Epinel",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Epinel",
+        "image_url": "EpinelS.png"
+    },
+    {
+        "name": "Exia",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Exia",
+        "image_url": "ExiaS.png"
+    },
+    {
+        "name": "Alice",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Alice",
+        "image_url": "AliceS.png"
+    },
+    {
+        "name": "Sugar",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Sugar",
+        "image_url": "SugarS.png"
+    },
+    {
+        "name": "Frima",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Frima",
+        "image_url": "FrimaS.png"
+    },
+    {
+        "name": "Mary",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Mary",
+        "image_url": "MaryS.png"
+    },
+    {
+        "name": "Ludmilla",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Ludmilla",
+        "image_url": "LudmillaS.png"
+    },
+    {
+        "name": "Anis",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Anis",
+        "image_url": "AnisS.png"
+    },
+    {
+        "name": "IDoll Sun",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/IDoll_Sun",
+        "image_url": "IDoll_SunS.png"
+    },
+    {
+        "name": "IDoll Ocean",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/IDoll_Ocean",
+        "image_url": "IDoll_OceanS.png"
+    },
+    {
+        "name": "IDoll Flower",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/IDoll_Flower",
+        "image_url": "IDoll_FlowerS.png"
+    },
+    {
+        "name": "Yuni",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Yuni",
+        "image_url": "YuniS.png"
+    },
+    {
+        "name": "Maxwell",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Maxwell",
+        "image_url": "MaxwellS.png"
+    },
+    {
+        "name": "Julia",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Julia",
+        "image_url": "JuliaS.png"
+    },
+    {
+        "name": "Drake",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Drake",
+        "image_url": "DrakeS.png"
+    },
+    {
+        "name": "Mihara",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Mihara",
+        "image_url": "MiharaS.png"
+    },
+    {
+        "name": "N102",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/N102",
+        "image_url": "N102S.png"
+    },
+    {
+        "name": "Ether",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Ether",
+        "image_url": "EtherS.png"
+    },
+    {
+        "name": "Product 08",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Product_08",
+        "image_url": "Product_08S.png"
+    },
+    {
+        "name": "Product 12",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Product_12",
+        "image_url": "Product_12S.png"
+    },
+    {
+        "name": "Product 23",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Product_23",
+        "image_url": "Product_23S.png"
+    },
+    {
+        "name": "Centi",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Centi",
+        "image_url": "CentiS.png"
+    },
+    {
+        "name": "Soline",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Soline",
+        "image_url": "SolineS.png"
+    },
+    {
+        "name": "Helm",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Helm",
+        "image_url": "HelmS.png"
+    },
+    {
+        "name": "Volume",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Volume",
+        "image_url": "VolumeS.png"
+    },
+    {
+        "name": "Poli",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Poli",
+        "image_url": "PoliS.png"
+    },
+    {
+        "name": "Vesti",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Vesti",
+        "image_url": "VestiS.png"
+    },
+    {
+        "name": "Laplace",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Laplace",
+        "image_url": "LaplaceS.png"
+    },
+    {
+        "name": "Dolla",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Dolla",
+        "image_url": "DollaS.png"
+    },
+    {
+        "name": "Brid",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Brid",
+        "image_url": "BridS.png"
+    },
+    {
+        "name": "Crow",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Crow",
+        "image_url": "CrowS.png"
+    },
+    {
+        "name": "Harran",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Harran",
+        "image_url": "HarranS.png"
+    },
+    {
+        "name": "Novel",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Novel",
+        "image_url": "NovelS.png"
+    },
+    {
+        "name": "Yulha",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Yulha",
+        "image_url": "YulhaS.png"
+    },
+    {
+        "name": "Neve",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Neve",
+        "image_url": "NeveS.png"
+    },
+    {
+        "name": "Folkwang",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Folkwang",
+        "image_url": "FolkwangS.png"
+    },
+    {
+        "name": "Admi",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Admi",
+        "image_url": "AdmiS.png"
+    },
+    {
+        "name": "Maiden",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Maiden",
+        "image_url": "MaidenS.png"
+    },
+    {
+        "name": "Anne: Miracle Fairy",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Anne:_Miracle_Fairy",
+        "image_url": "Anne_Miracle_FairyS.png"
+    },
+    {
+        "name": "Rupee",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Rupee",
+        "image_url": "RupeeS.png"
+    },
+    {
+        "name": "Rupee: Winter Shopper",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Rupee:_Winter_Shopper",
+        "image_url": "Rupee_Winter_ShopperS.png"
+    },
+    {
+        "name": "Milk",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Milk",
+        "image_url": "MilkS.png"
+    },
+    {
+        "name": "Rapunzel",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Rapunzel",
+        "image_url": "RapunzelS.png"
+    },
+    {
+        "name": "Modernia",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Modernia",
+        "image_url": "ModerniaS.png"
+    },
+    {
+        "name": "Isabel",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Isabel",
+        "image_url": "IsabelS.png"
+    },
+    {
+        "name": "Noise",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Noise",
+        "image_url": "NoiseS.png"
+    },
+    {
+        "name": "Jackal",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Jackal",
+        "image_url": "JackalS.png"
+    },
+    {
+        "name": "Viper",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Viper",
+        "image_url": "ViperS.png"
+    },
+    {
+        "name": "Yan",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Yan",
+        "image_url": "YanS.png"
+    },
+    {
+        "name": "Liter",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Liter",
+        "image_url": "LiterS.png"
+    },
+    {
+        "name": "Aria",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Aria",
+        "image_url": "AriaS.png"
+    },
+    {
+        "name": "Guilty",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Guilty",
+        "image_url": "GuiltyS.png"
+    },
+    {
+        "name": "Sin",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Sin",
+        "image_url": "SinS.png"
+    },
+    {
+        "name": "Quency",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Quency",
+        "image_url": "QuencyS.png"
+    },
+    {
+        "name": "Pepper",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Pepper",
+        "image_url": "PepperS.png"
+    },
+    {
+        "name": "Cocoa",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Cocoa",
+        "image_url": "CocoaS.png"
+    },
+    {
+        "name": "Soda",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Soda",
+        "image_url": "SodaS.png"
+    },
+    {
+        "name": "Power",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Power",
+        "image_url": "PowerS.png"
+    },
+    {
+        "name": "Makima",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Makima",
+        "image_url": "MakimaS.png"
+    },
+    {
+        "name": "Himeno",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Himeno",
+        "image_url": "HimenoS.png"
+    },
+    {
+        "name": "Biscuit",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Biscuit",
+        "image_url": "BiscuitS.png"
+    },
+    {
+        "name": "Nihilister",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Nihilister",
+        "image_url": "NihilisterS.png"
+    },
+    {
+        "name": "Sakura",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Sakura",
+        "image_url": "SakuraS.png"
+    },
+    {
+        "name": "D",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/D",
+        "image_url": "DS.png"
+    },
+    {
+        "name": "Rosanna",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Rosanna",
+        "image_url": "RosannaS.png"
+    },
+    {
+        "name": "Dorothy",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Dorothy",
+        "image_url": "DorothyS.png"
+    },
+    {
+        "name": "Rei",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Rei",
+        "image_url": "ReiS.png"
+    },
+    {
+        "name": "Anchor",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Anchor",
+        "image_url": "AnchorS.png"
+    },
+    {
+        "name": "Mast",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Mast",
+        "image_url": "MastS.png"
+    },
+    {
+        "name": "Nero",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Nero",
+        "image_url": "NeroS.png"
+    },
+    {
+        "name": "Red Hood",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Red_Hood",
+        "image_url": "Red_HoodS.png"
+    },
+    {
+        "name": "Blanc",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Blanc",
+        "image_url": "BlancS.png"
+    },
+    {
+        "name": "Noir",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Noir",
+        "image_url": "NoirS.png"
+    },
+    {
+        "name": "Helm: Aquamarine",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Helm:_Aquamarine",
+        "image_url": "Helm_AquamarineS.png"
+    },
+    {
+        "name": "Mary: Bay Goddess",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Mary:_Bay_Goddess",
+        "image_url": "Mary_Bay_GoddessS.png"
+    },
+    {
+        "name": "Anis: Sparkling Summer",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Anis:_Sparkling_Summer",
+        "image_url": "Anis_Sparkling_SummerS.png"
+    },
+    {
+        "name": "2B",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/2B",
+        "image_url": "2BS.png"
+    },
+    {
+        "name": "A2",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/A2",
+        "image_url": "A2S.png"
+    },
+    {
+        "name": "Pascal",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Pascal",
+        "image_url": "PascalS.png"
+    },
+    {
+        "name": "Marciana",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Marciana",
+        "image_url": "MarcianaS.png"
+    },
+    {
+        "name": "Naga",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Naga",
+        "image_url": "NagaS.png"
+    },
+    {
+        "name": "Tia",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Tia",
+        "image_url": "TiaS.png"
+    },
+    {
+        "name": "Quiry",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Quiry",
+        "image_url": "QuiryS.png"
+    },
+    {
+        "name": "Snow White: Innocent Days",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Snow_White:_Innocent_Days",
+        "image_url": "Snow_White_Innocent_DaysS.png"
+    },
+    {
+        "name": "Neon: Blue Ocean",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Neon:_Blue_Ocean",
+        "image_url": "Neon_Blue_OceanS.png"
+    },
+    {
+        "name": "Mica: Snow Buddy",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Mica:_Snow_Buddy",
+        "image_url": "Mica_Snow_BuddyS.png"
+    },
+    {
+        "name": "Ludmilla: Winter Owner",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Ludmilla:_Winter_Owner",
+        "image_url": "Ludmilla_Winter_OwnerS.png"
+    },
+    {
+        "name": "Tove",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Tove",
+        "image_url": "ToveS.png"
+    },
+    {
+        "name": "Scarlet: Black Shadow",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Scarlet:_Black_Shadow",
+        "image_url": "Scarlet_Black_ShadowS.png"
+    },
+    {
+        "name": "Leona",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Leona",
+        "image_url": "LeonaS.png"
+    },
+    {
+        "name": "Moran",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Moran",
+        "image_url": "MoranS.png"
+    },
+    {
+        "name": "Privaty: Unkind Maid",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Privaty:_Unkind_Maid",
+        "image_url": "Privaty_Unkind_MaidS.png"
+    },
+    {
+        "name": "Ade",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Ade",
+        "image_url": "AdeS.png"
+    },
+    {
+        "name": "Elegg",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Elegg",
+        "image_url": "EleggS.png"
+    },
+    {
+        "name": "D: Killer Wife",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/D:_Killer_Wife",
+        "image_url": "D_Killer_WifeS.png"
+    },
+    {
+        "name": "Emilia",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Emilia",
+        "image_url": "EmiliaS.png"
+    },
+    {
+        "name": "Rem",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Rem",
+        "image_url": "RemS.png"
+    },
+    {
+        "name": "Ram",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Ram",
+        "image_url": "RamS.png"
+    },
+    {
+        "name": "Bay",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Bay",
+        "image_url": "BayS.png"
+    },
+    {
+        "name": "Crown",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Crown",
+        "image_url": "CrownS.png"
+    },
+    {
+        "name": "Kilo",
+        "url": "https://nikke-goddess-of-victory-international.fandom.com/wiki/Kilo",
+        "image_url": "KiloS.png"
+    }
+]

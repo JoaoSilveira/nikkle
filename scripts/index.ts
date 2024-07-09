@@ -1,0 +1,345 @@
+import { NodeType, parse, type HTMLElement } from 'node-html-parser';
+import { Burst, Code, Manufacturer, Nikke, Position, Rarity, Weapon } from '../src/lib/nikke';
+
+type NikkeListEntry = {
+    name: string;
+    url: string;
+    image_url: string;
+};
+
+async function fetchHtml(url: string): Promise<HTMLElement> {
+    const response = await fetch(url);
+    return parse(await response.text());
+}
+
+async function downloadImage(url: string, file: string): Promise<void> {
+    const response = await fetch(url);
+    await Bun.write(file, await response.arrayBuffer());
+}
+
+function elementChildren(el: HTMLElement): HTMLElement[] {
+    return el.childNodes
+        .filter(c => c.nodeType === NodeType.ELEMENT_NODE);
+}
+
+function firstElementChild(el: HTMLElement): HTMLElement | null {
+    for (const child of el.childNodes) {
+        if (child.nodeType === NodeType.ELEMENT_NODE)
+            return child as HTMLElement;
+    }
+
+    return null;
+}
+
+function lastElementChild(el: HTMLElement): HTMLElement | null {
+    for (let i = el.childNodes.length - 1; i >= 0; i--) {
+        if (el.childNodes[i].nodeType === NodeType.ELEMENT_NODE)
+            return el.childNodes[i] as HTMLElement;
+    }
+
+    return null;
+}
+
+function walk(el: HTMLElement, directions: string): HTMLElement | null {
+    let aux: HTMLElement | null = el;
+
+    for (const dir of directions) {
+        if (aux === null) return null;
+
+        switch (dir) {
+            case '^':
+                aux = aux.parentNode;
+                break;
+            case '>':
+                aux = aux.nextElementSibling;
+                break;
+            case '<':
+                aux = aux.previousElementSibling;
+                break;
+            case 'v':
+                aux = firstElementChild(aux);
+                break;
+            case '$':
+                aux = lastElementChild(aux);
+                break;
+        }
+    }
+
+    return aux;
+}
+
+function parseRarity(rarity: string): Rarity | null {
+    switch (rarity) {
+        case 'R':
+            return Rarity.R;
+        case 'Sr':
+            return Rarity.Sr;
+        case 'Ssr':
+            return Rarity.Ssr;
+        default:
+            return null;
+    }
+}
+
+function parseBurst(burst: string): Burst | null {
+    switch (burst) {
+        case 'Step1':
+            return Burst.I;
+        case 'Step2':
+            return Burst.II;
+        case 'Step3':
+            return Burst.III;
+        case 'StepAll':
+            return Burst.A;
+        default:
+            return null;
+    }
+}
+
+function parseCode(code: string): Code | null {
+    const element = /\(\w+\)/.exec(code)?.[0];
+
+    switch (element) {
+        case '(Fire)':
+            return Code.Fire;
+        case '(Water)':
+            return Code.Water;
+        case '(Electric)':
+            return Code.Electric;
+        case '(Iron)':
+            return Code.Iron;
+        case '(Wind)':
+            return Code.Wind;
+        default:
+            return null;
+    }
+}
+
+function parseWeapon(weapon: string): Weapon | null {
+    switch (weapon) {
+        case 'Shotgun':
+            return Weapon.Shotgun;
+        case 'Submachine Gun':
+            return Weapon.SubmachineGun;
+        case 'Machine Gun':
+            return Weapon.MachineGun;
+        case 'Assault Rifle':
+            return Weapon.AssaultRifle;
+        case 'Sniper Rifle':
+            return Weapon.SniperRifle;
+        case 'Rocket Launcher':
+            return Weapon.RocketLauncher;
+        default:
+            return null;
+    }
+}
+
+function parsePosition(position: string): Position | null {
+    switch (position) {
+        case 'Category:Attackers':
+            return Position.Attacker;
+        case 'Category:Supporters':
+            return Position.Supporter;
+        case 'Category:Defenders':
+            return Position.Defender;
+        default:
+            return null;
+    }
+}
+
+function extractNikkeList(document: HTMLElement): NikkeListEntry[] {
+    const nikkes: NikkeListEntry[] = [];
+    const container = walk(document.querySelector('div.lcs-container'), '$$');
+
+    for (const card of elementChildren(container)) {
+        const link = walk(card, 'vv');
+        const img = firstElementChild(link);
+        const image_url = img.attrs['data-src'] ?? img.attrs['src'];
+
+        nikkes.push({
+            name: img.attrs['alt'],
+            url: 'https://nikke-goddess-of-victory-international.fandom.com' + link.attrs['href'],
+            image_url: image_url.substring(0, image_url.indexOf('/revision/latest/')),
+        });
+    }
+
+    return nikkes;
+}
+
+function extractNikke(document: HTMLElement): Omit<Nikke, 'image_url'> {
+    const [tb1, tb2] = document.querySelectorAll('.pi-horizontal-group');
+
+    let rarity = walk(tb1, '$vvvvv')?.attrs['alt'];
+    let burst = walk(tb1, '$v$vvv')?.attrs['alt'];
+
+    let code = walk(tb2, '$vvvv')?.attrs['title'];
+    let weapon_type = walk(tb2, '$vv>vv')?.attrs['title'];
+    let position = walk(tb2, '$v$<vv')?.attrs['title'];
+    let manufacturer = walk(tb2, '$v$vv')?.attrs['title'];
+
+    let weapon_name = walk(document.querySelector('[data-source=weaponname]')!, '$')?.textContent;
+    let squad = walk(document.querySelector('[data-source=squad]')!, '$')?.textContent;
+    let name = document.querySelector('[data-source=title]')?.textContent;
+
+    return {
+        name,
+        rarity: parseRarity(rarity),
+        burst: parseBurst(burst),
+        weapon_name,
+        squad,
+        code: parseCode(code),
+        weapon_type: parseWeapon(weapon_type),
+        position: parsePosition(position),
+        manufacturer,
+    };
+}
+
+async function fetchNikkeList(): Promise<NikkeListEntry[]> {
+    const doc = await fetchHtml('https://nikke-goddess-of-victory-international.fandom.com/wiki/Home');
+    return extractNikkeList(doc);
+}
+
+async function fetchNikkeData(url: string): Promise<Omit<Nikke, 'image_url'>> {
+    const doc = await fetchHtml(url);
+    return extractNikke(doc);
+}
+
+async function updateData(): Promise<void> {
+    const dbFile = Bun.file('./scripts/data/nikke-db.json');
+    let db: Nikke[] = [];
+    if (await dbFile.exists())
+        db = await dbFile.json();
+
+    const list = await fetchNikkeList();
+    for (const nikke of list) {
+        if (db.some(n => n.name.toLowerCase() === nikke.name.toLocaleLowerCase())) {
+            console.log(nikke.name, 'in cache');
+            continue;
+        }
+
+        console.log('updating', nikke.name);
+
+        const imageFilepath = `./static/images${nikke.image_url.substring(nikke.image_url.lastIndexOf('/'))}`;
+        if (!await Bun.file(imageFilepath).exists()) {
+            await downloadImage(nikke.image_url, imageFilepath);
+            console.log('image fetched');
+        }
+
+        const data = await fetchNikkeData(nikke.url);
+        db.push({
+            ...data,
+            image_url: imageFilepath.substring('./static'.length),
+        });
+    }
+
+    await Bun.write('./scripts/data/nikke-db.json', JSON.stringify(db, null, 2));
+}
+
+async function updateTsNikkeList(): Promise<void> {
+    const rarities = [
+        "Rarity.R",
+        "Rarity.Sr",
+        "Rarity.Ssr"
+    ];
+    const bursts = [
+        "Burst.I",
+        "Burst.II",
+        "Burst.III",
+        "Burst.A"
+    ];
+    const codes = [
+        "Code.Fire",
+        "Code.Water",
+        "Code.Electric",
+        "Code.Iron",
+        "Code.Wind",
+    ];
+    const weapons = [
+        "Weapon.Shotgun",
+        "Weapon.SubmachineGun",
+        "Weapon.MachineGun",
+        "Weapon.AssaultRifle",
+        "Weapon.SniperRifle",
+        "Weapon.RocketLauncher",
+    ];
+    const positions = [
+        "Position.Attacker",
+        "Position.Supporter",
+        "Position.Defender",
+    ];
+    const manufacturers = [
+        "Manufacturer.Elysion",
+        "Manufacturer.Missilis",
+        "Manufacturer.Tetra",
+        "Manufacturer.Pilgrim",
+        "Manufacturer.Abnormal",
+    ];
+
+    const dbFile = await Bun.file('./scripts/data/nikke-db.json').json();
+    let output =
+        `import { Burst, Code, Manufacturer, Position, Weapon } from "./utils";
+
+export const nikkes = [
+${dbFile.map(
+            n =>
+                `    {
+        name: "${n.name}",
+        image_url: "${n.image_url}",
+        rarity: ${rarities[n.rariy]},
+        burst: ${bursts[n.burst]},
+        weapon_name: ${!!n.weapon_name ? '"' + n.weapon_name + '"' : 'null'},
+        squad: "${n.squad}",
+        code: ${codes[n.burst]},
+        weapon_type: ${weapons[n.burst]},
+        position: ${positions[n.burst]},
+        manufacturer: ${manufacturers[n.burst]},
+    }`
+        )
+            .join(',\n')
+        }
+];`;
+
+    await Bun.write('./src/lib/nikke/list.ts', output);
+}
+
+// await updateData();
+await updateTsNikkeList();
+
+// const images = [
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/5d/Icn_weapon_sg_full.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/d/dc/Icn_weapon_smg_full.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/c/c5/Icn_weapon_mg_full.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/7/7b/Icn_weapon_ar_full.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/6/63/Icn_weapon_sr_full.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/0a/Icn_weapon_rl_full.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/d/df/Icn_weapon_sg.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/5c/Icn_weapon_smg.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/2/22/Icn_weapon_mg.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/51/Icn_weapon_ar.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/2/25/Icn_weapon_sr.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/b/b4/Icn_weapon_rl.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/2/20/Codehsta_hexagon.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/f8/Codepsid_hexagon.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/2/29/Codezeus_hexagon.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/2/24/Codedmtr_hexagon.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/6/6b/Codeanmi_hexagon.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/40/Missilis_Icon.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/b/ba/Elysion_Icon.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/1/10/Tetra_Icon.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/9/94/Pilgrim_Icon.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/2/2a/Abnormal_Icon.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/f7/R.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/e/ec/Sr.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/1/12/Ssr.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/8/87/Step1.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/9/9f/Step2.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/08/Step3.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/51/StepAll.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/7/7e/Attacker.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/0d/Defender.png',
+//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/b/b6/Supporter.png',
+// ];
+
+// for (const img of images) {
+//     await downloadImage(img, `./static/icons/${img.substring(img.lastIndexOf('/'))}`);
+// }
