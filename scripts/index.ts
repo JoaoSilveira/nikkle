@@ -302,44 +302,5 @@ ${dbFile.map(
     await Bun.write('./src/lib/nikke/list.ts', output);
 }
 
-// await updateData();
+await updateData();
 await updateTsNikkeList();
-
-// const images = [
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/5d/Icn_weapon_sg_full.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/d/dc/Icn_weapon_smg_full.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/c/c5/Icn_weapon_mg_full.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/7/7b/Icn_weapon_ar_full.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/6/63/Icn_weapon_sr_full.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/0a/Icn_weapon_rl_full.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/d/df/Icn_weapon_sg.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/5c/Icn_weapon_smg.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/2/22/Icn_weapon_mg.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/51/Icn_weapon_ar.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/2/25/Icn_weapon_sr.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/b/b4/Icn_weapon_rl.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/2/20/Codehsta_hexagon.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/f8/Codepsid_hexagon.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/2/29/Codezeus_hexagon.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/2/24/Codedmtr_hexagon.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/6/6b/Codeanmi_hexagon.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/40/Missilis_Icon.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/b/ba/Elysion_Icon.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/1/10/Tetra_Icon.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/9/94/Pilgrim_Icon.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/2/2a/Abnormal_Icon.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/f7/R.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/e/ec/Sr.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/1/12/Ssr.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/8/87/Step1.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/9/9f/Step2.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/08/Step3.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/51/StepAll.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/7/7e/Attacker.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/0d/Defender.png',
-//     'https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/b/b6/Supporter.png',
-// ];
-
-// for (const img of images) {
-//     await downloadImage(img, `./static/icons/${img.substring(img.lastIndexOf('/'))}`);
-// }

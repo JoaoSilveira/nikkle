@@ -2914,5 +2914,29 @@
     "position": 1,
     "manufacturer": "Tetra Line",
     "image_url": "/images/ClayS.png"
+  },
+  {
+    "name": "Rosanna: Chic Ocean",
+    "rarity": 2,
+    "burst": 1,
+    "weapon_name": "Golden Thompson",
+    "squad": "Underworld Queen",
+    "code": 4,
+    "weapon_type": 3,
+    "position": 1,
+    "manufacturer": "Tetra Line",
+    "image_url": "/images/Rosanna_Chic_OceanS.png"
+  },
+  {
+    "name": "Sakura: Bloom in Summer",
+    "rarity": 2,
+    "burst": 2,
+    "weapon_name": "Ichigenkin",
+    "squad": "Underworld Queen",
+    "code": 4,
+    "weapon_type": 3,
+    "position": 0,
+    "manufacturer": "Tetra Line",
+    "image_url": "/images/Sakura_Bloom_in_SummerS.png"
   }
 ]
