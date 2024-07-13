@@ -268,31 +268,47 @@ async function updateTsNikkeList(): Promise<void> {
         "Position.Defender",
     ];
     const manufacturers = [
-        "Manufacturer.Elysion",
+        ,
         "Manufacturer.Missilis",
         "Manufacturer.Tetra",
         "Manufacturer.Pilgrim",
         "Manufacturer.Abnormal",
     ];
+    const resolveManufacturer = (manufacturer: string): string => {
+        switch (manufacturer) {
+            case "Elysion":
+                return "Manufacturer.Elysion";
+            case "Missilis Industry":
+                return "Manufacturer.Missilis";
+            case "Tetra Line":
+                return "Manufacturer.Tetra";
+            case "Pilgrim":
+                return "Manufacturer.Pilgrim";
+            case "Abnormal":
+                return "Manufacturer.Abnormal";
+            default:
+                throw new Error("Unknown manufacturer: " + manufacturer);
+        }
+    }
 
     const dbFile = await Bun.file('./scripts/data/nikke-db.json').json();
     let output =
-        `import { Burst, Code, Manufacturer, Position, Weapon } from "./utils";
+        `import { Burst, Code, Manufacturer, Position, Rarity, Weapon, type Nikke } from "./utils";
 
-export const nikkes = [
+export const nikkes: Nikke[] = [
 ${dbFile.map(
             n =>
                 `    {
         name: "${n.name}",
         image_url: "${n.image_url}",
-        rarity: ${rarities[n.rariy]},
+        rarity: ${rarities[n.rarity]},
         burst: ${bursts[n.burst]},
-        weapon_name: ${!!n.weapon_name ? '"' + n.weapon_name + '"' : 'null'},
+        weapon_name: ${!!n.weapon_name ? '"' + n.weapon_name + '"' : 'undefined'},
         squad: "${n.squad}",
-        code: ${codes[n.burst]},
-        weapon_type: ${weapons[n.burst]},
-        position: ${positions[n.burst]},
-        manufacturer: ${manufacturers[n.burst]},
+        code: ${codes[n.code]},
+        weapon_type: ${weapons[n.weapon_type]},
+        position: ${positions[n.position]},
+        manufacturer: ${resolveManufacturer(n.manufacturer)},
     }`
         )
             .join(',\n')
@@ -302,5 +318,5 @@ ${dbFile.map(
     await Bun.write('./src/lib/nikke/list.ts', output);
 }
 
-await updateData();
+// await updateData();
 await updateTsNikkeList();
