@@ -267,13 +267,6 @@ async function updateTsNikkeList(): Promise<void> {
         "Position.Supporter",
         "Position.Defender",
     ];
-    const manufacturers = [
-        ,
-        "Manufacturer.Missilis",
-        "Manufacturer.Tetra",
-        "Manufacturer.Pilgrim",
-        "Manufacturer.Abnormal",
-    ];
     const resolveManufacturer = (manufacturer: string): string => {
         switch (manufacturer) {
             case "Elysion":

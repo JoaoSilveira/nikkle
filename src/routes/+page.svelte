@@ -1,14 +1,14 @@
 <script lang="ts">
-    import { nikkes } from "$lib/nikke";
+    import Autocomplete from "$components/Autocomplete.svelte";
+    import Guess from "$components/Guess.svelte";
+    import { nikkes, type Nikke } from "$lib/nikke";
     import { DailyRandom } from "$lib/random";
-    import Autocomplete from "../components/Autocomplete.svelte";
-    import Guess from "../components/Guess.svelte";
 
-    const nikkeList = nikkes;
+    const nikkeList: Nikke[] = nikkes;
     const rand = new DailyRandom();
     const correct = new DailyRandom().pick(nikkeList);
-    let guesses = [];
-    let guess;
+    let guesses: Nikke[] = [];
+    let guess: string = "";
 </script>
 
 <div class="environment column">
@@ -26,7 +26,7 @@
             bind:value={guess}
             on:input={(evt) => {
                 guesses = [evt.detail, ...guesses];
-                guess = null;
+                guess = "";
             }}>
             <div class="dropdown-item">
                 <img src={item.image_url} alt={item.name} />
