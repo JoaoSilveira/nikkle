@@ -2964,5 +2964,17 @@ export const nikkes: Nikke[] = [
         weapon_type: Weapon.AssaultRifle,
         position: Position.Attacker,
         manufacturer: Manufacturer.Tetra,
+    },
+    {
+        name: "Ein",
+        image_url: "/images/EinS.png",
+        rarity: Rarity.Ssr,
+        burst: Burst.III,
+        weapon_name: "Young Punk",
+        squad: "School Circle",
+        code: Code.Electric,
+        weapon_type: Weapon.SniperRifle,
+        position: Position.Attacker,
+        manufacturer: Manufacturer.Missilis,
     }
 ];

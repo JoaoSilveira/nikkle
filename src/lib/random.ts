@@ -7,10 +7,23 @@ function xorShift(seed: number) {
     return seed & 0xFFFFFFFF;
 }
 
-function seedForToday() {
+export function seedForToday() {
     const date = new Date();
 
     return date.getDate() + date.getMonth() * 12 + date.getFullYear() * 12 * 32;
+}
+
+export function intRange(seed: number, min: number, max: number): number {
+    const number = xorShift(seed);
+    const range = (max - min);
+
+    return (number % range) + min;
+}
+
+export function pick<T>(seed: number, list: T[]): T | null {
+    if (list.length <= 0) return null;
+
+    return list[intRange(seed, 0, list.length)];
 }
 
 export class DailyRandom {
@@ -21,12 +34,10 @@ export class DailyRandom {
         this.#seed = seedForToday();
     }
 
-    next(lower: number, high: number) {
-        const range = high - lower;
-
+    next(min: number, max: number) {
         this.#seed = xorShift(this.#seed);
 
-        return lower + (this.#seed % range);
+        return intRange(this.#seed, min, max);
     }
 
     pick<T>(list: T[]): T | null {

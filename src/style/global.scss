@@ -3,9 +3,24 @@
 :root {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
+    font-size: 14pt;
+}
+
+body {
+    background: url('/images/background.jpg');
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    line-height: 1;
 }

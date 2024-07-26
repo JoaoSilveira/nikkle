@@ -12,11 +12,6 @@
 </script>
 
 <div class="environment column">
-    <img
-        id="brand-logo"
-        src="https://placehold.co/600x200?text=Nikkle"
-        alt="Nikkle: the daily nikke"
-        title="Nikkle: the daily nikke" />
     <div class="row">
         <Autocomplete
             placeholder="Guess the name"
@@ -63,13 +58,6 @@
         display: flex;
         flex-direction: row;
         align-items: stretch;
-    }
-
-    #brand-logo {
-        margin-block: 30px;
-        object-fit: none;
-        object-position: center;
-        height: 200px;
     }
 
     .dropdown-item {
