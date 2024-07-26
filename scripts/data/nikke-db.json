@@ -2938,5 +2938,17 @@
     "position": 0,
     "manufacturer": "Tetra Line",
     "image_url": "/images/Sakura_Bloom_in_SummerS.png"
+  },
+  {
+    "name": "Ein",
+    "rarity": 2,
+    "burst": 2,
+    "weapon_name": "Young Punk",
+    "squad": "School Circle",
+    "code": 2,
+    "weapon_type": 4,
+    "position": 0,
+    "manufacturer": "Missilis Industry",
+    "image_url": "/images/EinS.png"
   }
 ]
