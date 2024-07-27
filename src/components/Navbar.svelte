@@ -1,6 +1,13 @@
+<script lang="ts">
+    import { page } from "$app/stores";
+</script>
+
 <div class="navbar-wrapper">
     <div class="navbar">
-        <a href="/daily">daily</a>
+        <a
+            href="/"
+            class:active={$page.route.id === null || $page.route.id === "/"}
+            >daily</a>
         <a href="/infinite">infinite</a>
     </div>
 </div>
@@ -10,8 +17,15 @@
         display: flex;
         justify-content: center;
         padding: 16px 36px;
-        background-color: rgba(0, 0, 0, 0.65);
-        box-shadow: 0 -1px 7px rgba(0, 0, 0, 0.4);
+        background-color: rgba(0, 0, 0, 0.1);
+        transition:
+            background-color 0.15s,
+            box-shadow 0.15s;
+
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.75);
+            box-shadow: 0 -1px 7px rgba(0, 0, 0, 0.4);
+        }
     }
 
     .navbar {
@@ -22,15 +36,19 @@
         flex: 1;
 
         & > a {
-            font-weight: 600;
+            font-weight: 700;
             text-transform: uppercase;
             color: rgb(235, 233, 228);
             letter-spacing: 0.2rem;
 
             &:hover {
+                text-decoration: underline;
+            }
+
+            &.active,
+            &:hover {
                 color: white;
                 text-shadow: 1px 1px 5px lightslategray;
-                text-decoration: underline;
             }
         }
     }
