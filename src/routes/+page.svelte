@@ -1,13 +1,25 @@
 <script lang="ts">
+    import Heading from "../components/Heading.svelte";
+
+    import Autocomplete from "$components/Autocomplete.svelte";
 </script>
 
 <div class="thumb column">
-    <img alt="nikkle: your daily nikke" src="/images/ui/nikke-logo.png" />
+    <Heading />
 
-    <p></p>
+    <p>0 / 6 TRIES</p>
+
+    <Autocomplete />
 </div>
 
 <style>
+    p {
+        color: white;
+        align-self: center;
+        margin-block: 32px 16px;
+        font-size: 1.15rem;
+    }
+
     .thumb {
         align-self: center;
         max-width: 800px;
@@ -18,10 +30,4 @@
         box-shadow: 0 0 7px rgba(0, 0, 0, 0.4);
     }
 
-    img {
-        display: block;
-        width: 100%;
-        max-width: 350px;
-        align-self: center;
-    }
 </style>
