@@ -2,7 +2,7 @@
 </script>
 
 <div class="thumb column">
-    <img alt="nikkle: your daily nikke" src="/images/nikke-logo.png" />
+    <img alt="nikkle: your daily nikke" src="/images/ui/nikke-logo.png" />
 
     <p></p>
 </div>
@@ -20,7 +20,8 @@
 
     img {
         display: block;
-        width: 220px;
+        width: 100%;
+        max-width: 350px;
         align-self: center;
     }
 </style>

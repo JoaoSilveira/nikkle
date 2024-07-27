@@ -219,7 +219,7 @@ async function updateData(): Promise<void> {
 
         console.log('updating', nikke.name);
 
-        const imageFilepath = `./static/images${nikke.image_url.substring(nikke.image_url.lastIndexOf('/'))}`;
+        const imageFilepath = `./static/images/characters/${nikke.image_url.substring(nikke.image_url.lastIndexOf('/'))}`;
         if (!await Bun.file(imageFilepath).exists()) {
             await downloadImage(nikke.image_url, imageFilepath);
             console.log('image fetched');
