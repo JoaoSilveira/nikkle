@@ -201,7 +201,7 @@
 			min-width: 200px;
 			overflow-y: auto;
 
-			width: 100%;
+			width: calc(100% + 2px);
 
 			display: flex;
 			flex-direction: column;
@@ -215,19 +215,19 @@
 			}
 
 			&.top {
-				bottom: 100%;
+				bottom: calc(100% + 1px);
 			}
 
 			&.bottom {
-				top: 100%;
+				top: calc(100% + 1px);
 			}
 
 			&.left {
-				left: 0;
+				left: -1px;
 			}
 
 			&.right {
-				right: 0;
+				right: -1px;
 			}
 
 			& > button {
