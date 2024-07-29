@@ -5,21 +5,46 @@
     export let correct: boolean;
 </script>
 
-<img
-    class:correct
-    src={item.image_url}
-    title={item.description}
-    alt={item.description_short}
-    loading="lazy" />
+<div class="wrap" class:correct>
+    <img
+        src={item.image_url}
+        title={item.description}
+        alt={item.description_short} />
+</div>
 
 <style lang="scss">
-    img {
-        width: 50px;
-        height: 50px;
-        object-fit: contain;
+    @use "sass:color";
+
+    .wrap {
+        width: 60px;
+        height: 60px;
+
+        &.correct {
+            $base: #449b20;
+            background-color: color.change($base, $alpha: 0.3);
+            border: 3px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 0 1px
+                color.change($base, $alpha: 0.75, $whiteness: 35%);
+        }
+
+        &:not(.correct) {
+            $base: #ad2f2b;
+            background-color: color.change($base, $alpha: 0.3);
+            border: 3px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 0 1px
+                color.change($base, $alpha: 0.75, $whiteness: 35%);
+
+            & > img {
+                filter: grayscale(100%);
+                opacity: .7;
+            }
+        }
     }
 
-    .correct {
-        outline: none;
+    img {
+        width: 54px;
+        height: 54px;
+        padding: 4px;
+        object-fit: contain;
     }
 </style>

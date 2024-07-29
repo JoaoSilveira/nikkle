@@ -4,6 +4,8 @@ For now the data has been extracted but it is not organized/documented in any wa
 
 ## Task List
 
+- Misc
+    - [ ] Resize images to _~expected_ size to consume less data
 - Documentation
     - [x] Write basic README
     - [ ] Add images to better present the game
@@ -43,3 +45,7 @@ The name comes from joining the words *nikke* and *wordle* (and sounds like nick
 ## How to play
 
 Start with a random guess, let's say `Snow White`. The game will show you what's right with this guess (it's a SSR, Code Iron, Pilgrim, ..., etc). Make new educated guesses. Rinse and repeat until you get it right or have no attempts left.
+
+# Data
+
+The character data and images are scrapped from the wiki. Fonts come from [skuqre's repo](https://github.com/skuqre/nikke-font-generator)

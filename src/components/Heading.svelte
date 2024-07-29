@@ -1,8 +1,11 @@
 <script lang="ts">
 </script>
 
-<div class="row">
-    <img id="logo" alt="nikkle: your daily nikke" src="/images/ui/nikke-logo.png" />
+<div class="heading">
+    <img
+        id="logo"
+        alt="nikkle: your daily nikke"
+        src="/images/ui/nikke-logo.png" />
 
     <div class="nikke-thumb">
         <img alt="who" src="/images/ui/qmark.png" />
@@ -10,8 +13,13 @@
 </div>
 
 <style lang="scss">
-    div.row {
-        justify-content: space-between;
+    @import "../style/var";
+
+    .heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
     }
 
     #logo {
@@ -30,9 +38,6 @@
         width: $size;
         height: $size;
         padding: 5px;
-        border-radius: 0;
-
-        background-color: rgba(0, 0, 0, .5);
         border: 3px solid rgba(255, 255, 255, 0.1);
         box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2);
 

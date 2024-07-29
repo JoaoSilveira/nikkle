@@ -1,0 +1,5 @@
+$sm-size: 560px;
+$small-screen: "screen and (width <= #{$sm-size})";
+$large-screen: "screen and (width > #{$sm-size})";
+
+$color: white;

@@ -8,15 +8,18 @@
             href="/"
             class:active={$page.route.id === null || $page.route.id === "/"}
             >daily</a>
-        <a href="/infinite">infinite</a>
+        <a href="/infinite" class:active={$page.route.id === "/infinite"}
+            >infinite</a>
     </div>
 </div>
 
 <style lang="scss">
+    @import "../style/var";
+
     .navbar-wrapper {
         display: flex;
         justify-content: center;
-        padding: 16px 36px;
+        padding: 16px;
         background-color: rgba(0, 0, 0, 0.1);
         transition:
             background-color 0.15s,
@@ -38,7 +41,7 @@
         & > a {
             font-weight: 700;
             text-transform: uppercase;
-            color: rgb(235, 233, 228);
+            color: darken($color, 15%);
             letter-spacing: 0.2rem;
 
             &:hover {
@@ -47,8 +50,8 @@
 
             &.active,
             &:hover {
-                color: white;
-                text-shadow: 1px 1px 5px lightslategray;
+                color: $color;
+                text-shadow: 0 0 5px darken($color, 35%);
             }
         }
     }

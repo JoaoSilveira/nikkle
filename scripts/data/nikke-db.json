@@ -9,7 +9,7 @@
     "weapon_type": 3,
     "position": 0,
     "manufacturer": "Elysion",
-    "image_url": "/images/RapiS.png"
+    "image_url": "/images/characters/RapiS.png"
   },
   {
     "name": "Neon",
@@ -21,7 +21,7 @@
     "weapon_type": 0,
     "position": 1,
     "manufacturer": "Elysion",
-    "image_url": "/images/NeonS.png"
+    "image_url": "/images/characters/NeonS.png"
   },
   {
     "name": "Snow White",
@@ -33,7 +33,7 @@
     "weapon_type": 3,
     "position": 0,
     "manufacturer": "Pilgrim",
-    "image_url": "/images/Snow_WhiteS.png"
+    "image_url": "/images/characters/Snow_WhiteS.png"
   },
   {
     "name": "Delta",
@@ -44,7 +44,7 @@
     "weapon_type": 4,
     "position": 2,
     "manufacturer": "Elysion",
-    "image_url": "/images/DeltaS.png"
+    "image_url": "/images/characters/DeltaS.png"
   },
   {
     "name": "Mica",
@@ -55,7 +55,7 @@
     "weapon_type": 5,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/MicaS.png"
+    "image_url": "/images/characters/MicaS.png"
   },
   {
     "name": "Diesel",
@@ -67,7 +67,7 @@
     "weapon_type": 2,
     "position": 2,
     "manufacturer": "Elysion",
-    "image_url": "/images/DieselS.png"
+    "image_url": "/images/characters/DieselS.png"
   },
   {
     "name": "Miranda",
@@ -79,7 +79,7 @@
     "weapon_type": 1,
     "position": 1,
     "manufacturer": "Elysion",
-    "image_url": "/images/MirandaS.png"
+    "image_url": "/images/characters/MirandaS.png"
   },
   {
     "name": "Emma",
@@ -91,7 +91,7 @@
     "weapon_type": 2,
     "position": 1,
     "manufacturer": "Elysion",
-    "image_url": "/images/EmmaS.png"
+    "image_url": "/images/characters/EmmaS.png"
   },
   {
     "name": "Privaty",
@@ -103,7 +103,7 @@
     "weapon_type": 3,
     "position": 0,
     "manufacturer": "Elysion",
-    "image_url": "/images/PrivatyS.png"
+    "image_url": "/images/characters/PrivatyS.png"
   },
   {
     "name": "Signal",
@@ -115,7 +115,7 @@
     "weapon_type": 1,
     "position": 0,
     "manufacturer": "Elysion",
-    "image_url": "/images/SignalS.png"
+    "image_url": "/images/characters/SignalS.png"
   },
   {
     "name": "Eunhwa",
@@ -127,7 +127,7 @@
     "weapon_type": 4,
     "position": 0,
     "manufacturer": "Elysion",
-    "image_url": "/images/EunhwaS.png"
+    "image_url": "/images/characters/EunhwaS.png"
   },
   {
     "name": "Guillotine",
@@ -139,7 +139,7 @@
     "weapon_type": 2,
     "position": 0,
     "manufacturer": "Elysion",
-    "image_url": "/images/GuillotineS.png"
+    "image_url": "/images/characters/GuillotineS.png"
   },
   {
     "name": "Belorta",
@@ -150,7 +150,7 @@
     "weapon_type": 5,
     "position": 0,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/BelortaS.png"
+    "image_url": "/images/characters/BelortaS.png"
   },
   {
     "name": "Soldier EG",
@@ -162,7 +162,7 @@
     "weapon_type": 3,
     "position": 0,
     "manufacturer": "Elysion",
-    "image_url": "/images/Soldier_EGS.png"
+    "image_url": "/images/characters/Soldier_EGS.png"
   },
   {
     "name": "Soldier FA",
@@ -174,7 +174,7 @@
     "weapon_type": 0,
     "position": 2,
     "manufacturer": "Elysion",
-    "image_url": "/images/Soldier_FAS.png"
+    "image_url": "/images/characters/Soldier_FAS.png"
   },
   {
     "name": "Soldier OW",
@@ -186,7 +186,7 @@
     "weapon_type": 1,
     "position": 1,
     "manufacturer": "Elysion",
-    "image_url": "/images/Soldier_OWS.png"
+    "image_url": "/images/characters/Soldier_OWS.png"
   },
   {
     "name": "Scarlet",
@@ -198,7 +198,7 @@
     "weapon_type": 3,
     "position": 0,
     "manufacturer": "Pilgrim",
-    "image_url": "/images/ScarletS.png"
+    "image_url": "/images/characters/ScarletS.png"
   },
   {
     "name": "Noah",
@@ -210,7 +210,7 @@
     "weapon_type": 5,
     "position": 2,
     "manufacturer": "Pilgrim",
-    "image_url": "/images/NoahS.png"
+    "image_url": "/images/characters/NoahS.png"
   },
   {
     "name": "Epinel",
@@ -222,7 +222,7 @@
     "weapon_type": 1,
     "position": 0,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/EpinelS.png"
+    "image_url": "/images/characters/EpinelS.png"
   },
   {
     "name": "Exia",
@@ -234,7 +234,7 @@
     "weapon_type": 4,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/ExiaS.png"
+    "image_url": "/images/characters/ExiaS.png"
   },
   {
     "name": "Alice",
@@ -246,7 +246,7 @@
     "weapon_type": 4,
     "position": 0,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/AliceS.png"
+    "image_url": "/images/characters/AliceS.png"
   },
   {
     "name": "Sugar",
@@ -258,7 +258,7 @@
     "weapon_type": 0,
     "position": 0,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/SugarS.png"
+    "image_url": "/images/characters/SugarS.png"
   },
   {
     "name": "Frima",
@@ -270,7 +270,7 @@
     "weapon_type": 4,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/FrimaS.png"
+    "image_url": "/images/characters/FrimaS.png"
   },
   {
     "name": "Mary",
@@ -282,7 +282,7 @@
     "weapon_type": 0,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/MaryS.png"
+    "image_url": "/images/characters/MaryS.png"
   },
   {
     "name": "Ludmilla",
@@ -294,7 +294,7 @@
     "weapon_type": 1,
     "position": 2,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/LudmillaS.png"
+    "image_url": "/images/characters/LudmillaS.png"
   },
   {
     "name": "Anis",
@@ -306,7 +306,7 @@
     "weapon_type": 5,
     "position": 2,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/AnisS.png"
+    "image_url": "/images/characters/AnisS.png"
   },
   {
     "name": "iDoll Sun",
@@ -317,7 +317,7 @@
     "weapon_type": 3,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/IDoll_SunS.png"
+    "image_url": "/images/characters/IDoll_SunS.png"
   },
   {
     "name": "iDoll Ocean",
@@ -328,7 +328,7 @@
     "weapon_type": 1,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/IDoll_OceanS.png"
+    "image_url": "/images/characters/IDoll_OceanS.png"
   },
   {
     "name": "iDoll Flower",
@@ -339,7 +339,7 @@
     "weapon_type": 5,
     "position": 2,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/IDoll_FlowerS.png"
+    "image_url": "/images/characters/IDoll_FlowerS.png"
   },
   {
     "name": "Maxwell",
@@ -351,7 +351,7 @@
     "weapon_type": 4,
     "position": 0,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/MaxwellS.png"
+    "image_url": "/images/characters/MaxwellS.png"
   },
   {
     "name": "Yuni",
@@ -363,7 +363,7 @@
     "weapon_type": 5,
     "position": 2,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/YuniS.png"
+    "image_url": "/images/characters/YuniS.png"
   },
   {
     "name": "Julia",
@@ -375,7 +375,7 @@
     "weapon_type": 3,
     "position": 0,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/JuliaS.png"
+    "image_url": "/images/characters/JuliaS.png"
   },
   {
     "name": "Drake",
@@ -387,7 +387,7 @@
     "weapon_type": 0,
     "position": 0,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/DrakeS.png"
+    "image_url": "/images/characters/DrakeS.png"
   },
   {
     "name": "Mihara",
@@ -399,7 +399,7 @@
     "weapon_type": 3,
     "position": 0,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/MiharaS.png"
+    "image_url": "/images/characters/MiharaS.png"
   },
   {
     "name": "N102",
@@ -411,7 +411,7 @@
     "weapon_type": 5,
     "position": 1,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/N102S.png"
+    "image_url": "/images/characters/N102S.png"
   },
   {
     "name": "Ether",
@@ -423,7 +423,7 @@
     "weapon_type": 0,
     "position": 2,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/EtherS.png"
+    "image_url": "/images/characters/EtherS.png"
   },
   {
     "name": "Product 08",
@@ -435,7 +435,7 @@
     "weapon_type": 4,
     "position": 1,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/Product_08S.png"
+    "image_url": "/images/characters/Product_08S.png"
   },
   {
     "name": "Product 12",
@@ -447,7 +447,7 @@
     "weapon_type": 2,
     "position": 0,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/Product_12S.png"
+    "image_url": "/images/characters/Product_12S.png"
   },
   {
     "name": "Product 23",
@@ -459,7 +459,7 @@
     "weapon_type": 0,
     "position": 1,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/Product_23S.png"
+    "image_url": "/images/characters/Product_23S.png"
   },
   {
     "name": "Centi",
@@ -471,7 +471,7 @@
     "weapon_type": 5,
     "position": 2,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/CentiS.png"
+    "image_url": "/images/characters/CentiS.png"
   },
   {
     "name": "Soline",
@@ -483,7 +483,7 @@
     "weapon_type": 1,
     "position": 0,
     "manufacturer": "Elysion",
-    "image_url": "/images/SolineS.png"
+    "image_url": "/images/characters/SolineS.png"
   },
   {
     "name": "Helm",
@@ -495,7 +495,7 @@
     "weapon_type": 4,
     "position": 0,
     "manufacturer": "Elysion",
-    "image_url": "/images/HelmS.png"
+    "image_url": "/images/characters/HelmS.png"
   },
   {
     "name": "Volume",
@@ -506,7 +506,7 @@
     "weapon_type": 1,
     "position": 0,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/VolumeS.png"
+    "image_url": "/images/characters/VolumeS.png"
   },
   {
     "name": "Poli",
@@ -518,7 +518,7 @@
     "weapon_type": 0,
     "position": 2,
     "manufacturer": "Elysion",
-    "image_url": "/images/PoliS.png"
+    "image_url": "/images/characters/PoliS.png"
   },
   {
     "name": "Vesti",
@@ -530,7 +530,7 @@
     "weapon_type": 5,
     "position": 0,
     "manufacturer": "Elysion",
-    "image_url": "/images/VestiS.png"
+    "image_url": "/images/characters/VestiS.png"
   },
   {
     "name": "Laplace",
@@ -542,7 +542,7 @@
     "weapon_type": 5,
     "position": 0,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/LaplaceS.png"
+    "image_url": "/images/characters/LaplaceS.png"
   },
   {
     "name": "Dolla",
@@ -553,7 +553,7 @@
     "weapon_type": 4,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/DollaS.png"
+    "image_url": "/images/characters/DollaS.png"
   },
   {
     "name": "Brid",
@@ -565,7 +565,7 @@
     "weapon_type": 3,
     "position": 0,
     "manufacturer": "Elysion",
-    "image_url": "/images/BridS.png"
+    "image_url": "/images/characters/BridS.png"
   },
   {
     "name": "Crow",
@@ -576,7 +576,7 @@
     "weapon_type": 1,
     "position": 2,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/CrowS.png"
+    "image_url": "/images/characters/CrowS.png"
   },
   {
     "name": "Harran",
@@ -588,7 +588,7 @@
     "weapon_type": 4,
     "position": 0,
     "manufacturer": "Pilgrim",
-    "image_url": "/images/HarranS.png"
+    "image_url": "/images/characters/HarranS.png"
   },
   {
     "name": "Novel",
@@ -600,7 +600,7 @@
     "weapon_type": 1,
     "position": 2,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/NovelS.png"
+    "image_url": "/images/characters/NovelS.png"
   },
   {
     "name": "Yulha",
@@ -612,7 +612,7 @@
     "weapon_type": 4,
     "position": 0,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/YulhaS.png"
+    "image_url": "/images/characters/YulhaS.png"
   },
   {
     "name": "Neve",
@@ -624,7 +624,7 @@
     "weapon_type": 0,
     "position": 0,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/NeveS.png"
+    "image_url": "/images/characters/NeveS.png"
   },
   {
     "name": "Folkwang",
@@ -636,7 +636,7 @@
     "weapon_type": 3,
     "position": 2,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/FolkwangS.png"
+    "image_url": "/images/characters/FolkwangS.png"
   },
   {
     "name": "Admi",
@@ -648,7 +648,7 @@
     "weapon_type": 4,
     "position": 1,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/AdmiS.png"
+    "image_url": "/images/characters/AdmiS.png"
   },
   {
     "name": "Maiden",
@@ -660,7 +660,7 @@
     "weapon_type": 0,
     "position": 0,
     "manufacturer": "Elysion",
-    "image_url": "/images/MaidenS.png"
+    "image_url": "/images/characters/MaidenS.png"
   },
   {
     "name": "Anne: Miracle Fairy",
@@ -672,7 +672,7 @@
     "weapon_type": 5,
     "position": 1,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/Anne_Miracle_FairyS.png"
+    "image_url": "/images/characters/Anne_Miracle_FairyS.png"
   },
   {
     "name": "Rupee",
@@ -684,7 +684,7 @@
     "weapon_type": 3,
     "position": 0,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/RupeeS.png"
+    "image_url": "/images/characters/RupeeS.png"
   },
   {
     "name": "Rupee: Winter Shopper",
@@ -696,7 +696,7 @@
     "weapon_type": 3,
     "position": 2,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/Rupee_Winter_ShopperS.png"
+    "image_url": "/images/characters/Rupee_Winter_ShopperS.png"
   },
   {
     "name": "Rapunzel",
@@ -708,7 +708,7 @@
     "weapon_type": 5,
     "position": 1,
     "manufacturer": "Pilgrim",
-    "image_url": "/images/RapunzelS.png"
+    "image_url": "/images/characters/RapunzelS.png"
   },
   {
     "name": "Milk",
@@ -720,7 +720,7 @@
     "weapon_type": 4,
     "position": 0,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/MilkS.png"
+    "image_url": "/images/characters/MilkS.png"
   },
   {
     "name": "Modernia",
@@ -732,7 +732,7 @@
     "weapon_type": 2,
     "position": 0,
     "manufacturer": "Pilgrim",
-    "image_url": "/images/ModerniaS.png"
+    "image_url": "/images/characters/ModerniaS.png"
   },
   {
     "name": "Isabel",
@@ -744,7 +744,7 @@
     "weapon_type": 0,
     "position": 0,
     "manufacturer": "Pilgrim",
-    "image_url": "/images/IsabelS.png"
+    "image_url": "/images/characters/IsabelS.png"
   },
   {
     "name": "Noise",
@@ -755,7 +755,7 @@
     "weapon_type": 5,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/NoiseS.png"
+    "image_url": "/images/characters/NoiseS.png"
   },
   {
     "name": "Jackal",
@@ -767,7 +767,7 @@
     "weapon_type": 5,
     "position": 2,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/JackalS.png"
+    "image_url": "/images/characters/JackalS.png"
   },
   {
     "name": "Viper",
@@ -779,7 +779,7 @@
     "weapon_type": 0,
     "position": 0,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/ViperS.png"
+    "image_url": "/images/characters/ViperS.png"
   },
   {
     "name": "Yan",
@@ -790,7 +790,7 @@
     "weapon_type": 5,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/YanS.png"
+    "image_url": "/images/characters/YanS.png"
   },
   {
     "name": "Liter",
@@ -802,7 +802,7 @@
     "weapon_type": 1,
     "position": 1,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/LiterS.png"
+    "image_url": "/images/characters/LiterS.png"
   },
   {
     "name": "Aria",
@@ -813,7 +813,7 @@
     "weapon_type": 2,
     "position": 0,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/AriaS.png"
+    "image_url": "/images/characters/AriaS.png"
   },
   {
     "name": "Guilty",
@@ -825,7 +825,7 @@
     "weapon_type": 0,
     "position": 0,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/GuiltyS.png"
+    "image_url": "/images/characters/GuiltyS.png"
   },
   {
     "name": "Sin",
@@ -837,7 +837,7 @@
     "weapon_type": 3,
     "position": 2,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/SinS.png"
+    "image_url": "/images/characters/SinS.png"
   },
   {
     "name": "Quency",
@@ -849,7 +849,7 @@
     "weapon_type": 1,
     "position": 1,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/QuencyS.png"
+    "image_url": "/images/characters/QuencyS.png"
   },
   {
     "name": "Pepper",
@@ -861,7 +861,7 @@
     "weapon_type": 0,
     "position": 1,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/PepperS.png"
+    "image_url": "/images/characters/PepperS.png"
   },
   {
     "name": "Cocoa",
@@ -873,7 +873,7 @@
     "weapon_type": 4,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/CocoaS.png"
+    "image_url": "/images/characters/CocoaS.png"
   },
   {
     "name": "Soda",
@@ -885,7 +885,7 @@
     "weapon_type": 2,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/SodaS.png"
+    "image_url": "/images/characters/SodaS.png"
   },
   {
     "name": "Power",
@@ -897,7 +897,7 @@
     "weapon_type": 5,
     "position": 0,
     "manufacturer": "Abnormal",
-    "image_url": "/images/PowerS.png"
+    "image_url": "/images/characters/PowerS.png"
   },
   {
     "name": "Makima",
@@ -909,7 +909,7 @@
     "weapon_type": 1,
     "position": 2,
     "manufacturer": "Abnormal",
-    "image_url": "/images/MakimaS.png"
+    "image_url": "/images/characters/MakimaS.png"
   },
   {
     "name": "Himeno",
@@ -921,7 +921,7 @@
     "weapon_type": 4,
     "position": 1,
     "manufacturer": "Abnormal",
-    "image_url": "/images/HimenoS.png"
+    "image_url": "/images/characters/HimenoS.png"
   },
   {
     "name": "Biscuit",
@@ -933,7 +933,7 @@
     "weapon_type": 5,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/BiscuitS.png"
+    "image_url": "/images/characters/BiscuitS.png"
   },
   {
     "name": "Nihilister",
@@ -945,7 +945,7 @@
     "weapon_type": 4,
     "position": 0,
     "manufacturer": "Pilgrim",
-    "image_url": "/images/NihilisterS.png"
+    "image_url": "/images/characters/NihilisterS.png"
   },
   {
     "name": "Ade",
@@ -957,7 +957,7 @@
     "weapon_type": 3,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/AdeS.png"
+    "image_url": "/images/characters/AdeS.png"
   },
   {
     "name": "Sakura",
@@ -969,7 +969,7 @@
     "weapon_type": 4,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/SakuraS.png"
+    "image_url": "/images/characters/SakuraS.png"
   },
   {
     "name": "D",
@@ -981,7 +981,7 @@
     "weapon_type": 1,
     "position": 0,
     "manufacturer": "Elysion",
-    "image_url": "/images/DS.png"
+    "image_url": "/images/characters/DS.png"
   },
   {
     "name": "Moran",
@@ -993,7 +993,7 @@
     "weapon_type": 3,
     "position": 2,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/MoranS.png"
+    "image_url": "/images/characters/MoranS.png"
   },
   {
     "name": "Rosanna",
@@ -1005,7 +1005,7 @@
     "weapon_type": 2,
     "position": 0,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/RosannaS.png"
+    "image_url": "/images/characters/RosannaS.png"
   },
   {
     "name": "Dorothy",
@@ -1017,7 +1017,7 @@
     "weapon_type": 3,
     "position": 1,
     "manufacturer": "Pilgrim",
-    "image_url": "/images/DorothyS.png"
+    "image_url": "/images/characters/DorothyS.png"
   },
   {
     "name": "Rei",
@@ -1029,7 +1029,7 @@
     "weapon_type": 1,
     "position": 2,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/ReiS.png"
+    "image_url": "/images/characters/ReiS.png"
   },
   {
     "name": "Anchor",
@@ -1041,7 +1041,7 @@
     "weapon_type": 5,
     "position": 2,
     "manufacturer": "Elysion",
-    "image_url": "/images/AnchorS.png"
+    "image_url": "/images/characters/AnchorS.png"
   },
   {
     "name": "Mast",
@@ -1053,7 +1053,7 @@
     "weapon_type": 1,
     "position": 1,
     "manufacturer": "Elysion",
-    "image_url": "/images/MastS.png"
+    "image_url": "/images/characters/MastS.png"
   },
   {
     "name": "Nero",
@@ -1065,7 +1065,7 @@
     "weapon_type": 1,
     "position": 2,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/NeroS.png"
+    "image_url": "/images/characters/NeroS.png"
   },
   {
     "name": "Red Hood",
@@ -1077,7 +1077,7 @@
     "weapon_type": 4,
     "position": 0,
     "manufacturer": "Pilgrim",
-    "image_url": "/images/Red_HoodS.png"
+    "image_url": "/images/characters/Red_HoodS.png"
   },
   {
     "name": "Blanc",
@@ -1089,7 +1089,7 @@
     "weapon_type": 3,
     "position": 2,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/BlancS.png"
+    "image_url": "/images/characters/BlancS.png"
   },
   {
     "name": "Noir",
@@ -1101,7 +1101,7 @@
     "weapon_type": 0,
     "position": 0,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/NoirS.png"
+    "image_url": "/images/characters/NoirS.png"
   },
   {
     "name": "Mary: Bay Goddess",
@@ -1113,7 +1113,7 @@
     "weapon_type": 4,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/Mary_Bay_GoddessS.png"
+    "image_url": "/images/characters/Mary_Bay_GoddessS.png"
   },
   {
     "name": "Neon: Blue Ocean",
@@ -1125,7 +1125,7 @@
     "weapon_type": 2,
     "position": 0,
     "manufacturer": "Elysion",
-    "image_url": "/images/Neon_Blue_OceanS.png"
+    "image_url": "/images/characters/Neon_Blue_OceanS.png"
   },
   {
     "name": "Leona",
@@ -1137,7 +1137,7 @@
     "weapon_type": 0,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/LeonaS.png"
+    "image_url": "/images/characters/LeonaS.png"
   },
   {
     "name": "Anis: Sparkling Summer",
@@ -1149,7 +1149,7 @@
     "weapon_type": 0,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/Anis_Sparkling_SummerS.png"
+    "image_url": "/images/characters/Anis_Sparkling_SummerS.png"
   },
   {
     "name": "Helm: Aquamarine",
@@ -1161,7 +1161,7 @@
     "weapon_type": 3,
     "position": 0,
     "manufacturer": "Elysion",
-    "image_url": "/images/Helm_AquamarineS.png"
+    "image_url": "/images/characters/Helm_AquamarineS.png"
   },
   {
     "name": "Crown",
@@ -1173,7 +1173,7 @@
     "weapon_type": 2,
     "position": 2,
     "manufacturer": "Pilgrim",
-    "image_url": "/images/CrownS.png"
+    "image_url": "/images/characters/CrownS.png"
   },
   {
     "name": "2B",
@@ -1185,7 +1185,7 @@
     "weapon_type": 3,
     "position": 2,
     "manufacturer": "Abnormal",
-    "image_url": "/images/2BS.png"
+    "image_url": "/images/characters/2BS.png"
   },
   {
     "name": "A2",
@@ -1197,7 +1197,7 @@
     "weapon_type": 5,
     "position": 0,
     "manufacturer": "Abnormal",
-    "image_url": "/images/A2S.png"
+    "image_url": "/images/characters/A2S.png"
   },
   {
     "name": "Pascal",
@@ -1209,7 +1209,7 @@
     "weapon_type": 5,
     "position": 1,
     "manufacturer": "Abnormal",
-    "image_url": "/images/PascalS.png"
+    "image_url": "/images/characters/PascalS.png"
   },
   {
     "name": "Marciana",
@@ -1221,7 +1221,7 @@
     "weapon_type": 0,
     "position": 1,
     "manufacturer": "Elysion",
-    "image_url": "/images/MarcianaS.png"
+    "image_url": "/images/characters/MarcianaS.png"
   },
   {
     "name": "Naga",
@@ -1233,7 +1233,7 @@
     "weapon_type": 0,
     "position": 1,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/NagaS.png"
+    "image_url": "/images/characters/NagaS.png"
   },
   {
     "name": "Tia",
@@ -1245,7 +1245,7 @@
     "weapon_type": 5,
     "position": 2,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/TiaS.png"
+    "image_url": "/images/characters/TiaS.png"
   },
   {
     "name": "Quiry",
@@ -1257,7 +1257,7 @@
     "weapon_type": 5,
     "position": 1,
     "manufacturer": "Elysion",
-    "image_url": "/images/QuiryS.png"
+    "image_url": "/images/characters/QuiryS.png"
   },
   {
     "name": "Snow White: Innocent Days",
@@ -1269,7 +1269,7 @@
     "weapon_type": 3,
     "position": 0,
     "manufacturer": "Pilgrim",
-    "image_url": "/images/Snow_White_Innocent_DaysS.png"
+    "image_url": "/images/characters/Snow_White_Innocent_DaysS.png"
   },
   {
     "name": "Tove",
@@ -1281,7 +1281,7 @@
     "weapon_type": 3,
     "position": 1,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/ToveS.png"
+    "image_url": "/images/characters/ToveS.png"
   },
   {
     "name": "Ludmilla: Winter Owner",
@@ -1293,7 +1293,7 @@
     "weapon_type": 2,
     "position": 0,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/Ludmilla_Winter_OwnerS.png"
+    "image_url": "/images/characters/Ludmilla_Winter_OwnerS.png"
   },
   {
     "name": "Mica: Snow Buddy",
@@ -1305,7 +1305,7 @@
     "weapon_type": 1,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/Mica_Snow_BuddyS.png"
+    "image_url": "/images/characters/Mica_Snow_BuddyS.png"
   },
   {
     "name": "Scarlet: Black Shadow",
@@ -1317,7 +1317,7 @@
     "weapon_type": 5,
     "position": 0,
     "manufacturer": "Pilgrim",
-    "image_url": "/images/Scarlet_Black_ShadowS.png"
+    "image_url": "/images/characters/Scarlet_Black_ShadowS.png"
   },
   {
     "name": "Privaty: Unkind Maid",
@@ -1329,7 +1329,7 @@
     "weapon_type": 0,
     "position": 0,
     "manufacturer": "Elysion",
-    "image_url": "/images/Privaty_Unkind_MaidS.png"
+    "image_url": "/images/characters/Privaty_Unkind_MaidS.png"
   },
   {
     "name": "Elegg",
@@ -1341,7 +1341,7 @@
     "weapon_type": 2,
     "position": 1,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/EleggS.png"
+    "image_url": "/images/characters/EleggS.png"
   },
   {
     "name": "Trony",
@@ -1353,7 +1353,7 @@
     "weapon_type": 4,
     "position": 0,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/TronyS.png"
+    "image_url": "/images/characters/TronyS.png"
   },
   {
     "name": "D: Killer Wife",
@@ -1365,7 +1365,7 @@
     "weapon_type": 4,
     "position": 1,
     "manufacturer": "Elysion",
-    "image_url": "/images/D_Killer_WifeS.png"
+    "image_url": "/images/characters/D_Killer_WifeS.png"
   },
   {
     "name": "Emilia",
@@ -1377,7 +1377,7 @@
     "weapon_type": 5,
     "position": 0,
     "manufacturer": "Abnormal",
-    "image_url": "/images/EmiliaS.png"
+    "image_url": "/images/characters/EmiliaS.png"
   },
   {
     "name": "Rem",
@@ -1389,7 +1389,7 @@
     "weapon_type": 2,
     "position": 1,
     "manufacturer": "Abnormal",
-    "image_url": "/images/RemS.png"
+    "image_url": "/images/characters/RemS.png"
   },
   {
     "name": "Ram",
@@ -1401,7 +1401,7 @@
     "weapon_type": 4,
     "position": 2,
     "manufacturer": "Abnormal",
-    "image_url": "/images/RamS.png"
+    "image_url": "/images/characters/RamS.png"
   },
   {
     "name": "Bay",
@@ -1413,7 +1413,7 @@
     "weapon_type": 5,
     "position": 2,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/BayS.png"
+    "image_url": "/images/characters/BayS.png"
   },
   {
     "name": "Kilo",
@@ -1425,7 +1425,7 @@
     "weapon_type": 2,
     "position": 2,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/KiloS.png"
+    "image_url": "/images/characters/KiloS.png"
   },
   {
     "name": "Soda: Twinkling Bunny",
@@ -1437,7 +1437,7 @@
     "weapon_type": 0,
     "position": 0,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/Soda_Twinkling_BunnyS.png"
+    "image_url": "/images/characters/Soda_Twinkling_BunnyS.png"
   },
   {
     "name": "Alice: Wonderland Bunny",
@@ -1449,7 +1449,7 @@
     "weapon_type": 1,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/Alice_Wonderland_BunnyS.png"
+    "image_url": "/images/characters/Alice_Wonderland_BunnyS.png"
   },
   {
     "name": "Rapi",
@@ -1461,7 +1461,7 @@
     "weapon_type": 3,
     "position": 0,
     "manufacturer": "Elysion",
-    "image_url": "/images/RapiS.png"
+    "image_url": "/images/characters/RapiS.png"
   },
   {
     "name": "Neon",
@@ -1473,7 +1473,7 @@
     "weapon_type": 0,
     "position": 1,
     "manufacturer": "Elysion",
-    "image_url": "/images/NeonS.png"
+    "image_url": "/images/characters/NeonS.png"
   },
   {
     "name": "Snow White",
@@ -1485,7 +1485,7 @@
     "weapon_type": 3,
     "position": 0,
     "manufacturer": "Pilgrim",
-    "image_url": "/images/Snow_WhiteS.png"
+    "image_url": "/images/characters/Snow_WhiteS.png"
   },
   {
     "name": "Delta",
@@ -1496,7 +1496,7 @@
     "weapon_type": 4,
     "position": 2,
     "manufacturer": "Elysion",
-    "image_url": "/images/DeltaS.png"
+    "image_url": "/images/characters/DeltaS.png"
   },
   {
     "name": "Mica",
@@ -1507,7 +1507,7 @@
     "weapon_type": 5,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/MicaS.png"
+    "image_url": "/images/characters/MicaS.png"
   },
   {
     "name": "Diesel",
@@ -1519,7 +1519,7 @@
     "weapon_type": 2,
     "position": 2,
     "manufacturer": "Elysion",
-    "image_url": "/images/DieselS.png"
+    "image_url": "/images/characters/DieselS.png"
   },
   {
     "name": "Miranda",
@@ -1531,7 +1531,7 @@
     "weapon_type": 1,
     "position": 1,
     "manufacturer": "Elysion",
-    "image_url": "/images/MirandaS.png"
+    "image_url": "/images/characters/MirandaS.png"
   },
   {
     "name": "Emma",
@@ -1543,7 +1543,7 @@
     "weapon_type": 2,
     "position": 1,
     "manufacturer": "Elysion",
-    "image_url": "/images/EmmaS.png"
+    "image_url": "/images/characters/EmmaS.png"
   },
   {
     "name": "Privaty",
@@ -1555,7 +1555,7 @@
     "weapon_type": 3,
     "position": 0,
     "manufacturer": "Elysion",
-    "image_url": "/images/PrivatyS.png"
+    "image_url": "/images/characters/PrivatyS.png"
   },
   {
     "name": "Signal",
@@ -1567,7 +1567,7 @@
     "weapon_type": 1,
     "position": 0,
     "manufacturer": "Elysion",
-    "image_url": "/images/SignalS.png"
+    "image_url": "/images/characters/SignalS.png"
   },
   {
     "name": "Eunhwa",
@@ -1579,7 +1579,7 @@
     "weapon_type": 4,
     "position": 0,
     "manufacturer": "Elysion",
-    "image_url": "/images/EunhwaS.png"
+    "image_url": "/images/characters/EunhwaS.png"
   },
   {
     "name": "Guillotine",
@@ -1591,7 +1591,7 @@
     "weapon_type": 2,
     "position": 0,
     "manufacturer": "Elysion",
-    "image_url": "/images/GuillotineS.png"
+    "image_url": "/images/characters/GuillotineS.png"
   },
   {
     "name": "Belorta",
@@ -1602,7 +1602,7 @@
     "weapon_type": 5,
     "position": 0,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/BelortaS.png"
+    "image_url": "/images/characters/BelortaS.png"
   },
   {
     "name": "Soldier EG",
@@ -1614,7 +1614,7 @@
     "weapon_type": 3,
     "position": 0,
     "manufacturer": "Elysion",
-    "image_url": "/images/Soldier_EGS.png"
+    "image_url": "/images/characters/Soldier_EGS.png"
   },
   {
     "name": "Soldier FA",
@@ -1626,7 +1626,7 @@
     "weapon_type": 0,
     "position": 2,
     "manufacturer": "Elysion",
-    "image_url": "/images/Soldier_FAS.png"
+    "image_url": "/images/characters/Soldier_FAS.png"
   },
   {
     "name": "Soldier OW",
@@ -1638,7 +1638,7 @@
     "weapon_type": 1,
     "position": 1,
     "manufacturer": "Elysion",
-    "image_url": "/images/Soldier_OWS.png"
+    "image_url": "/images/characters/Soldier_OWS.png"
   },
   {
     "name": "Scarlet",
@@ -1650,7 +1650,7 @@
     "weapon_type": 3,
     "position": 0,
     "manufacturer": "Pilgrim",
-    "image_url": "/images/ScarletS.png"
+    "image_url": "/images/characters/ScarletS.png"
   },
   {
     "name": "Noah",
@@ -1662,7 +1662,7 @@
     "weapon_type": 5,
     "position": 2,
     "manufacturer": "Pilgrim",
-    "image_url": "/images/NoahS.png"
+    "image_url": "/images/characters/NoahS.png"
   },
   {
     "name": "Epinel",
@@ -1674,7 +1674,7 @@
     "weapon_type": 1,
     "position": 0,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/EpinelS.png"
+    "image_url": "/images/characters/EpinelS.png"
   },
   {
     "name": "Exia",
@@ -1686,7 +1686,7 @@
     "weapon_type": 4,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/ExiaS.png"
+    "image_url": "/images/characters/ExiaS.png"
   },
   {
     "name": "Alice",
@@ -1698,7 +1698,7 @@
     "weapon_type": 4,
     "position": 0,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/AliceS.png"
+    "image_url": "/images/characters/AliceS.png"
   },
   {
     "name": "Sugar",
@@ -1710,7 +1710,7 @@
     "weapon_type": 0,
     "position": 0,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/SugarS.png"
+    "image_url": "/images/characters/SugarS.png"
   },
   {
     "name": "Frima",
@@ -1722,7 +1722,7 @@
     "weapon_type": 4,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/FrimaS.png"
+    "image_url": "/images/characters/FrimaS.png"
   },
   {
     "name": "Mary",
@@ -1734,7 +1734,7 @@
     "weapon_type": 0,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/MaryS.png"
+    "image_url": "/images/characters/MaryS.png"
   },
   {
     "name": "Ludmilla",
@@ -1746,7 +1746,7 @@
     "weapon_type": 1,
     "position": 2,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/LudmillaS.png"
+    "image_url": "/images/characters/LudmillaS.png"
   },
   {
     "name": "Anis",
@@ -1758,7 +1758,7 @@
     "weapon_type": 5,
     "position": 2,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/AnisS.png"
+    "image_url": "/images/characters/AnisS.png"
   },
   {
     "name": "iDoll Sun",
@@ -1769,7 +1769,7 @@
     "weapon_type": 3,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/IDoll_SunS.png"
+    "image_url": "/images/characters/IDoll_SunS.png"
   },
   {
     "name": "iDoll Ocean",
@@ -1780,7 +1780,7 @@
     "weapon_type": 1,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/IDoll_OceanS.png"
+    "image_url": "/images/characters/IDoll_OceanS.png"
   },
   {
     "name": "iDoll Flower",
@@ -1791,7 +1791,7 @@
     "weapon_type": 5,
     "position": 2,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/IDoll_FlowerS.png"
+    "image_url": "/images/characters/IDoll_FlowerS.png"
   },
   {
     "name": "Yuni",
@@ -1803,7 +1803,7 @@
     "weapon_type": 5,
     "position": 2,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/YuniS.png"
+    "image_url": "/images/characters/YuniS.png"
   },
   {
     "name": "Maxwell",
@@ -1815,7 +1815,7 @@
     "weapon_type": 4,
     "position": 0,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/MaxwellS.png"
+    "image_url": "/images/characters/MaxwellS.png"
   },
   {
     "name": "Julia",
@@ -1827,7 +1827,7 @@
     "weapon_type": 3,
     "position": 0,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/JuliaS.png"
+    "image_url": "/images/characters/JuliaS.png"
   },
   {
     "name": "Drake",
@@ -1839,7 +1839,7 @@
     "weapon_type": 0,
     "position": 0,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/DrakeS.png"
+    "image_url": "/images/characters/DrakeS.png"
   },
   {
     "name": "Mihara",
@@ -1851,7 +1851,7 @@
     "weapon_type": 3,
     "position": 0,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/MiharaS.png"
+    "image_url": "/images/characters/MiharaS.png"
   },
   {
     "name": "N102",
@@ -1863,7 +1863,7 @@
     "weapon_type": 5,
     "position": 1,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/N102S.png"
+    "image_url": "/images/characters/N102S.png"
   },
   {
     "name": "Ether",
@@ -1875,7 +1875,7 @@
     "weapon_type": 0,
     "position": 2,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/EtherS.png"
+    "image_url": "/images/characters/EtherS.png"
   },
   {
     "name": "Product 08",
@@ -1887,7 +1887,7 @@
     "weapon_type": 4,
     "position": 1,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/Product_08S.png"
+    "image_url": "/images/characters/Product_08S.png"
   },
   {
     "name": "Product 12",
@@ -1899,7 +1899,7 @@
     "weapon_type": 2,
     "position": 0,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/Product_12S.png"
+    "image_url": "/images/characters/Product_12S.png"
   },
   {
     "name": "Product 23",
@@ -1911,7 +1911,7 @@
     "weapon_type": 0,
     "position": 1,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/Product_23S.png"
+    "image_url": "/images/characters/Product_23S.png"
   },
   {
     "name": "Centi",
@@ -1923,7 +1923,7 @@
     "weapon_type": 5,
     "position": 2,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/CentiS.png"
+    "image_url": "/images/characters/CentiS.png"
   },
   {
     "name": "Soline",
@@ -1935,7 +1935,7 @@
     "weapon_type": 1,
     "position": 0,
     "manufacturer": "Elysion",
-    "image_url": "/images/SolineS.png"
+    "image_url": "/images/characters/SolineS.png"
   },
   {
     "name": "Helm",
@@ -1947,7 +1947,7 @@
     "weapon_type": 4,
     "position": 0,
     "manufacturer": "Elysion",
-    "image_url": "/images/HelmS.png"
+    "image_url": "/images/characters/HelmS.png"
   },
   {
     "name": "Volume",
@@ -1958,7 +1958,7 @@
     "weapon_type": 1,
     "position": 0,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/VolumeS.png"
+    "image_url": "/images/characters/VolumeS.png"
   },
   {
     "name": "Poli",
@@ -1970,7 +1970,7 @@
     "weapon_type": 0,
     "position": 2,
     "manufacturer": "Elysion",
-    "image_url": "/images/PoliS.png"
+    "image_url": "/images/characters/PoliS.png"
   },
   {
     "name": "Vesti",
@@ -1982,7 +1982,7 @@
     "weapon_type": 5,
     "position": 0,
     "manufacturer": "Elysion",
-    "image_url": "/images/VestiS.png"
+    "image_url": "/images/characters/VestiS.png"
   },
   {
     "name": "Laplace",
@@ -1994,7 +1994,7 @@
     "weapon_type": 5,
     "position": 0,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/LaplaceS.png"
+    "image_url": "/images/characters/LaplaceS.png"
   },
   {
     "name": "Dolla",
@@ -2005,7 +2005,7 @@
     "weapon_type": 4,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/DollaS.png"
+    "image_url": "/images/characters/DollaS.png"
   },
   {
     "name": "Brid",
@@ -2017,7 +2017,7 @@
     "weapon_type": 3,
     "position": 0,
     "manufacturer": "Elysion",
-    "image_url": "/images/BridS.png"
+    "image_url": "/images/characters/BridS.png"
   },
   {
     "name": "Crow",
@@ -2028,7 +2028,7 @@
     "weapon_type": 1,
     "position": 2,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/CrowS.png"
+    "image_url": "/images/characters/CrowS.png"
   },
   {
     "name": "Harran",
@@ -2040,7 +2040,7 @@
     "weapon_type": 4,
     "position": 0,
     "manufacturer": "Pilgrim",
-    "image_url": "/images/HarranS.png"
+    "image_url": "/images/characters/HarranS.png"
   },
   {
     "name": "Novel",
@@ -2052,7 +2052,7 @@
     "weapon_type": 1,
     "position": 2,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/NovelS.png"
+    "image_url": "/images/characters/NovelS.png"
   },
   {
     "name": "Yulha",
@@ -2064,7 +2064,7 @@
     "weapon_type": 4,
     "position": 0,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/YulhaS.png"
+    "image_url": "/images/characters/YulhaS.png"
   },
   {
     "name": "Neve",
@@ -2076,7 +2076,7 @@
     "weapon_type": 0,
     "position": 0,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/NeveS.png"
+    "image_url": "/images/characters/NeveS.png"
   },
   {
     "name": "Folkwang",
@@ -2088,7 +2088,7 @@
     "weapon_type": 3,
     "position": 2,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/FolkwangS.png"
+    "image_url": "/images/characters/FolkwangS.png"
   },
   {
     "name": "Admi",
@@ -2100,7 +2100,7 @@
     "weapon_type": 4,
     "position": 1,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/AdmiS.png"
+    "image_url": "/images/characters/AdmiS.png"
   },
   {
     "name": "Maiden",
@@ -2112,7 +2112,7 @@
     "weapon_type": 0,
     "position": 0,
     "manufacturer": "Elysion",
-    "image_url": "/images/MaidenS.png"
+    "image_url": "/images/characters/MaidenS.png"
   },
   {
     "name": "Anne: Miracle Fairy",
@@ -2124,7 +2124,7 @@
     "weapon_type": 5,
     "position": 1,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/Anne_Miracle_FairyS.png"
+    "image_url": "/images/characters/Anne_Miracle_FairyS.png"
   },
   {
     "name": "Rupee",
@@ -2136,7 +2136,7 @@
     "weapon_type": 3,
     "position": 0,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/RupeeS.png"
+    "image_url": "/images/characters/RupeeS.png"
   },
   {
     "name": "Rupee: Winter Shopper",
@@ -2148,7 +2148,7 @@
     "weapon_type": 3,
     "position": 2,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/Rupee_Winter_ShopperS.png"
+    "image_url": "/images/characters/Rupee_Winter_ShopperS.png"
   },
   {
     "name": "Milk",
@@ -2160,7 +2160,7 @@
     "weapon_type": 4,
     "position": 0,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/MilkS.png"
+    "image_url": "/images/characters/MilkS.png"
   },
   {
     "name": "Rapunzel",
@@ -2172,7 +2172,7 @@
     "weapon_type": 5,
     "position": 1,
     "manufacturer": "Pilgrim",
-    "image_url": "/images/RapunzelS.png"
+    "image_url": "/images/characters/RapunzelS.png"
   },
   {
     "name": "Modernia",
@@ -2184,7 +2184,7 @@
     "weapon_type": 2,
     "position": 0,
     "manufacturer": "Pilgrim",
-    "image_url": "/images/ModerniaS.png"
+    "image_url": "/images/characters/ModerniaS.png"
   },
   {
     "name": "Isabel",
@@ -2196,7 +2196,7 @@
     "weapon_type": 0,
     "position": 0,
     "manufacturer": "Pilgrim",
-    "image_url": "/images/IsabelS.png"
+    "image_url": "/images/characters/IsabelS.png"
   },
   {
     "name": "Noise",
@@ -2207,7 +2207,7 @@
     "weapon_type": 5,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/NoiseS.png"
+    "image_url": "/images/characters/NoiseS.png"
   },
   {
     "name": "Jackal",
@@ -2219,7 +2219,7 @@
     "weapon_type": 5,
     "position": 2,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/JackalS.png"
+    "image_url": "/images/characters/JackalS.png"
   },
   {
     "name": "Viper",
@@ -2231,7 +2231,7 @@
     "weapon_type": 0,
     "position": 0,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/ViperS.png"
+    "image_url": "/images/characters/ViperS.png"
   },
   {
     "name": "Yan",
@@ -2242,7 +2242,7 @@
     "weapon_type": 5,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/YanS.png"
+    "image_url": "/images/characters/YanS.png"
   },
   {
     "name": "Liter",
@@ -2254,7 +2254,7 @@
     "weapon_type": 1,
     "position": 1,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/LiterS.png"
+    "image_url": "/images/characters/LiterS.png"
   },
   {
     "name": "Aria",
@@ -2265,7 +2265,7 @@
     "weapon_type": 2,
     "position": 0,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/AriaS.png"
+    "image_url": "/images/characters/AriaS.png"
   },
   {
     "name": "Guilty",
@@ -2277,7 +2277,7 @@
     "weapon_type": 0,
     "position": 0,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/GuiltyS.png"
+    "image_url": "/images/characters/GuiltyS.png"
   },
   {
     "name": "Sin",
@@ -2289,7 +2289,7 @@
     "weapon_type": 3,
     "position": 2,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/SinS.png"
+    "image_url": "/images/characters/SinS.png"
   },
   {
     "name": "Quency",
@@ -2301,7 +2301,7 @@
     "weapon_type": 1,
     "position": 1,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/QuencyS.png"
+    "image_url": "/images/characters/QuencyS.png"
   },
   {
     "name": "Pepper",
@@ -2313,7 +2313,7 @@
     "weapon_type": 0,
     "position": 1,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/PepperS.png"
+    "image_url": "/images/characters/PepperS.png"
   },
   {
     "name": "Cocoa",
@@ -2325,7 +2325,7 @@
     "weapon_type": 4,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/CocoaS.png"
+    "image_url": "/images/characters/CocoaS.png"
   },
   {
     "name": "Soda",
@@ -2337,7 +2337,7 @@
     "weapon_type": 2,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/SodaS.png"
+    "image_url": "/images/characters/SodaS.png"
   },
   {
     "name": "Power",
@@ -2349,7 +2349,7 @@
     "weapon_type": 5,
     "position": 0,
     "manufacturer": "Abnormal",
-    "image_url": "/images/PowerS.png"
+    "image_url": "/images/characters/PowerS.png"
   },
   {
     "name": "Makima",
@@ -2361,7 +2361,7 @@
     "weapon_type": 1,
     "position": 2,
     "manufacturer": "Abnormal",
-    "image_url": "/images/MakimaS.png"
+    "image_url": "/images/characters/MakimaS.png"
   },
   {
     "name": "Himeno",
@@ -2373,7 +2373,7 @@
     "weapon_type": 4,
     "position": 1,
     "manufacturer": "Abnormal",
-    "image_url": "/images/HimenoS.png"
+    "image_url": "/images/characters/HimenoS.png"
   },
   {
     "name": "Biscuit",
@@ -2385,7 +2385,7 @@
     "weapon_type": 5,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/BiscuitS.png"
+    "image_url": "/images/characters/BiscuitS.png"
   },
   {
     "name": "Nihilister",
@@ -2397,7 +2397,7 @@
     "weapon_type": 4,
     "position": 0,
     "manufacturer": "Pilgrim",
-    "image_url": "/images/NihilisterS.png"
+    "image_url": "/images/characters/NihilisterS.png"
   },
   {
     "name": "Sakura",
@@ -2409,7 +2409,7 @@
     "weapon_type": 4,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/SakuraS.png"
+    "image_url": "/images/characters/SakuraS.png"
   },
   {
     "name": "D",
@@ -2421,7 +2421,7 @@
     "weapon_type": 1,
     "position": 0,
     "manufacturer": "Elysion",
-    "image_url": "/images/DS.png"
+    "image_url": "/images/characters/DS.png"
   },
   {
     "name": "Rosanna",
@@ -2433,7 +2433,7 @@
     "weapon_type": 2,
     "position": 0,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/RosannaS.png"
+    "image_url": "/images/characters/RosannaS.png"
   },
   {
     "name": "Dorothy",
@@ -2445,7 +2445,7 @@
     "weapon_type": 3,
     "position": 1,
     "manufacturer": "Pilgrim",
-    "image_url": "/images/DorothyS.png"
+    "image_url": "/images/characters/DorothyS.png"
   },
   {
     "name": "Rei",
@@ -2457,7 +2457,7 @@
     "weapon_type": 1,
     "position": 2,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/ReiS.png"
+    "image_url": "/images/characters/ReiS.png"
   },
   {
     "name": "Anchor",
@@ -2469,7 +2469,7 @@
     "weapon_type": 5,
     "position": 2,
     "manufacturer": "Elysion",
-    "image_url": "/images/AnchorS.png"
+    "image_url": "/images/characters/AnchorS.png"
   },
   {
     "name": "Mast",
@@ -2481,7 +2481,7 @@
     "weapon_type": 1,
     "position": 1,
     "manufacturer": "Elysion",
-    "image_url": "/images/MastS.png"
+    "image_url": "/images/characters/MastS.png"
   },
   {
     "name": "Nero",
@@ -2493,7 +2493,7 @@
     "weapon_type": 1,
     "position": 2,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/NeroS.png"
+    "image_url": "/images/characters/NeroS.png"
   },
   {
     "name": "Red Hood",
@@ -2505,7 +2505,7 @@
     "weapon_type": 4,
     "position": 0,
     "manufacturer": "Pilgrim",
-    "image_url": "/images/Red_HoodS.png"
+    "image_url": "/images/characters/Red_HoodS.png"
   },
   {
     "name": "Blanc",
@@ -2517,7 +2517,7 @@
     "weapon_type": 3,
     "position": 2,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/BlancS.png"
+    "image_url": "/images/characters/BlancS.png"
   },
   {
     "name": "Noir",
@@ -2529,7 +2529,7 @@
     "weapon_type": 0,
     "position": 0,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/NoirS.png"
+    "image_url": "/images/characters/NoirS.png"
   },
   {
     "name": "Helm: Aquamarine",
@@ -2541,7 +2541,7 @@
     "weapon_type": 3,
     "position": 0,
     "manufacturer": "Elysion",
-    "image_url": "/images/Helm_AquamarineS.png"
+    "image_url": "/images/characters/Helm_AquamarineS.png"
   },
   {
     "name": "Mary: Bay Goddess",
@@ -2553,7 +2553,7 @@
     "weapon_type": 4,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/Mary_Bay_GoddessS.png"
+    "image_url": "/images/characters/Mary_Bay_GoddessS.png"
   },
   {
     "name": "Anis: Sparkling Summer",
@@ -2565,7 +2565,7 @@
     "weapon_type": 0,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/Anis_Sparkling_SummerS.png"
+    "image_url": "/images/characters/Anis_Sparkling_SummerS.png"
   },
   {
     "name": "2B",
@@ -2577,7 +2577,7 @@
     "weapon_type": 3,
     "position": 2,
     "manufacturer": "Abnormal",
-    "image_url": "/images/2BS.png"
+    "image_url": "/images/characters/2BS.png"
   },
   {
     "name": "A2",
@@ -2589,7 +2589,7 @@
     "weapon_type": 5,
     "position": 0,
     "manufacturer": "Abnormal",
-    "image_url": "/images/A2S.png"
+    "image_url": "/images/characters/A2S.png"
   },
   {
     "name": "Pascal",
@@ -2601,7 +2601,7 @@
     "weapon_type": 5,
     "position": 1,
     "manufacturer": "Abnormal",
-    "image_url": "/images/PascalS.png"
+    "image_url": "/images/characters/PascalS.png"
   },
   {
     "name": "Marciana",
@@ -2613,7 +2613,7 @@
     "weapon_type": 0,
     "position": 1,
     "manufacturer": "Elysion",
-    "image_url": "/images/MarcianaS.png"
+    "image_url": "/images/characters/MarcianaS.png"
   },
   {
     "name": "Naga",
@@ -2625,7 +2625,7 @@
     "weapon_type": 0,
     "position": 1,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/NagaS.png"
+    "image_url": "/images/characters/NagaS.png"
   },
   {
     "name": "Tia",
@@ -2637,7 +2637,7 @@
     "weapon_type": 5,
     "position": 2,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/TiaS.png"
+    "image_url": "/images/characters/TiaS.png"
   },
   {
     "name": "Quiry",
@@ -2649,7 +2649,7 @@
     "weapon_type": 5,
     "position": 1,
     "manufacturer": "Elysion",
-    "image_url": "/images/QuiryS.png"
+    "image_url": "/images/characters/QuiryS.png"
   },
   {
     "name": "Snow White: Innocent Days",
@@ -2661,7 +2661,7 @@
     "weapon_type": 3,
     "position": 0,
     "manufacturer": "Pilgrim",
-    "image_url": "/images/Snow_White_Innocent_DaysS.png"
+    "image_url": "/images/characters/Snow_White_Innocent_DaysS.png"
   },
   {
     "name": "Neon: Blue Ocean",
@@ -2673,7 +2673,7 @@
     "weapon_type": 2,
     "position": 0,
     "manufacturer": "Elysion",
-    "image_url": "/images/Neon_Blue_OceanS.png"
+    "image_url": "/images/characters/Neon_Blue_OceanS.png"
   },
   {
     "name": "Mica: Snow Buddy",
@@ -2685,7 +2685,7 @@
     "weapon_type": 1,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/Mica_Snow_BuddyS.png"
+    "image_url": "/images/characters/Mica_Snow_BuddyS.png"
   },
   {
     "name": "Ludmilla: Winter Owner",
@@ -2697,7 +2697,7 @@
     "weapon_type": 2,
     "position": 0,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/Ludmilla_Winter_OwnerS.png"
+    "image_url": "/images/characters/Ludmilla_Winter_OwnerS.png"
   },
   {
     "name": "Tove",
@@ -2709,7 +2709,7 @@
     "weapon_type": 3,
     "position": 1,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/ToveS.png"
+    "image_url": "/images/characters/ToveS.png"
   },
   {
     "name": "Scarlet: Black Shadow",
@@ -2721,7 +2721,7 @@
     "weapon_type": 5,
     "position": 0,
     "manufacturer": "Pilgrim",
-    "image_url": "/images/Scarlet_Black_ShadowS.png"
+    "image_url": "/images/characters/Scarlet_Black_ShadowS.png"
   },
   {
     "name": "Leona",
@@ -2733,7 +2733,7 @@
     "weapon_type": 0,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/LeonaS.png"
+    "image_url": "/images/characters/LeonaS.png"
   },
   {
     "name": "Moran",
@@ -2745,7 +2745,7 @@
     "weapon_type": 3,
     "position": 2,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/MoranS.png"
+    "image_url": "/images/characters/MoranS.png"
   },
   {
     "name": "Privaty: Unkind Maid",
@@ -2757,7 +2757,7 @@
     "weapon_type": 0,
     "position": 0,
     "manufacturer": "Elysion",
-    "image_url": "/images/Privaty_Unkind_MaidS.png"
+    "image_url": "/images/characters/Privaty_Unkind_MaidS.png"
   },
   {
     "name": "Ade",
@@ -2769,7 +2769,7 @@
     "weapon_type": 3,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/AdeS.png"
+    "image_url": "/images/characters/AdeS.png"
   },
   {
     "name": "Elegg",
@@ -2781,7 +2781,7 @@
     "weapon_type": 2,
     "position": 1,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/EleggS.png"
+    "image_url": "/images/characters/EleggS.png"
   },
   {
     "name": "D: Killer Wife",
@@ -2793,7 +2793,7 @@
     "weapon_type": 4,
     "position": 1,
     "manufacturer": "Elysion",
-    "image_url": "/images/D_Killer_WifeS.png"
+    "image_url": "/images/characters/D_Killer_WifeS.png"
   },
   {
     "name": "Emilia",
@@ -2805,7 +2805,7 @@
     "weapon_type": 5,
     "position": 0,
     "manufacturer": "Abnormal",
-    "image_url": "/images/EmiliaS.png"
+    "image_url": "/images/characters/EmiliaS.png"
   },
   {
     "name": "Rem",
@@ -2817,7 +2817,7 @@
     "weapon_type": 2,
     "position": 1,
     "manufacturer": "Abnormal",
-    "image_url": "/images/RemS.png"
+    "image_url": "/images/characters/RemS.png"
   },
   {
     "name": "Ram",
@@ -2829,7 +2829,7 @@
     "weapon_type": 4,
     "position": 2,
     "manufacturer": "Abnormal",
-    "image_url": "/images/RamS.png"
+    "image_url": "/images/characters/RamS.png"
   },
   {
     "name": "Bay",
@@ -2841,7 +2841,7 @@
     "weapon_type": 5,
     "position": 2,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/BayS.png"
+    "image_url": "/images/characters/BayS.png"
   },
   {
     "name": "Crown",
@@ -2853,7 +2853,7 @@
     "weapon_type": 2,
     "position": 2,
     "manufacturer": "Pilgrim",
-    "image_url": "/images/CrownS.png"
+    "image_url": "/images/characters/CrownS.png"
   },
   {
     "name": "Kilo",
@@ -2865,7 +2865,7 @@
     "weapon_type": 2,
     "position": 2,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/KiloS.png"
+    "image_url": "/images/characters/KiloS.png"
   },
   {
     "name": "Trony",
@@ -2877,7 +2877,7 @@
     "weapon_type": 4,
     "position": 0,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/TronyS.png"
+    "image_url": "/images/characters/TronyS.png"
   },
   {
     "name": "Soda: Twinkling Bunny",
@@ -2889,7 +2889,7 @@
     "weapon_type": 0,
     "position": 0,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/Soda_Twinkling_BunnyS.png"
+    "image_url": "/images/characters/Soda_Twinkling_BunnyS.png"
   },
   {
     "name": "Alice: Wonderland Bunny",
@@ -2901,7 +2901,7 @@
     "weapon_type": 1,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/Alice_Wonderland_BunnyS.png"
+    "image_url": "/images/characters/Alice_Wonderland_BunnyS.png"
   },
   {
     "name": "Clay",
@@ -2913,7 +2913,7 @@
     "weapon_type": 1,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/ClayS.png"
+    "image_url": "/images/characters/ClayS.png"
   },
   {
     "name": "Rosanna: Chic Ocean",
@@ -2925,7 +2925,7 @@
     "weapon_type": 3,
     "position": 1,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/Rosanna_Chic_OceanS.png"
+    "image_url": "/images/characters/Rosanna_Chic_OceanS.png"
   },
   {
     "name": "Sakura: Bloom in Summer",
@@ -2937,7 +2937,7 @@
     "weapon_type": 3,
     "position": 0,
     "manufacturer": "Tetra Line",
-    "image_url": "/images/Sakura_Bloom_in_SummerS.png"
+    "image_url": "/images/characters/Sakura_Bloom_in_SummerS.png"
   },
   {
     "name": "Ein",
@@ -2949,6 +2949,6 @@
     "weapon_type": 4,
     "position": 0,
     "manufacturer": "Missilis Industry",
-    "image_url": "/images/EinS.png"
+    "image_url": "/images/characters/EinS.png"
   }
 ]

@@ -3,7 +3,7 @@ import { Burst, Code, Manufacturer, Position, Rarity, Weapon, type Nikke } from 
 export const nikkes: Nikke[] = [
     {
         name: "Rapi",
-        image_url: "/images/RapiS.png",
+        image_url: "/images/characters/RapiS.png",
         rarity: Rarity.Sr,
         burst: Burst.III,
         weapon_name: "Militaria",
@@ -15,7 +15,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Neon",
-        image_url: "/images/NeonS.png",
+        image_url: "/images/characters/NeonS.png",
         rarity: Rarity.Sr,
         burst: Burst.I,
         weapon_name: "Annihilation",
@@ -27,7 +27,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Snow White",
-        image_url: "/images/Snow_WhiteS.png",
+        image_url: "/images/characters/Snow_WhiteS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Seven Dwarves",
@@ -39,7 +39,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Delta",
-        image_url: "/images/DeltaS.png",
+        image_url: "/images/characters/DeltaS.png",
         rarity: Rarity.Sr,
         burst: Burst.II,
         weapon_name: undefined,
@@ -51,7 +51,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Mica",
-        image_url: "/images/MicaS.png",
+        image_url: "/images/characters/MicaS.png",
         rarity: Rarity.Sr,
         burst: Burst.I,
         weapon_name: undefined,
@@ -63,7 +63,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Diesel",
-        image_url: "/images/DieselS.png",
+        image_url: "/images/characters/DieselS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Wanderlust",
@@ -75,7 +75,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Miranda",
-        image_url: "/images/MirandaS.png",
+        image_url: "/images/characters/MirandaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Inflexible",
@@ -87,7 +87,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Emma",
-        image_url: "/images/EmmaS.png",
+        image_url: "/images/characters/EmmaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Special Therapy",
@@ -99,7 +99,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Privaty",
-        image_url: "/images/PrivatyS.png",
+        image_url: "/images/characters/PrivatyS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Team Chemistry",
@@ -111,7 +111,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Signal",
-        image_url: "/images/SignalS.png",
+        image_url: "/images/characters/SignalS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Soap Opera",
@@ -123,7 +123,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Eunhwa",
-        image_url: "/images/EunhwaS.png",
+        image_url: "/images/characters/EunhwaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Perfectionist",
@@ -135,7 +135,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Guillotine",
-        image_url: "/images/GuillotineS.png",
+        image_url: "/images/characters/GuillotineS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Unbridled Solitude",
@@ -147,7 +147,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Belorta",
-        image_url: "/images/BelortaS.png",
+        image_url: "/images/characters/BelortaS.png",
         rarity: Rarity.Sr,
         burst: Burst.II,
         weapon_name: undefined,
@@ -159,7 +159,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Soldier EG",
-        image_url: "/images/Soldier_EGS.png",
+        image_url: "/images/characters/Soldier_EGS.png",
         rarity: Rarity.R,
         burst: Burst.III,
         weapon_name: "Hunting Eagle",
@@ -171,7 +171,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Soldier FA",
-        image_url: "/images/Soldier_FAS.png",
+        image_url: "/images/characters/Soldier_FAS.png",
         rarity: Rarity.R,
         burst: Burst.II,
         weapon_name: "Clutch Falcon",
@@ -183,7 +183,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Soldier OW",
-        image_url: "/images/Soldier_OWS.png",
+        image_url: "/images/characters/Soldier_OWS.png",
         rarity: Rarity.R,
         burst: Burst.I,
         weapon_name: "Searching Owl",
@@ -195,7 +195,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Scarlet",
-        image_url: "/images/ScarletS.png",
+        image_url: "/images/characters/ScarletS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Fleetly Fading",
@@ -207,7 +207,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Noah",
-        image_url: "/images/NoahS.png",
+        image_url: "/images/characters/NoahS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Metal Cocoon",
@@ -219,7 +219,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Epinel",
-        image_url: "/images/EpinelS.png",
+        image_url: "/images/characters/EpinelS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "The Trickster",
@@ -231,7 +231,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Exia",
-        image_url: "/images/ExiaS.png",
+        image_url: "/images/characters/ExiaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Utopia Unsealed",
@@ -243,7 +243,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Alice",
-        image_url: "/images/AliceS.png",
+        image_url: "/images/characters/AliceS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Amazing Wonderland",
@@ -255,7 +255,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Sugar",
-        image_url: "/images/SugarS.png",
+        image_url: "/images/characters/SugarS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Cold Zeal",
@@ -267,7 +267,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Frima",
-        image_url: "/images/FrimaS.png",
+        image_url: "/images/characters/FrimaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Sloth",
@@ -279,7 +279,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Mary",
-        image_url: "/images/MaryS.png",
+        image_url: "/images/characters/MaryS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Kindness",
@@ -291,7 +291,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Ludmilla",
-        image_url: "/images/LudmillaS.png",
+        image_url: "/images/characters/LudmillaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Snow Phantom",
@@ -303,7 +303,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Anis",
-        image_url: "/images/AnisS.png",
+        image_url: "/images/characters/AnisS.png",
         rarity: Rarity.Sr,
         burst: Burst.II,
         weapon_name: "Liberty's Tail",
@@ -315,7 +315,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "iDoll Sun",
-        image_url: "/images/IDoll_SunS.png",
+        image_url: "/images/characters/IDoll_SunS.png",
         rarity: Rarity.R,
         burst: Burst.III,
         weapon_name: undefined,
@@ -327,7 +327,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "iDoll Ocean",
-        image_url: "/images/IDoll_OceanS.png",
+        image_url: "/images/characters/IDoll_OceanS.png",
         rarity: Rarity.R,
         burst: Burst.I,
         weapon_name: undefined,
@@ -339,7 +339,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "iDoll Flower",
-        image_url: "/images/IDoll_FlowerS.png",
+        image_url: "/images/characters/IDoll_FlowerS.png",
         rarity: Rarity.R,
         burst: Burst.I,
         weapon_name: undefined,
@@ -351,7 +351,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Maxwell",
-        image_url: "/images/MaxwellS.png",
+        image_url: "/images/characters/MaxwellS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "My Cutey",
@@ -363,7 +363,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Yuni",
-        image_url: "/images/YuniS.png",
+        image_url: "/images/characters/YuniS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Forbidden Gift",
@@ -375,7 +375,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Julia",
-        image_url: "/images/JuliaS.png",
+        image_url: "/images/characters/JuliaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Classical Adagio",
@@ -387,7 +387,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Drake",
-        image_url: "/images/DrakeS.png",
+        image_url: "/images/characters/DrakeS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Sadistic Carnival",
@@ -399,7 +399,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Mihara",
-        image_url: "/images/MiharaS.png",
+        image_url: "/images/characters/MiharaS.png",
         rarity: Rarity.Sr,
         burst: Burst.III,
         weapon_name: "Painful World",
@@ -411,7 +411,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "N102",
-        image_url: "/images/N102S.png",
+        image_url: "/images/characters/N102S.png",
         rarity: Rarity.Sr,
         burst: Burst.I,
         weapon_name: "Mayfly",
@@ -423,7 +423,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Ether",
-        image_url: "/images/EtherS.png",
+        image_url: "/images/characters/EtherS.png",
         rarity: Rarity.Sr,
         burst: Burst.I,
         weapon_name: "Sacrificial Bacchanal",
@@ -435,7 +435,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Product 08",
-        image_url: "/images/Product_08S.png",
+        image_url: "/images/characters/Product_08S.png",
         rarity: Rarity.R,
         burst: Burst.I,
         weapon_name: "MISR-03",
@@ -447,7 +447,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Product 12",
-        image_url: "/images/Product_12S.png",
+        image_url: "/images/characters/Product_12S.png",
         rarity: Rarity.R,
         burst: Burst.III,
         weapon_name: "MIMG-07",
@@ -459,7 +459,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Product 23",
-        image_url: "/images/Product_23S.png",
+        image_url: "/images/characters/Product_23S.png",
         rarity: Rarity.R,
         burst: Burst.II,
         weapon_name: "MISG-09",
@@ -471,7 +471,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Centi",
-        image_url: "/images/CentiS.png",
+        image_url: "/images/characters/CentiS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Mighty Bomber",
@@ -483,7 +483,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Soline",
-        image_url: "/images/SolineS.png",
+        image_url: "/images/characters/SolineS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Crimson Crusader",
@@ -495,7 +495,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Helm",
-        image_url: "/images/HelmS.png",
+        image_url: "/images/characters/HelmS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Honorable",
@@ -507,7 +507,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Volume",
-        image_url: "/images/VolumeS.png",
+        image_url: "/images/characters/VolumeS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: undefined,
@@ -519,7 +519,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Poli",
-        image_url: "/images/PoliS.png",
+        image_url: "/images/characters/PoliS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Wild Hound",
@@ -531,7 +531,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Vesti",
-        image_url: "/images/VestiS.png",
+        image_url: "/images/characters/VestiS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Pure Monster",
@@ -543,7 +543,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Laplace",
-        image_url: "/images/LaplaceS.png",
+        image_url: "/images/characters/LaplaceS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Hero Syndrome",
@@ -555,7 +555,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Dolla",
-        image_url: "/images/DollaS.png",
+        image_url: "/images/characters/DollaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: undefined,
@@ -567,7 +567,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Brid",
-        image_url: "/images/BridS.png",
+        image_url: "/images/characters/BridS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Perfect Line",
@@ -579,7 +579,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Crow",
-        image_url: "/images/CrowS.png",
+        image_url: "/images/characters/CrowS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: undefined,
@@ -591,7 +591,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Harran",
-        image_url: "/images/HarranS.png",
+        image_url: "/images/characters/HarranS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Death Sentence",
@@ -603,7 +603,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Novel",
-        image_url: "/images/NovelS.png",
+        image_url: "/images/characters/NovelS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Sixth Sense",
@@ -615,7 +615,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Yulha",
-        image_url: "/images/YulhaS.png",
+        image_url: "/images/characters/YulhaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Extreme Altruism",
@@ -627,7 +627,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Neve",
-        image_url: "/images/NeveS.png",
+        image_url: "/images/characters/NeveS.png",
         rarity: Rarity.Sr,
         burst: Burst.III,
         weapon_name: "Hibernation",
@@ -639,7 +639,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Folkwang",
-        image_url: "/images/FolkwangS.png",
+        image_url: "/images/characters/FolkwangS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Incandescence",
@@ -651,7 +651,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Admi",
-        image_url: "/images/AdmiS.png",
+        image_url: "/images/characters/AdmiS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Affection's End",
@@ -663,7 +663,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Maiden",
-        image_url: "/images/MaidenS.png",
+        image_url: "/images/characters/MaidenS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Misconception",
@@ -675,7 +675,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Anne: Miracle Fairy",
-        image_url: "/images/Anne_Miracle_FairyS.png",
+        image_url: "/images/characters/Anne_Miracle_FairyS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Mayfly",
@@ -687,7 +687,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Rupee",
-        image_url: "/images/RupeeS.png",
+        image_url: "/images/characters/RupeeS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Shopaholic",
@@ -699,7 +699,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Rupee: Winter Shopper",
-        image_url: "/images/Rupee_Winter_ShopperS.png",
+        image_url: "/images/characters/Rupee_Winter_ShopperS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Shopaholic",
@@ -711,7 +711,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Rapunzel",
-        image_url: "/images/RapunzelS.png",
+        image_url: "/images/characters/RapunzelS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Holy Grace",
@@ -723,7 +723,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Milk",
-        image_url: "/images/MilkS.png",
+        image_url: "/images/characters/MilkS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Flawless Victory",
@@ -735,7 +735,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Modernia",
-        image_url: "/images/ModerniaS.png",
+        image_url: "/images/characters/ModerniaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "New Dawn",
@@ -747,7 +747,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Isabel",
-        image_url: "/images/IsabelS.png",
+        image_url: "/images/characters/IsabelS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Extreme Obsessor",
@@ -759,7 +759,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Noise",
-        image_url: "/images/NoiseS.png",
+        image_url: "/images/characters/NoiseS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: undefined,
@@ -771,7 +771,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Jackal",
-        image_url: "/images/JackalS.png",
+        image_url: "/images/characters/JackalS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "T.O.P",
@@ -783,7 +783,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Viper",
-        image_url: "/images/ViperS.png",
+        image_url: "/images/characters/ViperS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Rust Chaser",
@@ -795,7 +795,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Yan",
-        image_url: "/images/YanS.png",
+        image_url: "/images/characters/YanS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: undefined,
@@ -807,7 +807,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Liter",
-        image_url: "/images/LiterS.png",
+        image_url: "/images/characters/LiterS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Drill Punch",
@@ -819,7 +819,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Aria",
-        image_url: "/images/AriaS.png",
+        image_url: "/images/characters/AriaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: undefined,
@@ -831,7 +831,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Guilty",
-        image_url: "/images/GuiltyS.png",
+        image_url: "/images/characters/GuiltyS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Soft Belt",
@@ -843,7 +843,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Sin",
-        image_url: "/images/SinS.png",
+        image_url: "/images/characters/SinS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Heavy Talker",
@@ -855,7 +855,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Quency",
-        image_url: "/images/QuencyS.png",
+        image_url: "/images/characters/QuencyS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Most Wanted",
@@ -867,7 +867,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Pepper",
-        image_url: "/images/PepperS.png",
+        image_url: "/images/characters/PepperS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "VitaMax",
@@ -879,7 +879,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Cocoa",
-        image_url: "/images/CocoaS.png",
+        image_url: "/images/characters/CocoaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Cocorella",
@@ -891,7 +891,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Soda",
-        image_url: "/images/SodaS.png",
+        image_url: "/images/characters/SodaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Bright Cleaner",
@@ -903,7 +903,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Power",
-        image_url: "/images/PowerS.png",
+        image_url: "/images/characters/PowerS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Powerful Power",
@@ -915,7 +915,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Makima",
-        image_url: "/images/MakimaS.png",
+        image_url: "/images/characters/MakimaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Unknown Weapon",
@@ -927,7 +927,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Himeno",
-        image_url: "/images/HimenoS.png",
+        image_url: "/images/characters/HimenoS.png",
         rarity: Rarity.Sr,
         burst: Burst.II,
         weapon_name: "Ghost Sight",
@@ -939,7 +939,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Biscuit",
-        image_url: "/images/BiscuitS.png",
+        image_url: "/images/characters/BiscuitS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Happy Puppy",
@@ -951,7 +951,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Nihilister",
-        image_url: "/images/NihilisterS.png",
+        image_url: "/images/characters/NihilisterS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "End of the Old World",
@@ -963,7 +963,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Ade",
-        image_url: "/images/AdeS.png",
+        image_url: "/images/characters/AdeS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "The Classic",
@@ -975,7 +975,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Sakura",
-        image_url: "/images/SakuraS.png",
+        image_url: "/images/characters/SakuraS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Ichigenkin",
@@ -987,7 +987,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "D",
-        image_url: "/images/DS.png",
+        image_url: "/images/characters/DS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Storm Eye",
@@ -999,7 +999,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Moran",
-        image_url: "/images/MoranS.png",
+        image_url: "/images/characters/MoranS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Dragon Head",
@@ -1011,7 +1011,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Rosanna",
-        image_url: "/images/RosannaS.png",
+        image_url: "/images/characters/RosannaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Golden Thompson",
@@ -1023,7 +1023,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Dorothy",
-        image_url: "/images/DorothyS.png",
+        image_url: "/images/characters/DorothyS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Ungrateful OZ",
@@ -1035,7 +1035,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Rei",
-        image_url: "/images/ReiS.png",
+        image_url: "/images/characters/ReiS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Steel Baby",
@@ -1047,7 +1047,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Anchor",
-        image_url: "/images/AnchorS.png",
+        image_url: "/images/characters/AnchorS.png",
         rarity: Rarity.Sr,
         burst: Burst.I,
         weapon_name: "Inquisitor",
@@ -1059,7 +1059,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Mast",
-        image_url: "/images/MastS.png",
+        image_url: "/images/characters/MastS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Ferocity",
@@ -1071,7 +1071,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Nero",
-        image_url: "/images/NeroS.png",
+        image_url: "/images/characters/NeroS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Meow Meow",
@@ -1083,7 +1083,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Red Hood",
-        image_url: "/images/Red_HoodS.png",
+        image_url: "/images/characters/Red_HoodS.png",
         rarity: Rarity.Ssr,
         burst: Burst.A,
         weapon_name: "Wolfsbane",
@@ -1095,7 +1095,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Blanc",
-        image_url: "/images/BlancS.png",
+        image_url: "/images/characters/BlancS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "White Pollux",
@@ -1107,7 +1107,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Noir",
-        image_url: "/images/NoirS.png",
+        image_url: "/images/characters/NoirS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Black Castor",
@@ -1119,7 +1119,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Mary: Bay Goddess",
-        image_url: "/images/Mary_Bay_GoddessS.png",
+        image_url: "/images/characters/Mary_Bay_GoddessS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Summer Shot",
@@ -1131,7 +1131,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Neon: Blue Ocean",
-        image_url: "/images/Neon_Blue_OceanS.png",
+        image_url: "/images/characters/Neon_Blue_OceanS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Big Big Wave",
@@ -1143,7 +1143,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Leona",
-        image_url: "/images/LeonaS.png",
+        image_url: "/images/characters/LeonaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Lion's Roar",
@@ -1155,7 +1155,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Anis: Sparkling Summer",
-        image_url: "/images/Anis_Sparkling_SummerS.png",
+        image_url: "/images/characters/Anis_Sparkling_SummerS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Libertine Aqua",
@@ -1167,7 +1167,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Helm: Aquamarine",
-        image_url: "/images/Helm_AquamarineS.png",
+        image_url: "/images/characters/Helm_AquamarineS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Battleship",
@@ -1179,7 +1179,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Crown",
-        image_url: "/images/CrownS.png",
+        image_url: "/images/characters/CrownS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Your Majesty",
@@ -1191,7 +1191,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "2B",
-        image_url: "/images/2BS.png",
+        image_url: "/images/characters/2BS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Virtuous Rifle",
@@ -1203,7 +1203,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "A2",
-        image_url: "/images/A2S.png",
+        image_url: "/images/characters/A2S.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Type-40 Blade",
@@ -1215,7 +1215,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Pascal",
-        image_url: "/images/PascalS.png",
+        image_url: "/images/characters/PascalS.png",
         rarity: Rarity.Sr,
         burst: Burst.I,
         weapon_name: "Modified Gun",
@@ -1227,7 +1227,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Marciana",
-        image_url: "/images/MarcianaS.png",
+        image_url: "/images/characters/MarcianaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Rational Eyes",
@@ -1239,7 +1239,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Naga",
-        image_url: "/images/NagaS.png",
+        image_url: "/images/characters/NagaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Elegant Nocturne",
@@ -1251,7 +1251,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Tia",
-        image_url: "/images/TiaS.png",
+        image_url: "/images/characters/TiaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Chase Nail",
@@ -1263,7 +1263,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Quiry",
-        image_url: "/images/QuiryS.png",
+        image_url: "/images/characters/QuiryS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Cloud Eye",
@@ -1275,7 +1275,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Snow White: Innocent Days",
-        image_url: "/images/Snow_White_Innocent_DaysS.png",
+        image_url: "/images/characters/Snow_White_Innocent_DaysS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Seven Dwarves II",
@@ -1287,7 +1287,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Tove",
-        image_url: "/images/ToveS.png",
+        image_url: "/images/characters/ToveS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Energetic Survivor",
@@ -1299,7 +1299,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Ludmilla: Winter Owner",
-        image_url: "/images/Ludmilla_Winter_OwnerS.png",
+        image_url: "/images/characters/Ludmilla_Winter_OwnerS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Savior in the Snow",
@@ -1311,7 +1311,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Mica: Snow Buddy",
-        image_url: "/images/Mica_Snow_BuddyS.png",
+        image_url: "/images/characters/Mica_Snow_BuddyS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Winter Salute",
@@ -1323,7 +1323,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Scarlet: Black Shadow",
-        image_url: "/images/Scarlet_Black_ShadowS.png",
+        image_url: "/images/characters/Scarlet_Black_ShadowS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Fleetly Fading",
@@ -1335,7 +1335,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Privaty: Unkind Maid",
-        image_url: "/images/Privaty_Unkind_MaidS.png",
+        image_url: "/images/characters/Privaty_Unkind_MaidS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Demanding Lover",
@@ -1347,7 +1347,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Elegg",
-        image_url: "/images/EleggS.png",
+        image_url: "/images/characters/EleggS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Boomstick",
@@ -1359,7 +1359,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Trony",
-        image_url: "/images/TronyS.png",
+        image_url: "/images/characters/TronyS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Transistor",
@@ -1371,7 +1371,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "D: Killer Wife",
-        image_url: "/images/D_Killer_WifeS.png",
+        image_url: "/images/characters/D_Killer_WifeS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Hidden Edge",
@@ -1383,7 +1383,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Emilia",
-        image_url: "/images/EmiliaS.png",
+        image_url: "/images/characters/EmiliaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Freezing Breath",
@@ -1395,7 +1395,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Rem",
-        image_url: "/images/RemS.png",
+        image_url: "/images/characters/RemS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Demon's Mighty Grip",
@@ -1407,7 +1407,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Ram",
-        image_url: "/images/RamS.png",
+        image_url: "/images/characters/RamS.png",
         rarity: Rarity.Sr,
         burst: Burst.I,
         weapon_name: "Demon's Gaze",
@@ -1419,7 +1419,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Bay",
-        image_url: "/images/BayS.png",
+        image_url: "/images/characters/BayS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Victory Fanfare",
@@ -1431,7 +1431,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Kilo",
-        image_url: "/images/KiloS.png",
+        image_url: "/images/characters/KiloS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Anchoret",
@@ -1443,7 +1443,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Soda: Twinkling Bunny",
-        image_url: "/images/Soda_Twinkling_BunnyS.png",
+        image_url: "/images/characters/Soda_Twinkling_BunnyS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Undiminished",
@@ -1455,7 +1455,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Alice: Wonderland Bunny",
-        image_url: "/images/Alice_Wonderland_BunnyS.png",
+        image_url: "/images/characters/Alice_Wonderland_BunnyS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "My Little Carrot",
@@ -1467,7 +1467,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Rapi",
-        image_url: "/images/RapiS.png",
+        image_url: "/images/characters/RapiS.png",
         rarity: Rarity.Sr,
         burst: Burst.III,
         weapon_name: "Militaria",
@@ -1479,7 +1479,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Neon",
-        image_url: "/images/NeonS.png",
+        image_url: "/images/characters/NeonS.png",
         rarity: Rarity.Sr,
         burst: Burst.I,
         weapon_name: "Annihilation",
@@ -1491,7 +1491,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Snow White",
-        image_url: "/images/Snow_WhiteS.png",
+        image_url: "/images/characters/Snow_WhiteS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Seven Dwarves",
@@ -1503,7 +1503,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Delta",
-        image_url: "/images/DeltaS.png",
+        image_url: "/images/characters/DeltaS.png",
         rarity: Rarity.Sr,
         burst: Burst.II,
         weapon_name: undefined,
@@ -1515,7 +1515,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Mica",
-        image_url: "/images/MicaS.png",
+        image_url: "/images/characters/MicaS.png",
         rarity: Rarity.Sr,
         burst: Burst.I,
         weapon_name: undefined,
@@ -1527,7 +1527,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Diesel",
-        image_url: "/images/DieselS.png",
+        image_url: "/images/characters/DieselS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Wanderlust",
@@ -1539,7 +1539,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Miranda",
-        image_url: "/images/MirandaS.png",
+        image_url: "/images/characters/MirandaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Inflexible",
@@ -1551,7 +1551,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Emma",
-        image_url: "/images/EmmaS.png",
+        image_url: "/images/characters/EmmaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Special Therapy",
@@ -1563,7 +1563,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Privaty",
-        image_url: "/images/PrivatyS.png",
+        image_url: "/images/characters/PrivatyS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Team Chemistry",
@@ -1575,7 +1575,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Signal",
-        image_url: "/images/SignalS.png",
+        image_url: "/images/characters/SignalS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Soap Opera",
@@ -1587,7 +1587,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Eunhwa",
-        image_url: "/images/EunhwaS.png",
+        image_url: "/images/characters/EunhwaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Perfectionist",
@@ -1599,7 +1599,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Guillotine",
-        image_url: "/images/GuillotineS.png",
+        image_url: "/images/characters/GuillotineS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Unbridled Solitude",
@@ -1611,7 +1611,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Belorta",
-        image_url: "/images/BelortaS.png",
+        image_url: "/images/characters/BelortaS.png",
         rarity: Rarity.Sr,
         burst: Burst.II,
         weapon_name: undefined,
@@ -1623,7 +1623,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Soldier EG",
-        image_url: "/images/Soldier_EGS.png",
+        image_url: "/images/characters/Soldier_EGS.png",
         rarity: Rarity.R,
         burst: Burst.III,
         weapon_name: "Hunting Eagle",
@@ -1635,7 +1635,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Soldier FA",
-        image_url: "/images/Soldier_FAS.png",
+        image_url: "/images/characters/Soldier_FAS.png",
         rarity: Rarity.R,
         burst: Burst.II,
         weapon_name: "Clutch Falcon",
@@ -1647,7 +1647,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Soldier OW",
-        image_url: "/images/Soldier_OWS.png",
+        image_url: "/images/characters/Soldier_OWS.png",
         rarity: Rarity.R,
         burst: Burst.I,
         weapon_name: "Searching Owl",
@@ -1659,7 +1659,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Scarlet",
-        image_url: "/images/ScarletS.png",
+        image_url: "/images/characters/ScarletS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Fleetly Fading",
@@ -1671,7 +1671,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Noah",
-        image_url: "/images/NoahS.png",
+        image_url: "/images/characters/NoahS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Metal Cocoon",
@@ -1683,7 +1683,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Epinel",
-        image_url: "/images/EpinelS.png",
+        image_url: "/images/characters/EpinelS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "The Trickster",
@@ -1695,7 +1695,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Exia",
-        image_url: "/images/ExiaS.png",
+        image_url: "/images/characters/ExiaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Utopia Unsealed",
@@ -1707,7 +1707,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Alice",
-        image_url: "/images/AliceS.png",
+        image_url: "/images/characters/AliceS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Amazing Wonderland",
@@ -1719,7 +1719,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Sugar",
-        image_url: "/images/SugarS.png",
+        image_url: "/images/characters/SugarS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Cold Zeal",
@@ -1731,7 +1731,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Frima",
-        image_url: "/images/FrimaS.png",
+        image_url: "/images/characters/FrimaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Sloth",
@@ -1743,7 +1743,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Mary",
-        image_url: "/images/MaryS.png",
+        image_url: "/images/characters/MaryS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Kindness",
@@ -1755,7 +1755,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Ludmilla",
-        image_url: "/images/LudmillaS.png",
+        image_url: "/images/characters/LudmillaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Snow Phantom",
@@ -1767,7 +1767,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Anis",
-        image_url: "/images/AnisS.png",
+        image_url: "/images/characters/AnisS.png",
         rarity: Rarity.Sr,
         burst: Burst.II,
         weapon_name: "Liberty's Tail",
@@ -1779,7 +1779,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "iDoll Sun",
-        image_url: "/images/IDoll_SunS.png",
+        image_url: "/images/characters/IDoll_SunS.png",
         rarity: Rarity.R,
         burst: Burst.III,
         weapon_name: undefined,
@@ -1791,7 +1791,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "iDoll Ocean",
-        image_url: "/images/IDoll_OceanS.png",
+        image_url: "/images/characters/IDoll_OceanS.png",
         rarity: Rarity.R,
         burst: Burst.I,
         weapon_name: undefined,
@@ -1803,7 +1803,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "iDoll Flower",
-        image_url: "/images/IDoll_FlowerS.png",
+        image_url: "/images/characters/IDoll_FlowerS.png",
         rarity: Rarity.R,
         burst: Burst.I,
         weapon_name: undefined,
@@ -1815,7 +1815,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Yuni",
-        image_url: "/images/YuniS.png",
+        image_url: "/images/characters/YuniS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Forbidden Gift",
@@ -1827,7 +1827,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Maxwell",
-        image_url: "/images/MaxwellS.png",
+        image_url: "/images/characters/MaxwellS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "My Cutey",
@@ -1839,7 +1839,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Julia",
-        image_url: "/images/JuliaS.png",
+        image_url: "/images/characters/JuliaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Classical Adagio",
@@ -1851,7 +1851,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Drake",
-        image_url: "/images/DrakeS.png",
+        image_url: "/images/characters/DrakeS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Sadistic Carnival",
@@ -1863,7 +1863,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Mihara",
-        image_url: "/images/MiharaS.png",
+        image_url: "/images/characters/MiharaS.png",
         rarity: Rarity.Sr,
         burst: Burst.III,
         weapon_name: "Painful World",
@@ -1875,7 +1875,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "N102",
-        image_url: "/images/N102S.png",
+        image_url: "/images/characters/N102S.png",
         rarity: Rarity.Sr,
         burst: Burst.I,
         weapon_name: "Mayfly",
@@ -1887,7 +1887,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Ether",
-        image_url: "/images/EtherS.png",
+        image_url: "/images/characters/EtherS.png",
         rarity: Rarity.Sr,
         burst: Burst.I,
         weapon_name: "Sacrificial Bacchanal",
@@ -1899,7 +1899,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Product 08",
-        image_url: "/images/Product_08S.png",
+        image_url: "/images/characters/Product_08S.png",
         rarity: Rarity.R,
         burst: Burst.I,
         weapon_name: "MISR-03",
@@ -1911,7 +1911,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Product 12",
-        image_url: "/images/Product_12S.png",
+        image_url: "/images/characters/Product_12S.png",
         rarity: Rarity.R,
         burst: Burst.III,
         weapon_name: "MIMG-07",
@@ -1923,7 +1923,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Product 23",
-        image_url: "/images/Product_23S.png",
+        image_url: "/images/characters/Product_23S.png",
         rarity: Rarity.R,
         burst: Burst.II,
         weapon_name: "MISG-09",
@@ -1935,7 +1935,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Centi",
-        image_url: "/images/CentiS.png",
+        image_url: "/images/characters/CentiS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Mighty Bomber",
@@ -1947,7 +1947,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Soline",
-        image_url: "/images/SolineS.png",
+        image_url: "/images/characters/SolineS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Crimson Crusader",
@@ -1959,7 +1959,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Helm",
-        image_url: "/images/HelmS.png",
+        image_url: "/images/characters/HelmS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Honorable",
@@ -1971,7 +1971,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Volume",
-        image_url: "/images/VolumeS.png",
+        image_url: "/images/characters/VolumeS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: undefined,
@@ -1983,7 +1983,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Poli",
-        image_url: "/images/PoliS.png",
+        image_url: "/images/characters/PoliS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Wild Hound",
@@ -1995,7 +1995,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Vesti",
-        image_url: "/images/VestiS.png",
+        image_url: "/images/characters/VestiS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Pure Monster",
@@ -2007,7 +2007,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Laplace",
-        image_url: "/images/LaplaceS.png",
+        image_url: "/images/characters/LaplaceS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Hero Syndrome",
@@ -2019,7 +2019,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Dolla",
-        image_url: "/images/DollaS.png",
+        image_url: "/images/characters/DollaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: undefined,
@@ -2031,7 +2031,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Brid",
-        image_url: "/images/BridS.png",
+        image_url: "/images/characters/BridS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Perfect Line",
@@ -2043,7 +2043,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Crow",
-        image_url: "/images/CrowS.png",
+        image_url: "/images/characters/CrowS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: undefined,
@@ -2055,7 +2055,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Harran",
-        image_url: "/images/HarranS.png",
+        image_url: "/images/characters/HarranS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Death Sentence",
@@ -2067,7 +2067,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Novel",
-        image_url: "/images/NovelS.png",
+        image_url: "/images/characters/NovelS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Sixth Sense",
@@ -2079,7 +2079,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Yulha",
-        image_url: "/images/YulhaS.png",
+        image_url: "/images/characters/YulhaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Extreme Altruism",
@@ -2091,7 +2091,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Neve",
-        image_url: "/images/NeveS.png",
+        image_url: "/images/characters/NeveS.png",
         rarity: Rarity.Sr,
         burst: Burst.III,
         weapon_name: "Hibernation",
@@ -2103,7 +2103,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Folkwang",
-        image_url: "/images/FolkwangS.png",
+        image_url: "/images/characters/FolkwangS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Incandescence",
@@ -2115,7 +2115,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Admi",
-        image_url: "/images/AdmiS.png",
+        image_url: "/images/characters/AdmiS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Affection's End",
@@ -2127,7 +2127,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Maiden",
-        image_url: "/images/MaidenS.png",
+        image_url: "/images/characters/MaidenS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Misconception",
@@ -2139,7 +2139,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Anne: Miracle Fairy",
-        image_url: "/images/Anne_Miracle_FairyS.png",
+        image_url: "/images/characters/Anne_Miracle_FairyS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Mayfly",
@@ -2151,7 +2151,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Rupee",
-        image_url: "/images/RupeeS.png",
+        image_url: "/images/characters/RupeeS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Shopaholic",
@@ -2163,7 +2163,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Rupee: Winter Shopper",
-        image_url: "/images/Rupee_Winter_ShopperS.png",
+        image_url: "/images/characters/Rupee_Winter_ShopperS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Shopaholic",
@@ -2175,7 +2175,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Milk",
-        image_url: "/images/MilkS.png",
+        image_url: "/images/characters/MilkS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Flawless Victory",
@@ -2187,7 +2187,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Rapunzel",
-        image_url: "/images/RapunzelS.png",
+        image_url: "/images/characters/RapunzelS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Holy Grace",
@@ -2199,7 +2199,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Modernia",
-        image_url: "/images/ModerniaS.png",
+        image_url: "/images/characters/ModerniaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "New Dawn",
@@ -2211,7 +2211,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Isabel",
-        image_url: "/images/IsabelS.png",
+        image_url: "/images/characters/IsabelS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Extreme Obsessor",
@@ -2223,7 +2223,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Noise",
-        image_url: "/images/NoiseS.png",
+        image_url: "/images/characters/NoiseS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: undefined,
@@ -2235,7 +2235,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Jackal",
-        image_url: "/images/JackalS.png",
+        image_url: "/images/characters/JackalS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "T.O.P",
@@ -2247,7 +2247,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Viper",
-        image_url: "/images/ViperS.png",
+        image_url: "/images/characters/ViperS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Rust Chaser",
@@ -2259,7 +2259,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Yan",
-        image_url: "/images/YanS.png",
+        image_url: "/images/characters/YanS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: undefined,
@@ -2271,7 +2271,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Liter",
-        image_url: "/images/LiterS.png",
+        image_url: "/images/characters/LiterS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Drill Punch",
@@ -2283,7 +2283,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Aria",
-        image_url: "/images/AriaS.png",
+        image_url: "/images/characters/AriaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: undefined,
@@ -2295,7 +2295,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Guilty",
-        image_url: "/images/GuiltyS.png",
+        image_url: "/images/characters/GuiltyS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Soft Belt",
@@ -2307,7 +2307,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Sin",
-        image_url: "/images/SinS.png",
+        image_url: "/images/characters/SinS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Heavy Talker",
@@ -2319,7 +2319,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Quency",
-        image_url: "/images/QuencyS.png",
+        image_url: "/images/characters/QuencyS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Most Wanted",
@@ -2331,7 +2331,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Pepper",
-        image_url: "/images/PepperS.png",
+        image_url: "/images/characters/PepperS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "VitaMax",
@@ -2343,7 +2343,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Cocoa",
-        image_url: "/images/CocoaS.png",
+        image_url: "/images/characters/CocoaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Cocorella",
@@ -2355,7 +2355,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Soda",
-        image_url: "/images/SodaS.png",
+        image_url: "/images/characters/SodaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Bright Cleaner",
@@ -2367,7 +2367,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Power",
-        image_url: "/images/PowerS.png",
+        image_url: "/images/characters/PowerS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Powerful Power",
@@ -2379,7 +2379,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Makima",
-        image_url: "/images/MakimaS.png",
+        image_url: "/images/characters/MakimaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Unknown Weapon",
@@ -2391,7 +2391,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Himeno",
-        image_url: "/images/HimenoS.png",
+        image_url: "/images/characters/HimenoS.png",
         rarity: Rarity.Sr,
         burst: Burst.II,
         weapon_name: "Ghost Sight",
@@ -2403,7 +2403,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Biscuit",
-        image_url: "/images/BiscuitS.png",
+        image_url: "/images/characters/BiscuitS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Happy Puppy",
@@ -2415,7 +2415,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Nihilister",
-        image_url: "/images/NihilisterS.png",
+        image_url: "/images/characters/NihilisterS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "End of the Old World",
@@ -2427,7 +2427,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Sakura",
-        image_url: "/images/SakuraS.png",
+        image_url: "/images/characters/SakuraS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Ichigenkin",
@@ -2439,7 +2439,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "D",
-        image_url: "/images/DS.png",
+        image_url: "/images/characters/DS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Storm Eye",
@@ -2451,7 +2451,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Rosanna",
-        image_url: "/images/RosannaS.png",
+        image_url: "/images/characters/RosannaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Golden Thompson",
@@ -2463,7 +2463,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Dorothy",
-        image_url: "/images/DorothyS.png",
+        image_url: "/images/characters/DorothyS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Ungrateful OZ",
@@ -2475,7 +2475,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Rei",
-        image_url: "/images/ReiS.png",
+        image_url: "/images/characters/ReiS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Steel Baby",
@@ -2487,7 +2487,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Anchor",
-        image_url: "/images/AnchorS.png",
+        image_url: "/images/characters/AnchorS.png",
         rarity: Rarity.Sr,
         burst: Burst.I,
         weapon_name: "Inquisitor",
@@ -2499,7 +2499,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Mast",
-        image_url: "/images/MastS.png",
+        image_url: "/images/characters/MastS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Ferocity",
@@ -2511,7 +2511,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Nero",
-        image_url: "/images/NeroS.png",
+        image_url: "/images/characters/NeroS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Meow Meow",
@@ -2523,7 +2523,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Red Hood",
-        image_url: "/images/Red_HoodS.png",
+        image_url: "/images/characters/Red_HoodS.png",
         rarity: Rarity.Ssr,
         burst: Burst.A,
         weapon_name: "Wolfsbane",
@@ -2535,7 +2535,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Blanc",
-        image_url: "/images/BlancS.png",
+        image_url: "/images/characters/BlancS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "White Pollux",
@@ -2547,7 +2547,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Noir",
-        image_url: "/images/NoirS.png",
+        image_url: "/images/characters/NoirS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Black Castor",
@@ -2559,7 +2559,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Helm: Aquamarine",
-        image_url: "/images/Helm_AquamarineS.png",
+        image_url: "/images/characters/Helm_AquamarineS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Battleship",
@@ -2571,7 +2571,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Mary: Bay Goddess",
-        image_url: "/images/Mary_Bay_GoddessS.png",
+        image_url: "/images/characters/Mary_Bay_GoddessS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Summer Shot",
@@ -2583,7 +2583,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Anis: Sparkling Summer",
-        image_url: "/images/Anis_Sparkling_SummerS.png",
+        image_url: "/images/characters/Anis_Sparkling_SummerS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Libertine Aqua",
@@ -2595,7 +2595,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "2B",
-        image_url: "/images/2BS.png",
+        image_url: "/images/characters/2BS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Virtuous Rifle",
@@ -2607,7 +2607,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "A2",
-        image_url: "/images/A2S.png",
+        image_url: "/images/characters/A2S.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Type-40 Blade",
@@ -2619,7 +2619,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Pascal",
-        image_url: "/images/PascalS.png",
+        image_url: "/images/characters/PascalS.png",
         rarity: Rarity.Sr,
         burst: Burst.I,
         weapon_name: "Modified Gun",
@@ -2631,7 +2631,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Marciana",
-        image_url: "/images/MarcianaS.png",
+        image_url: "/images/characters/MarcianaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Rational Eyes",
@@ -2643,7 +2643,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Naga",
-        image_url: "/images/NagaS.png",
+        image_url: "/images/characters/NagaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Elegant Nocturne",
@@ -2655,7 +2655,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Tia",
-        image_url: "/images/TiaS.png",
+        image_url: "/images/characters/TiaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Chase Nail",
@@ -2667,7 +2667,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Quiry",
-        image_url: "/images/QuiryS.png",
+        image_url: "/images/characters/QuiryS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Cloud Eye",
@@ -2679,7 +2679,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Snow White: Innocent Days",
-        image_url: "/images/Snow_White_Innocent_DaysS.png",
+        image_url: "/images/characters/Snow_White_Innocent_DaysS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Seven Dwarves II",
@@ -2691,7 +2691,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Neon: Blue Ocean",
-        image_url: "/images/Neon_Blue_OceanS.png",
+        image_url: "/images/characters/Neon_Blue_OceanS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Big Big Wave",
@@ -2703,7 +2703,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Mica: Snow Buddy",
-        image_url: "/images/Mica_Snow_BuddyS.png",
+        image_url: "/images/characters/Mica_Snow_BuddyS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Winter Salute",
@@ -2715,7 +2715,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Ludmilla: Winter Owner",
-        image_url: "/images/Ludmilla_Winter_OwnerS.png",
+        image_url: "/images/characters/Ludmilla_Winter_OwnerS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Savior in the Snow",
@@ -2727,7 +2727,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Tove",
-        image_url: "/images/ToveS.png",
+        image_url: "/images/characters/ToveS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Energetic Survivor",
@@ -2739,7 +2739,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Scarlet: Black Shadow",
-        image_url: "/images/Scarlet_Black_ShadowS.png",
+        image_url: "/images/characters/Scarlet_Black_ShadowS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Fleetly Fading",
@@ -2751,7 +2751,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Leona",
-        image_url: "/images/LeonaS.png",
+        image_url: "/images/characters/LeonaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Lion's Roar",
@@ -2763,7 +2763,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Moran",
-        image_url: "/images/MoranS.png",
+        image_url: "/images/characters/MoranS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Dragon Head",
@@ -2775,7 +2775,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Privaty: Unkind Maid",
-        image_url: "/images/Privaty_Unkind_MaidS.png",
+        image_url: "/images/characters/Privaty_Unkind_MaidS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Demanding Lover",
@@ -2787,7 +2787,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Ade",
-        image_url: "/images/AdeS.png",
+        image_url: "/images/characters/AdeS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "The Classic",
@@ -2799,7 +2799,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Elegg",
-        image_url: "/images/EleggS.png",
+        image_url: "/images/characters/EleggS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Boomstick",
@@ -2811,7 +2811,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "D: Killer Wife",
-        image_url: "/images/D_Killer_WifeS.png",
+        image_url: "/images/characters/D_Killer_WifeS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "Hidden Edge",
@@ -2823,7 +2823,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Emilia",
-        image_url: "/images/EmiliaS.png",
+        image_url: "/images/characters/EmiliaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Freezing Breath",
@@ -2835,7 +2835,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Rem",
-        image_url: "/images/RemS.png",
+        image_url: "/images/characters/RemS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Demon's Mighty Grip",
@@ -2847,7 +2847,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Ram",
-        image_url: "/images/RamS.png",
+        image_url: "/images/characters/RamS.png",
         rarity: Rarity.Sr,
         burst: Burst.I,
         weapon_name: "Demon's Gaze",
@@ -2859,7 +2859,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Bay",
-        image_url: "/images/BayS.png",
+        image_url: "/images/characters/BayS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Victory Fanfare",
@@ -2871,7 +2871,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Crown",
-        image_url: "/images/CrownS.png",
+        image_url: "/images/characters/CrownS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Your Majesty",
@@ -2883,7 +2883,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Kilo",
-        image_url: "/images/KiloS.png",
+        image_url: "/images/characters/KiloS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Anchoret",
@@ -2895,7 +2895,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Trony",
-        image_url: "/images/TronyS.png",
+        image_url: "/images/characters/TronyS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Transistor",
@@ -2907,7 +2907,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Soda: Twinkling Bunny",
-        image_url: "/images/Soda_Twinkling_BunnyS.png",
+        image_url: "/images/characters/Soda_Twinkling_BunnyS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Undiminished",
@@ -2919,7 +2919,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Alice: Wonderland Bunny",
-        image_url: "/images/Alice_Wonderland_BunnyS.png",
+        image_url: "/images/characters/Alice_Wonderland_BunnyS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
         weapon_name: "My Little Carrot",
@@ -2931,7 +2931,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Clay",
-        image_url: "/images/ClayS.png",
+        image_url: "/images/characters/ClayS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "You Can Do It",
@@ -2943,7 +2943,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Rosanna: Chic Ocean",
-        image_url: "/images/Rosanna_Chic_OceanS.png",
+        image_url: "/images/characters/Rosanna_Chic_OceanS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
         weapon_name: "Golden Thompson",
@@ -2955,7 +2955,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Sakura: Bloom in Summer",
-        image_url: "/images/Sakura_Bloom_in_SummerS.png",
+        image_url: "/images/characters/Sakura_Bloom_in_SummerS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Ichigenkin",
@@ -2967,7 +2967,7 @@ export const nikkes: Nikke[] = [
     },
     {
         name: "Ein",
-        image_url: "/images/EinS.png",
+        image_url: "/images/characters/EinS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
         weapon_name: "Young Punk",

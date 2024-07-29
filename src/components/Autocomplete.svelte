@@ -73,12 +73,6 @@
 			case "ArrowDown":
 				selectIndex(selectedIndex == null ? 0 : selectedIndex + 1);
 				break;
-			/*case "Home":
-				selectIndex(0);
-				break;
-			case "End":
-				selectIndex(filteredItems.length - 1);
-				break;*/
 			case "Enter":
 				makeSelection(filteredItems[selectedIndex ?? 0]);
 				break;
@@ -168,6 +162,33 @@
 </div>
 
 <style lang="scss">
+	input {
+		display: block;
+		width: 100%;
+		color: white;
+		font-family: "Suit", sans-serif;
+
+		margin: 0;
+		padding: 8px 16px;
+		font-size: 1rem;
+		line-height: 1;
+		outline: none;
+
+		background: none;
+		border: 3px solid rgba(255, 255, 255, 0.1);
+		box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2);
+
+		&:focus {
+			background-color: rgba(255, 255, 255, 0.05);
+			border: 3px solid rgba(255, 255, 255, 0.15);
+			box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+		}
+
+		&::placeholder {
+			font-family: "Suit", sans-serif;
+		}
+	}
+
 	.wrapper {
 		position: relative;
 		display: content;
@@ -176,20 +197,19 @@
 			position: absolute;
 			visibility: collapse;
 			z-index: 1;
-			max-height: 30vh;
-			min-width: 100px;
+			max-height: min(500px, 40vh);
+			min-width: 200px;
 			overflow-y: auto;
+
+			width: 100%;
 
 			display: flex;
 			flex-direction: column;
 			align-items: stretch;
 			justify-content: stretch;
 
-			background-color: #191819;
-			box-shadow:
-				rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
-				rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-
+			background-color: rgba(0, 0, 0, 0.75);
+            backdrop-filter: blur(3px);
 			&.open {
 				visibility: visible;
 			}
@@ -219,7 +239,7 @@
 				padding: 10px 5px;
 
 				&:hover {
-					background-color: #222022;
+					background-color: rgba(255, 255, 255, 0.1);
 				}
 			}
 

@@ -1,4 +1,4 @@
-// SMALL - 560PX
+@import 'var';
 
 @font-face {
     font-family: "Suit";
@@ -9,6 +9,7 @@
     font-family: "Suit", sans-serif;
     font-optical-sizing: auto;
     font-size: 14pt;
+    color: $color;
 }
 
 body {
@@ -16,7 +17,7 @@ body {
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    min-height: 100cqh;
 }
 
 * {
@@ -30,15 +31,15 @@ a {
     line-height: 1;
 }
 
-.column {
-    display: flex;
-    flex-direction: column;
+::-webkit-scrollbar {
+    width: 12px;
+    height: 8px;
 }
 
-.row {
-    display: flex;
+::-webkit-scrollbar-track {
+    background-color: lighten(black, 10%);
 }
 
-.grow {
-    flex: 1;
+::-webkit-scrollbar-thumb {
+    background-color: white;
 }
