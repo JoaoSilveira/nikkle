@@ -56,6 +56,7 @@
 		& > p {
 			padding-inline: 11px;
 			flex: 1;
+			white-space: nowrap;
 		}
 
 		& > img {

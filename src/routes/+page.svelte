@@ -2,26 +2,30 @@
     import Heading from "../components/Heading.svelte";
     import Autocomplete from "$components/Autocomplete.svelte";
     import {
+        correct,
         guesses,
-        max_guesses,
-        pushGuess as makeGuess,
-    } from "$stores/guess";
-    import { nikke } from "$stores/daily";
-    import { nikkes } from "$lib/nikke";
+        remaining,
+        takeGuess,
+    } from "$stores/guess-the-nikke";
     import Guess from "$components/Guess.svelte";
+    import { onMount } from "svelte";
+    import { startDaily } from "$stores/guess-the-nikke";
+    import { MaxAttempts } from "$lib/const";
+
+    onMount(() => startDaily());
 </script>
 
 <div style="display: flex; flex-direction: column;">
     <div class="thumb">
         <Heading />
 
-        <p>{$guesses.length} / {max_guesses} TRIES</p>
+        <p>{$guesses.length} / {MaxAttempts} TRIES</p>
 
         <Autocomplete
-            items={nikkes}
+            items={$remaining}
             getText={(n) => n.name}
             placeholder="Guess a nikke and start the game..."
-            on:input={(evt) => makeGuess(evt.detail)}
+            on:input={(evt) => takeGuess(evt.detail)}
             let:item>
             <div class="list-item">
                 <img alt={item.name} src={item.image_url} loading="lazy" />
@@ -30,9 +34,10 @@
         </Autocomplete>
     </div>
 
-    <div style="max-width: 800px; width: calc(100cqw); align-self: center; gap:4px;display:flex;flex-direction:column;">
-        {#each [...$guesses].reverse() as guess (guess.name)}
-            <Guess {guess} correct={$nikke} />
+    <div
+        style="max-width: 800px; width: calc(100cqw); align-self: center; gap:4px;display:flex;flex-direction:column;">
+        {#each [...$guesses] as guess (guess)}
+            <Guess {guess} correct={$correct} />
         {/each}
     </div>
 </div>

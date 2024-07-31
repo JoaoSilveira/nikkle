@@ -238,13 +238,9 @@
 				margin: 0;
 				padding: 10px 5px;
 
-				&:hover {
+				&:hover, &.selected {
 					background-color: rgba(255, 255, 255, 0.1);
 				}
-			}
-
-			& > .selected {
-				background-color: #121112;
 			}
 		}
 	}

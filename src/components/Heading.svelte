@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { correct, ended } from "$stores/guess-the-nikke";
 </script>
 
 <div class="heading">
@@ -8,7 +9,18 @@
         src="/images/ui/nikke-logo.png" />
 
     <div class="nikke-thumb">
-        <img alt="who" src="/images/ui/qmark.png" />
+        {#if $ended}
+            <img
+                alt={$correct.name}
+                src={$correct.image_url}
+                title={$correct.name} />
+        {:else}
+            <img
+                class="unknown"
+                alt="unknown nikke"
+                src="/images/ui/qmark.png"
+                title="Guess todays nikke" />
+        {/if}
     </div>
 </div>
 
@@ -30,23 +42,26 @@
     }
 
     .nikke-thumb {
-        $size: 137px;
+        $size: 120px;
 
         display: flex;
         align-items: center;
         justify-content: center;
         width: $size;
         height: $size;
-        padding: 5px;
         border: 3px solid rgba(255, 255, 255, 0.1);
         box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2);
 
         img {
             display: block;
-            max-width: 100%;
-            max-height: 100%;
+            width: 100%;
+            height: 100%;
             object-fit: contain;
-            margin-left: 10px;
+
+            &.unknown {
+                margin-left: 12px;
+                padding: 8px;
+            }
         }
     }
 </style>

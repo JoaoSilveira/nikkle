@@ -1,6 +1,8 @@
 <script lang="ts">
     import Navbar from "$components/Navbar.svelte";
     import "$style/global.scss";
+
+    export const prerender = true;
 </script>
 
 <div class="content">
