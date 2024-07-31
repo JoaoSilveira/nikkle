@@ -232,6 +232,8 @@ async function updateData(): Promise<void> {
         });
     }
 
+    db.sort((a, b) => a.name.localeCompare(b.name));
+
     await Bun.write('./scripts/data/nikke-db.json', JSON.stringify(db, null, 2));
 }
 
@@ -311,5 +313,5 @@ ${dbFile.map(
     await Bun.write('./src/lib/nikke/list.ts', output);
 }
 
-await updateData();
+// await updateData();
 await updateTsNikkeList();
