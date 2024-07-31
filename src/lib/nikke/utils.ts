@@ -5,7 +5,7 @@ export type DescriptableItem = {
 }
 
 function item(description: string, description_short: string, filename: string): DescriptableItem {
-    return { description, description_short, image_url: `/icons/${filename}.png` };
+    return { description, description_short, image_url: `/images/icons/${filename}.png` };
 }
 
 export const enum Rarity {
