@@ -1,15 +1,16 @@
 <script lang="ts">
+    import { base } from "$app/paths";
     import { page } from "$app/stores";
 </script>
 
 <div class="navbar-wrapper">
     <div class="navbar">
         <a
-            href="/"
+            href={base}
             class:active={$page.route.id === null || $page.route.id === "/"}
             >daily</a>
-        <a href="/infinite" class:active={$page.route.id === "/infinite"}
-            >infinite</a>
+        <!-- <a href="/infinite" class:active={$page.route.id === "/infinite"}
+            >infinite</a> -->
     </div>
 </div>
 

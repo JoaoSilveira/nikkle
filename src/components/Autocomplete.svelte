@@ -55,7 +55,7 @@
 
 		dispatch("input", selectedItem);
 		closeDropdown();
-		value = "";
+		// value = "";
 	}
 
 	function inputKeyDown(event: KeyboardEvent) {
@@ -137,6 +137,7 @@
 		{name}
 		autocomplete="off"
 		bind:value
+		on:click={openDropdown}
 		on:keydown={inputKeyDown} />
 
 	<div

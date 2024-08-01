@@ -21,11 +21,11 @@ For now the data has been extracted but it is not organized/documented in any wa
 - Game
     - [x] Write seeded PRNG function that changes every day.
     - [ ] Write the game flow
-    - [ ] Design mobile and desktop user interface
+    - [x] Design mobile and desktop user interface
     - [ ] Schematize componentization of UI items
     - [ ] - _in progress_ - create autocomplete/dropdown component for nikke input
-    - [ ] Style components to look simmilar to the game
-    - [ ] Persist guesses in `localStorage`
+    - [ ] ~~Style components to look simmilar to the game~~
+    - [x] Persist guesses in `localStorage`
 
 ## Future plans
 

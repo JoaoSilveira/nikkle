@@ -3,16 +3,30 @@
     import Autocomplete from "$components/Autocomplete.svelte";
     import {
         correct,
+        ended,
+        guessedRight,
         guesses,
         remaining,
         takeGuess,
     } from "$stores/guess-the-nikke";
     import Guess from "$components/Guess.svelte";
-    import { onMount } from "svelte";
+    import { onDestroy, onMount } from "svelte";
     import { startDaily } from "$stores/guess-the-nikke";
     import { MaxAttempts } from "$lib/const";
+    import { updateGuesses } from "$lib/daily-storage";
+    import type { Unsubscriber } from "svelte/store";
 
-    onMount(() => startDaily());
+    onMount(() => {
+        startDaily();
+        unsub = guesses.subscribe((gs) => {
+            console.log(gs)
+            updateGuesses(gs);
+        });
+    });
+    onDestroy(() => unsub?.());
+
+    let unsub: Unsubscriber | null = null;
+    let nameInput = "";
 </script>
 
 <div style="display: flex; flex-direction: column;">
@@ -21,17 +35,30 @@
 
         <p>{$guesses.length} / {MaxAttempts} TRIES</p>
 
-        <Autocomplete
-            items={$remaining}
-            getText={(n) => n.name}
-            placeholder="Guess a nikke and start the game..."
-            on:input={(evt) => takeGuess(evt.detail)}
-            let:item>
-            <div class="list-item">
-                <img alt={item.name} src={item.image_url} loading="lazy" />
-                <p>{item.name}</p>
-            </div>
-        </Autocomplete>
+        {#if $ended}
+            {#if $guessedRight}
+                <span
+                    >Congratulations! You got it right in {$guesses.length} attempts</span>
+            {:else}
+                <span>Almost there! {$correct.name} was today's nikke</span>
+            {/if}
+        {:else}
+            <Autocomplete
+                items={$remaining}
+                getText={(n) => n.name}
+                placeholder="Guess a nikke and start the game..."
+                bind:value={nameInput}
+                on:input={(evt) => {
+                    takeGuess(evt.detail);
+                    nameInput = "";
+                }}
+                let:item>
+                <div class="list-item">
+                    <img alt={item.name} src={item.image_url} loading="lazy" />
+                    <p>{item.name}</p>
+                </div>
+            </Autocomplete>
+        {/if}
     </div>
 
     <div

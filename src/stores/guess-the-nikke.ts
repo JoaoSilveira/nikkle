@@ -1,4 +1,5 @@
 import { MaxAttempts } from "$lib/const";
+import { getDailyGuesses } from "$lib/daily-storage";
 import { type Nikke, nikkes } from "$lib/nikke";
 import { pick, seedForToday } from "$lib/random";
 import { derived, writable } from "svelte/store";
@@ -9,22 +10,13 @@ export const remaining = writable<Nikke[]>(nikkes);
 export const ended = derived([correct, guesses], ([$correct, $guesses]) => {
     return $guesses.length >= MaxAttempts || $correct.name == $guesses[0]?.name;
 });
+export const guessedRight = derived([correct, guesses], ([$correct, $guesses]) => $correct.name == $guesses[0]?.name);
 
 export function startDaily(): void {
-    const stored = localStorage.getItem('guesses');
+    const stored = getDailyGuesses();
 
-    if (stored) {
-        const names = new Set(JSON.parse(stored));
-        const guessed = nikkes.filter(n => names.has(n.name));
-        const others = nikkes.filter(n => !names.has(n.name));
-
-        guesses.set(guessed);
-        remaining.set(others);
-    } else {
-        guesses.set([]);
-        remaining.set(nikkes);
-    }
-
+    guesses.set(stored);
+    remaining.set(nikkes.filter(n => stored.every(s => s.name !== n.name)));
     correct.set(pick(seedForToday(), nikkes)!);
 }
 

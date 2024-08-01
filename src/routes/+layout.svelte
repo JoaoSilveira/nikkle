@@ -15,5 +15,7 @@
     .content {
         display: flex;
         flex-direction: column;
+        height: 100cqh;
+        overflow-y: auto;
     }
 </style>
