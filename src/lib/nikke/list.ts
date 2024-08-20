@@ -1512,5 +1512,17 @@ export const nikkes: Nikke[] = [
         weapon_type: Weapon.RocketLauncher,
         position: Position.Defender,
         manufacturer: Manufacturer.Missilis,
+    },
+    {
+        name: "Zwei",
+        image_url: "/images/characters//ZweiS.png",
+        rarity: Rarity.Ssr,
+        burst: Burst.I,
+        weapon_name: "President Junior",
+        squad: "School Circle",
+        code: Code.Electric,
+        weapon_type: Weapon.Shotgun,
+        position: Position.Supporter,
+        manufacturer: Manufacturer.Elysion,
     }
 ];

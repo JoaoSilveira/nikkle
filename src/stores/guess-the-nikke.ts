@@ -20,6 +20,10 @@ export function startDaily(): void {
     correct.set(pick(seedForToday(), nikkes)!);
 }
 
+export function newRandom(): void {
+    startNewGame(nikkes[Math.floor(nikkes.length * Math.random())]);
+}
+
 export function startNewGame(nikke: Nikke): void {
     guesses.set([]);
     remaining.set(nikkes);

@@ -1498,5 +1498,17 @@
     "position": 2,
     "manufacturer": "Missilis Industry",
     "image_url": "/images/characters/YuniS.png"
+  },
+  {
+    "name": "Zwei",
+    "rarity": 2,
+    "burst": 0,
+    "weapon_name": "President Junior",
+    "squad": "School Circle",
+    "code": 2,
+    "weapon_type": 0,
+    "position": 1,
+    "manufacturer": "Elysion",
+    "image_url": "/images/characters//ZweiS.png"
   }
 ]

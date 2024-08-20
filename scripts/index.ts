@@ -313,5 +313,5 @@ ${dbFile.map(
     await Bun.write('./src/lib/nikke/list.ts', output);
 }
 
-// await updateData();
+await updateData();
 await updateTsNikkeList();
