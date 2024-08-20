@@ -38,7 +38,7 @@
         {#if $ended}
             {#if $guessedRight}
                 <span
-                    >Congratulations! You got it right in {$guesses.length} attempts</span>
+                    >Congratulations, it was {$correct.name}! You got it right in {$guesses.length} attempts</span>
             {:else}
                 <span>Almost there! {$correct.name} was today's nikke</span>
             {/if}
