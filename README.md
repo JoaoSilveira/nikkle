@@ -23,7 +23,8 @@ For now the data has been extracted but it is not organized/documented in any wa
     - [ ] Write the game flow
     - [x] Design mobile and desktop user interface
     - [ ] Schematize componentization of UI items
-    - [ ] - _in progress_ - create autocomplete/dropdown component for nikke input
+    - [x] Create autocomplete/dropdown component for nikke input
+      - [ ] Mobile is a bit cluncky, check it out
     - [ ] ~~Style components to look simmilar to the game~~
     - [x] Persist guesses in `localStorage`
 

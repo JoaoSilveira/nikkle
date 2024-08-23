@@ -19,7 +19,6 @@
     onMount(() => {
         startDaily();
         unsub = guesses.subscribe((gs) => {
-            console.log(gs)
             updateGuesses(gs);
         });
     });
