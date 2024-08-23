@@ -50,8 +50,8 @@ export const enum Position {
 
 export const positions: DescriptableItem[] = [
     item("Attacker", "ATK", "Attacker"),
-    item("Defender", "DEF", "Defender"),
     item("Supporter", "SUP", "Supporter"),
+    item("Defender", "DEF", "Defender"),
 ];
 
 export function positionItem(position: Position): DescriptableItem {

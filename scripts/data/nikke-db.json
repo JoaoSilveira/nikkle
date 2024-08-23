@@ -131,6 +131,18 @@
     "image_url": "/images/characters/AriaS.png"
   },
   {
+    "name": "Asuka Shikinami Langley",
+    "rarity": 2,
+    "burst": 2,
+    "weapon_name": "Lightweight Assault Rifle",
+    "squad": "NERV",
+    "code": 0,
+    "weapon_type": 3,
+    "position": 0,
+    "manufacturer": "Abnormal",
+    "image_url": "/images/characters//Asuka_Shikinami_LangleyS.png"
+  },
+  {
     "name": "Bay",
     "rarity": 2,
     "burst": 1,
@@ -700,6 +712,18 @@
     "image_url": "/images/characters/MarcianaS.png"
   },
   {
+    "name": "Mari Makinami Illustrious",
+    "rarity": 2,
+    "burst": 1,
+    "weapon_name": "Long-Range Precision Rifle",
+    "squad": "NERV",
+    "code": 2,
+    "weapon_type": 4,
+    "position": 1,
+    "manufacturer": "Abnormal",
+    "image_url": "/images/characters//Mari_Makinami_IllustriousS.png"
+  },
+  {
     "name": "Mary",
     "rarity": 2,
     "burst": 0,
@@ -805,6 +829,18 @@
     "position": 1,
     "manufacturer": "Elysion",
     "image_url": "/images/characters/MirandaS.png"
+  },
+  {
+    "name": "Misato Katsuragi",
+    "rarity": 1,
+    "burst": 0,
+    "weapon_name": "Self-defense Automatic Pistol",
+    "squad": "NERV",
+    "code": 3,
+    "weapon_type": 1,
+    "position": 1,
+    "manufacturer": "Abnormal",
+    "image_url": "/images/characters//Misato_KatsuragiS.png"
   },
   {
     "name": "Modernia",
@@ -1152,6 +1188,18 @@
     "position": 2,
     "manufacturer": "Tetra Line",
     "image_url": "/images/characters/ReiS.png"
+  },
+  {
+    "name": "Rei Ayanami",
+    "rarity": 2,
+    "burst": 2,
+    "weapon_name": "Heavy Gatling Gun for Subdual",
+    "squad": "NERV",
+    "code": 0,
+    "weapon_type": 2,
+    "position": 0,
+    "manufacturer": "Abnormal",
+    "image_url": "/images/characters//Rei_AyanamiS.png"
   },
   {
     "name": "Rem",
