@@ -51,7 +51,6 @@
 		background-color: rgba(0, 0, 0, 0.75);
 		backdrop-filter: blur(3px);
 		gap: 3px;
-		overflow-x: auto;
 
 		& > p {
 			padding-inline: 11px;

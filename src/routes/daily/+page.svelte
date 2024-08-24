@@ -37,7 +37,8 @@
         {#if $ended}
             {#if $guessedRight}
                 <span
-                    >Congratulations, it was {$correct.name}! You got it right in {$guesses.length} attempts</span>
+                    >Congratulations, it was {$correct.name}! You got it right
+                    in {$guesses.length} attempts</span>
             {:else}
                 <span>Almost there! {$correct.name} was today's nikke</span>
             {/if}
@@ -60,8 +61,7 @@
         {/if}
     </div>
 
-    <div
-        style="max-width: 800px; width: calc(100cqw); align-self: center; gap:4px;display:flex;flex-direction:column;">
+    <div class="guess-panel">
         {#each [...$guesses] as guess (guess)}
             <Guess {guess} correct={$correct} />
         {/each}
@@ -70,6 +70,17 @@
 
 <style lang="scss">
     @import "../../style/var";
+
+    .guess-panel {
+        max-width: min(800px, 100%);
+        padding-inline: 16px;
+        padding-bottom: 8px;
+        align-self: center;
+        gap: 4px;
+        overflow-x: auto;
+        display: grid;
+        grid-auto-rows: auto;
+    }
 
     .list-item {
         display: flex;
