@@ -1,18 +1,10 @@
 <script>
-	import {
-		burstItem,
-		codeItem,
-		manufacturerItem,
-		positionItem,
-		rarityItem,
-		weaponItem,
-	} from "$lib/nikke";
 	import Burst from "./icons/Burst.svelte";
 	import Code from "./icons/Code.svelte";
 	import Manufacturer from "./icons/Manufacturer.svelte";
 	import Position from "./icons/Position.svelte";
+	import Rarity from "./icons/Rarity.svelte";
 	import Weapon from "./icons/Weapon.svelte";
-	import ItemIcon from "./ItemIcon.svelte";
 
 	export let guess;
 	export let correct;
@@ -27,8 +19,8 @@
 
 	<p>{guess.name}</p>
 
-	<ItemIcon
-		item={rarityItem(guess.rarity)}
+	<Rarity
+		rarity={guess.rarity}
 		correct={guess.rarity === correct.rarity} />
 	<Burst burst={guess.burst} correct={guess.burst === correct.burst} />
 	<Code code={guess.code} correct={guess.code === correct.code} />
