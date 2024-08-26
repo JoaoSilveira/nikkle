@@ -68,7 +68,7 @@ export const enum Code {
 
 export const codes: DescriptableItem[] = [
     item("Fire - H.S.T.A.", "HSTA", "Codehsta_hexagon"),
-    item("Water - P.S.I.D", "PSID", "Codepsid_hexagon"),
+    item("Water - P.S.I.D.", "PSID", "Codepsid_hexagon"),
     item("Electric - Z.E.U.S.", "ZEUS", "Codezeus_hexagon"),
     item("Iron - D.M.T.R.", "DMTR", "Codedmtr_hexagon"),
     item("Wind - A.N.M.I.", "ANMI", "Codeanmi_hexagon"),
