@@ -13,6 +13,7 @@
     import { onMount } from "svelte";
     import { newRandom } from "$stores/guess-the-nikke";
     import { MaxAttempts } from "$lib/const";
+    import IconsDefinitions from "$components/icons/IconsDefinitions.svelte";
 
     onMount(() => {
         newRandom();
@@ -21,6 +22,7 @@
     let nameInput = "";
 </script>
 
+<IconsDefinitions />
 <div style="display: flex; flex-direction: column;">
     <div class="thumb">
         <Heading />
@@ -30,7 +32,8 @@
         {#if $ended}
             {#if $guessedRight}
                 <span
-                    >Congratulations, it was {$correct.name}! You got it right in {$guesses.length} attempts</span>
+                    >Congratulations, it was {$correct.name}! You got it right
+                    in {$guesses.length} attempts</span>
             {:else}
                 <span>Almost there! {$correct.name} was the correct nikke</span>
             {/if}
@@ -48,15 +51,14 @@
                 }}
                 let:item>
                 <div class="list-item">
-                    <img alt={item.name} src={item.image_url} loading="lazy" />
+                    <img alt={item.name} src="/images/characters/small/{item.image_url}" loading="lazy" />
                     <p>{item.name}</p>
                 </div>
             </Autocomplete>
         {/if}
     </div>
 
-    <div
-        style="max-width: 800px; width: calc(100cqw); align-self: center; gap:4px;display:flex;flex-direction:column;">
+    <div class="guess-panel">
         {#each [...$guesses] as guess (guess)}
             <Guess {guess} correct={$correct} />
         {/each}
@@ -65,6 +67,17 @@
 
 <style lang="scss">
     @import "../../style/var";
+
+    .guess-panel {
+        max-width: min(800px, 100%);
+        padding-inline: 16px;
+        padding-bottom: 8px;
+        align-self: center;
+        gap: 4px;
+        overflow-x: auto;
+        display: grid;
+        grid-auto-rows: auto;
+    }
 
     button {
         outline: none;
