@@ -13,6 +13,7 @@
     import { onMount } from "svelte";
     import { newRandom } from "$stores/guess-the-nikke";
     import { MaxAttempts } from "$lib/const";
+    import IconsDefinitions from "$components/icons/IconsDefinitions.svelte";
 
     onMount(() => {
         newRandom();
@@ -21,6 +22,7 @@
     let nameInput = "";
 </script>
 
+<IconsDefinitions />
 <div style="display: flex; flex-direction: column;">
     <div class="thumb">
         <Heading />
@@ -30,7 +32,8 @@
         {#if $ended}
             {#if $guessedRight}
                 <span
-                    >Congratulations, it was {$correct.name}! You got it right in {$guesses.length} attempts</span>
+                    >Congratulations, it was {$correct.name}! You got it right
+                    in {$guesses.length} attempts</span>
             {:else}
                 <span>Almost there! {$correct.name} was the correct nikke</span>
             {/if}

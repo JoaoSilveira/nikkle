@@ -15,6 +15,7 @@
     import { MaxAttempts } from "$lib/const";
     import { updateGuesses } from "$lib/daily-storage";
     import type { Unsubscriber } from "svelte/store";
+    import IconsDefinitions from "$components/icons/IconsDefinitions.svelte";
 
     onMount(() => {
         startDaily();
@@ -28,6 +29,7 @@
     let nameInput = "";
 </script>
 
+<IconsDefinitions />
 <div style="display: flex; flex-direction: column;">
     <div class="thumb">
         <Heading />
