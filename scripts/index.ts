@@ -1,72 +1,12 @@
-import { NodeType, parse, type HTMLElement } from 'node-html-parser';
+import { type HTMLElement } from 'node-html-parser';
 import { Burst, Code, Manufacturer, Nikke, Position, Rarity, Weapon } from '../src/lib/nikke';
+import { fetchHtml, downloadImage, elementChildren, firstElementChild, walk } from './html-utils';
 
 type NikkeListEntry = {
     name: string;
     url: string;
     image_url: string;
 };
-
-async function fetchHtml(url: string): Promise<HTMLElement> {
-    const response = await fetch(url);
-    return parse(await response.text());
-}
-
-async function downloadImage(url: string, file: string): Promise<void> {
-    const response = await fetch(url);
-    await Bun.write(file, await response.arrayBuffer());
-}
-
-function elementChildren(el: HTMLElement): HTMLElement[] {
-    return el.childNodes
-        .filter(c => c.nodeType === NodeType.ELEMENT_NODE);
-}
-
-function firstElementChild(el: HTMLElement): HTMLElement | null {
-    for (const child of el.childNodes) {
-        if (child.nodeType === NodeType.ELEMENT_NODE)
-            return child as HTMLElement;
-    }
-
-    return null;
-}
-
-function lastElementChild(el: HTMLElement): HTMLElement | null {
-    for (let i = el.childNodes.length - 1; i >= 0; i--) {
-        if (el.childNodes[i].nodeType === NodeType.ELEMENT_NODE)
-            return el.childNodes[i] as HTMLElement;
-    }
-
-    return null;
-}
-
-function walk(el: HTMLElement, directions: string): HTMLElement | null {
-    let aux: HTMLElement | null = el;
-
-    for (const dir of directions) {
-        if (aux === null) return null;
-
-        switch (dir) {
-            case '^':
-                aux = aux.parentNode;
-                break;
-            case '>':
-                aux = aux.nextElementSibling;
-                break;
-            case '<':
-                aux = aux.previousElementSibling;
-                break;
-            case 'v':
-                aux = firstElementChild(aux);
-                break;
-            case '$':
-                aux = lastElementChild(aux);
-                break;
-        }
-    }
-
-    return aux;
-}
 
 function parseRarity(rarity: string): Rarity | null {
     switch (rarity) {
