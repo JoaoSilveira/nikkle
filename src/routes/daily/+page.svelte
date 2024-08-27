@@ -56,7 +56,7 @@
                 }}
                 let:item>
                 <div class="list-item">
-                    <img alt={item.name} src={item.image_url} loading="lazy" />
+                    <img alt={item.name} src="/images/characters/small/{item.image_url}" loading="lazy" />
                     <p>{item.name}</p>
                 </div>
             </Autocomplete>
