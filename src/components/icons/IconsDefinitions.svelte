@@ -26,3 +26,11 @@
         </linearGradient>
     </defs>
 </svg>
+
+<style>
+    svg {
+        visibility: collapse;
+        width: 0;
+        height: 0;
+    }
+</style>
