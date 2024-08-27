@@ -1,5 +1,68 @@
 import { NodeType, parse, type HTMLElement } from 'node-html-parser';
 
+export class Result<Value, Err> {
+    readonly #success: boolean;
+    readonly #value: Value | Err;
+
+    private constructor(success: boolean, value: Value | Err) {
+        this.#success = success;
+        this.#value = value;
+    }
+
+    public orDefault(fallback: Value): Value;
+    public orDefault(fallback: () => Value): Value;
+    public orDefault(fallback: Value | (() => Value)): Value {
+        if (this.#success) {
+            return this.#value as Value;
+        }
+        if (typeof fallback === 'function') {
+            return (fallback as Function)();
+        }
+
+        return fallback;
+    }
+
+    public map<NewValue>(mapper: (v: Value) => NewValue): Result<NewValue, Err> {
+        if (this.#success) {
+            return Result.Ok(mapper(this.#value as Value)) as Result<NewValue, Err>;
+        }
+
+        return this as unknown as Result<NewValue, Err>;
+    }
+
+    public flatMap<NewValue>(mapper: (v: Value) => Result<NewValue, Err>): Result<NewValue, Err> {
+        if (this.#success) {
+            return mapper(this.#value as Value);
+        }
+
+        return this as unknown as Result<NewValue, Err>;
+    }
+
+    public mapErr<NewErr>(mapper: (e: Err) => NewErr): Result<Value, NewErr> {
+        if (this.#success) {
+            return this as unknown as Result<Value, NewErr>;
+        }
+
+        return Result.Err(mapper(this.#value as Err)) as Result<Value, NewErr>;
+    }
+
+    public static Ok<T>(value: T): Result<T, unknown> {
+        return new Result<T, unknown>(true, value);
+    }
+
+    public static Err<E>(error: E): Result<unknown, E> {
+        return new Result<unknown, E>(false, error);
+    }
+
+    public static FromNullish<V, E>(value: V | null | undefined, err: E): Result<V, E> {
+        if (value == null) {
+            return Result.Err(err) as Result<V, E>;
+        }
+
+        return Result.Ok(value) as Result<V, E>;
+    }
+}
+
 /**
  * Represents a potential HTML element, encapsulating error handling and providing convenient methods for working with HTML elements.
  */
