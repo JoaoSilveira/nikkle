@@ -5,7 +5,7 @@ For now the data has been extracted but it is not organized/documented in any wa
 ## Task List
 
 - Misc
-    - [ ] Resize images to _~expected_ size to consume less data
+    - [x] Resize images to _~expected_ size to consume less data
 - Documentation
     - [x] Write basic README
     - [ ] Add images to better present the game
@@ -20,6 +20,7 @@ For now the data has been extracted but it is not organized/documented in any wa
     - [ ] Document utility functions and exposed CLI
 - Game
     - [x] Write seeded PRNG function that changes every day.
+    - [x] Make seed change at UTC, not local time
     - [ ] Write the game flow
     - [x] Design mobile and desktop user interface
     - [ ] Schematize componentization of UI items
@@ -27,10 +28,12 @@ For now the data has been extracted but it is not organized/documented in any wa
       - [ ] Mobile is a bit cluncky, check it out
     - [ ] ~~Style components to look simmilar to the game~~
     - [x] Persist guesses in `localStorage`
+    - [ ] Add streak
+    - [ ] Add column headers for guessing "table"
 
 ## Future plans
 
-- Add a never ending mode, where the player can play as many times as they want
+- (done) Add a never ending mode, where the player can play as many times as they want
 - Add a share results option (in a way that doesn't spoil the answer)
 - Add a mode to guess the _"nikke of the day"_'s weapon name (after finishing the daily mode)
 - Add a mode to guess the _"nikke of the day"_'s squad name (after finishing the daily mode)
