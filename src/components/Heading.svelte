@@ -12,7 +12,7 @@
         {#if $ended}
             <img
                 alt={$correct.name}
-                src={$correct.image_url}
+                src="/images/characters/big/{$correct.image_url}"
                 title={$correct.name} />
         {:else}
             <img

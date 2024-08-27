@@ -12,7 +12,7 @@
 
 <div class="guess">
 	<img
-		src={guess.image_url}
+		src="/images/characters/small/{guess.image_url}"
 		alt={guess.name}
 		loading="lazy"
 		class:correct={guess.name === correct.name} />
