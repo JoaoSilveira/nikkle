@@ -52,4 +52,6 @@ Start with a random guess, let's say `Snow White`. The game will show you what's
 
 # Data
 
-The character data and images are scrapped from the wiki. Fonts come from [skuqre's repo](https://github.com/skuqre/nikke-font-generator)
+The character data and images are scrapped from the [wiki](https://nikke-goddess-of-victory-international.fandom.com/wiki/Home).
+Fonts come from [skuqre's repo](https://github.com/skuqre/nikke-font-generator).
+I do not own any of these assets. If something needs credit, let me know and due credit will be given.
