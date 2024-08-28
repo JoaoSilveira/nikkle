@@ -10,7 +10,7 @@ function xorShift(seed: number) {
 export function seedForToday() {
     const date = new Date();
 
-    return date.getDate() + date.getMonth() * 12 + date.getFullYear() * 12 * 32;
+    return date.getUTCDate() + date.getUTCMonth() * 12 + date.getUTCFullYear() * 12 * 32;
 }
 
 export function intRange(seed: number, min: number, max: number): number {
