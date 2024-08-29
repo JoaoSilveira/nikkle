@@ -1,4 +1,5 @@
 import { NodeType, parse, type HTMLElement } from 'node-html-parser';
+import { Result, type FailingMapper } from './result';
 
 /**
  * Fetches the HTML content of a given URL and parses it into an HTMLElement.

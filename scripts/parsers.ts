@@ -1,5 +1,5 @@
 import { Burst, Code, Manufacturer, Rarity, Weapon } from '../src/lib/nikke';
-import { Result } from './Result';
+import { Result } from './result';
 
 /**
  * Parses a rarity string and returns a `Result` object.
