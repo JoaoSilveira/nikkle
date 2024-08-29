@@ -2,136 +2,114 @@ import { type HTMLElement } from 'node-html-parser';
 import { Burst, Code, Manufacturer, Nikke, Position, Rarity, Weapon } from '../src/lib/nikke';
 import { fetchHtml, downloadImage, elementChildren, firstElementChild, walk } from './html-utils';
 
-type NikkeListEntry = {
-    name: string;
-    url: string;
-    image_url: string;
+type Nikke = {
+    'list-entry': {
+        name: string;
+        url: string;
+        image_url: string;
+    };
+    'extracted': {
+        name: string;
+        rarity: Rarity;
+        burst: Burst;
+        weapon_name: string | undefined;
+        squad: string;
+        code: Code;
+        weapon_type: Weapon;
+        position: Position;
+        manufacturer: Manufacturer;
+    };
 };
 
-function parseRarity(rarity: string): Rarity | null {
-    switch (rarity) {
-        case 'R':
-            return Rarity.R;
-        case 'Sr':
-            return Rarity.Sr;
-        case 'Ssr':
-            return Rarity.Ssr;
-        default:
-            return null;
-    }
-}
+function extractNikkeList(document: HTMLElement): Nikke['list-entry'][] {
+    const nikkes: Nikke['list-entry'][] = [];
+    let groupActive = false;
+    let container = Result
+        .FromNullish(document.querySelector('div.lcs-container'), "cannot find 'div.lcs-container' in document")
+        .flatMap(walk('$$'))
+        .map(children);
 
-function parseBurst(burst: string): Burst | null {
-    switch (burst) {
-        case 'Step1':
-            return Burst.I;
-        case 'Step2':
-            return Burst.II;
-        case 'Step3':
-            return Burst.III;
-        case 'StepAll':
-            return Burst.A;
-        default:
-            return null;
-    }
-}
+    for (const card of container.orDefault([])) {
+        const link = walk('vv')(card).mapErr(e => 'could not find <a>: ' + e);
+        const img = link.flatMap(firstChild);
 
-function parseCode(code: string): Code | null {
-    const element = /\(\w+\)/.exec(code)?.[0];
-
-    switch (element) {
-        case '(Fire)':
-            return Code.Fire;
-        case '(Water)':
-            return Code.Water;
-        case '(Electric)':
-            return Code.Electric;
-        case '(Iron)':
-            return Code.Iron;
-        case '(Wind)':
-            return Code.Wind;
-        default:
-            return null;
-    }
-}
-
-function parseWeapon(weapon: string): Weapon | null {
-    switch (weapon) {
-        case 'Shotgun':
-            return Weapon.Shotgun;
-        case 'Submachine Gun':
-            return Weapon.SubmachineGun;
-        case 'Machine Gun':
-            return Weapon.MachineGun;
-        case 'Assault Rifle':
-            return Weapon.AssaultRifle;
-        case 'Sniper Rifle':
-            return Weapon.SniperRifle;
-        case 'Rocket Launcher':
-            return Weapon.RocketLauncher;
-        default:
-            return null;
-    }
-}
-
-function parsePosition(position: string): Position | null {
-    switch (position) {
-        case 'Category:Attackers':
-            return Position.Attacker;
-        case 'Category:Supporters':
-            return Position.Supporter;
-        case 'Category:Defenders':
-            return Position.Defender;
-        default:
-            return null;
-    }
-}
-
-function extractNikkeList(document: HTMLElement): NikkeListEntry[] {
-    const nikkes: NikkeListEntry[] = [];
-    const container = walk(document.querySelector('div.lcs-container'), '$$');
-
-    for (const card of elementChildren(container)) {
-        const link = walk(card, 'vv');
-        const img = firstElementChild(link);
-        const image_url = img.attrs['data-src'] ?? img.attrs['src'];
-
-        nikkes.push({
-            name: img.attrs['alt'],
-            url: 'https://nikke-goddess-of-victory-international.fandom.com' + link.attrs['href'],
-            image_url: image_url.substring(0, image_url.indexOf('/revision/latest/')),
+        const result = makeObj({
+            name: img
+                .mapErr(err => 'missing <img>: ' + err)
+                .flatMap(e => Result.FromNullish(e.attrs['alt'], 'missing "alt" attribute on image tag')),
+            url: link
+                .mapErr(err => 'missing <a>: ' + err)
+                .flatMap(e => Result.FromNullish(e.attrs['href'], 'missing "href" attribute on link'))
+                .map(href => 'https://nikke-goddess-of-victory-international.fandom.com' + href),
+            image_url: img
+                .mapErr(err => 'missing <img>: ' + err)
+                .flatMap(e => Result.FromNullish(e.attrs['data-src'] ?? e.attrs['src'], 'could not find image url'))
+                .map(url => url.substring(0, url.indexOf('/revision/latest/'))),
         });
+
+        if (result.isOk)
+            nikkes.push(result.unwrap());
+        else {
+            groupActive = true;
+            console.group('extract nikke list');
+            console.error(result.unwrapErr());
+        }
     }
+
+    if (groupActive)
+        console.groupEnd();
 
     return nikkes;
 }
 
-function extractNikke(document: HTMLElement): Omit<Nikke, 'image_url'> {
+type ExtractErr = Partial<
+    Record<keyof Omit<Nikke['extracted'], 'weapon_name'>, string>
+>;
+function extractNikke(document: HTMLElement): Result<Nikke['extracted'], ExtractErr> {
     const [tb1, tb2] = document.querySelectorAll('.pi-horizontal-group');
 
-    let rarity = walk(tb1, '$vvvvv')?.attrs['alt'];
-    let burst = walk(tb1, '$v$vvv')?.attrs['alt'];
-
-    let code = walk(tb2, '$vvvv')?.attrs['title'];
-    let weapon_type = walk(tb2, '$vv>vv')?.attrs['title'];
-    let position = walk(tb2, '$v$<vv')?.attrs['title'];
-    let manufacturer = walk(tb2, '$v$vv')?.attrs['title'];
-
-    let weapon_name = walk(document.querySelector('[data-source=weaponname]')!, '$')?.textContent;
-    let squad = walk(document.querySelector('[data-source=squad]')!, '$')?.textContent;
-    let name = document.querySelector('[data-source=title]')?.textContent;
-
-    return {
-        name,
-        rarity: parseRarity(rarity),
-        burst: parseBurst(burst),
-        weapon_name,
-        squad,
-        code: parseCode(code),
-        weapon_type: parseWeapon(weapon_type),
-        position: parsePosition(position),
-        manufacturer,
+    const obj = {
+        name: Result
+            .FromNullish(
+                document.querySelector('[data-source=title]'),
+                'could not find [data-source=title] in document'
+            )
+            .map(e => e.textContent),
+        rarity: walk('$vvvvv')(tb1)
+            .flatMap(e => Result.FromNullish(e.attrs['alt'], 'missing "alt" attribute'))
+            .flatMap(parseRarity),
+        burst: walk('$v$vvv')(tb1)
+            .flatMap(e => Result.FromNullish(e.attrs['alt'], 'missing "alt" attribute'))
+            .flatMap(parseBurst),
+        weapon_name: Result
+            .FromNullish(
+                document.querySelector('[data-source=weaponname]'),
+                'could not find [data-source=weaponname] in document'
+            )
+            .flatMap(lastChild)
+            .map((e): string | undefined => e.textContent)
+            .orDefault(undefined),
+        squad: Result
+            .FromNullish(
+                document.querySelector('[data-source=squad]'),
+                'could not find [data-source=squad] in document'
+            )
+            .flatMap(lastChild)
+            .map((e): string => e.textContent),
+        code: walk('$vvvv')(tb2)
+            .flatMap(e => Result.FromNullish(e.attrs['title'], 'missing "title" attribute'))
+            .flatMap(parseCode),
+        weapon_type: walk('$vv>vv')(tb2)
+            .flatMap(e => Result.FromNullish(e.attrs['title'], 'missing "title" attribute'))
+            .flatMap(parseWeapon),
+        position: walk('$v$<vv')(tb2)
+            .flatMap(e => Result.FromNullish(e.attrs['title'], 'missing "title" attribute'))
+            .flatMap(parsePosition),
+        manufacturer: walk('$v$vv')(tb2)
+            .flatMap(e => Result.FromNullish(e.attrs['title'], 'missing "title" attribute'))
+            .flatMap(parseManufacturer),
     };
+    return makeObj(obj);
 }
 
 async function fetchNikkeList(): Promise<NikkeListEntry[]> {

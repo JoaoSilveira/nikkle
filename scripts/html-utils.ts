@@ -1,231 +1,5 @@
 import { NodeType, parse, type HTMLElement } from 'node-html-parser';
 
-export class Result<Value, Err> {
-    readonly #success: boolean;
-    readonly #value: Value | Err;
-
-    private constructor(success: boolean, value: Value | Err) {
-        this.#success = success;
-        this.#value = value;
-    }
-
-    public orDefault(fallback: Value): Value;
-    public orDefault(fallback: () => Value): Value;
-    public orDefault(fallback: Value | (() => Value)): Value {
-        if (this.#success) {
-            return this.#value as Value;
-        }
-        if (typeof fallback === 'function') {
-            return (fallback as Function)();
-        }
-
-        return fallback;
-    }
-
-    public map<NewValue>(mapper: (v: Value) => NewValue): Result<NewValue, Err> {
-        if (this.#success) {
-            return Result.Ok(mapper(this.#value as Value)) as Result<NewValue, Err>;
-        }
-
-        return this as unknown as Result<NewValue, Err>;
-    }
-
-    public flatMap<NewValue>(mapper: (v: Value) => Result<NewValue, Err>): Result<NewValue, Err> {
-        if (this.#success) {
-            return mapper(this.#value as Value);
-        }
-
-        return this as unknown as Result<NewValue, Err>;
-    }
-
-    public mapErr<NewErr>(mapper: (e: Err) => NewErr): Result<Value, NewErr> {
-        if (this.#success) {
-            return this as unknown as Result<Value, NewErr>;
-        }
-
-        return Result.Err(mapper(this.#value as Err)) as Result<Value, NewErr>;
-    }
-
-    public static Ok<T>(value: T): Result<T, unknown> {
-        return new Result<T, unknown>(true, value);
-    }
-
-    public static Err<E>(error: E): Result<unknown, E> {
-        return new Result<unknown, E>(false, error);
-    }
-
-    public static FromNullish<V, E>(value: V | null | undefined, err: E): Result<V, E> {
-        if (value == null) {
-            return Result.Err(err) as Result<V, E>;
-        }
-
-        return Result.Ok(value) as Result<V, E>;
-    }
-}
-
-/**
- * Represents a potential HTML element, encapsulating error handling and providing convenient methods for working with HTML elements.
- */
-export class MaybeHtmlElement {
-    #success: boolean;
-    #value: HTMLElement | string;
-
-    /**
-    * Creates a new MaybeHtmlElement instance.
-    *
-    * @param {boolean} success - Indicates whether the element exists.
-    * @param {HTMLElement | string} value - The HTML element or error message.
-    */
-    private constructor(success: boolean, value: HTMLElement | string) {
-        this.#success = success;
-        this.#value = value;
-    }
-
-    /**
-     * Indicates whether the element exists.
-     *
-     * @returns {boolean} True if the element exists, false otherwise.
-     */
-    public get success(): boolean {
-        return this.#success;
-    }
-
-    /**
-     * Returns the HTML element if it exists, or throws an error if it doesn't.
-     *
-     * @throws {Error} If the element doesn't exist.
-     * @returns {HTMLElement} The HTML element.
-     */
-    public get element(): HTMLElement {
-        if (!this.#success) {
-            throw new Error("Trying to get element from an Err");
-        }
-
-        return this.#value as HTMLElement;
-    }
-
-    /**
-     * Returns the error message if the element doesn't exist, or throws an error if it does.
-     *
-     * @throws {Error} If the element exists.
-     * @returns {string} The error message.
-     */
-    public get message(): string {
-        if (this.#success) {
-            throw new Error("Trying to get error message from Ok");
-        }
-
-        return this.#value as string;
-    }
-
-    /**
-     * Returns a MaybeHtmlElement representing the first child element, or Err if there are no children.
-     *
-     * @returns {MaybeHtmlElement} The first child element or Err.
-     */
-    public get firstChild(): MaybeHtmlElement {
-        if (!this.#success) return this;
-
-        const child = firstElementChild(this.element);
-
-        return child ? MaybeHtmlElement.Ok(child) : MaybeHtmlElement.Err("No children");
-    }
-
-    /**
-     * Returns a MaybeHtmlElement representing the last child element, or Err if there are no children.
-     *
-     * @returns {MaybeHtmlElement} The last child element or Err.
-     */
-    public get lastChild(): MaybeHtmlElement {
-        if (!this.#success) return this;
-
-        const child = lastElementChild(this.element);
-
-        return child ? MaybeHtmlElement.Ok(child) : MaybeHtmlElement.Err("No children");
-    }
-
-    /**
-     * Walks through the element tree based on a given direction string.
-     *
-     * @param {string} directions - A string representing the directions to walk.
-     *   - '^': Move up to the parent element.
-     *   - '>': Move to the next sibling element.
-     *   - '<': Move to the previous sibling element.
-     *   - 'v': Move down to the first child element.
-     *   - '$': Move down to the last child element.
-     * @returns {MaybeHtmlElement} The resulting MaybeHtmlElement.
-     */
-    public walk(directions: string): MaybeHtmlElement {
-        if (!this.#success) return this;
-
-        const result = walk(this.element, directions);
-
-        return result ? MaybeHtmlElement.Ok(result) : MaybeHtmlElement.Err(`Path '${directions}' resulted in nothing`);
-    }
-
-    /**
-     * Returns an array of child elements if the element exists, or an empty array otherwise.
-     *
-     * @returns {HTMLElement[]} The child elements.
-     */
-    public children(): HTMLElement[] {
-        return this.#success ? elementChildren(this.element) : [];
-    }
-
-    /**
-     * Returns the element's text content if it exists, or the fallback value otherwise.
-     *
-     * @template T
-     * @param {T} fallback - The fallback value.
-     * @returns {string | T} The text content or fallback value.
-     */
-    public textOrElse<T>(fallback: T): string | T {
-        return this.#success ? this.element.textContent : fallback;
-    }
-
-    /**
-     * Returns the element's attribute value if it exists, or the fallback value otherwise.
-     *
-     * @template T
-     * @param {string} attribute - The attribute name.
-     * @param {T} fallback - The fallback value.
-     * @returns {string | T} The attribute value or fallback value.
-     */
-    public attrOrElse<T>(attribute: string, fallback: T): string | T {
-        return this.#success ? this.element.attrs[attribute] : fallback;
-    }
-
-    /**
-     * Creates a new MaybeHtmlElement with the given HTML element and success set to true.
-     *
-     * @param {HTMLElement} value - The HTML element.
-     * @returns {MaybeHtmlElement} The new MaybeHtmlElement instance.
-     */
-    public static Ok(value: HTMLElement): MaybeHtmlElement {
-        return new MaybeHtmlElement(true, value);
-    }
-
-    /**
-     * Creates a new MaybeHtmlElement with an error message and success set to false.
-     *
-     * @param {string} msg - The error message.
-     * @returns {MaybeHtmlElement} The new MaybeHtmlElement instance.
-     */
-    public static Err(msg: string): MaybeHtmlElement {
-        return new MaybeHtmlElement(false, msg);
-    }
-
-    /**
-     * Creates a new MaybeHtmlElement from a HTMLElement setting success if the element is non null.
-     *
-     * @param {HTMLElement | null} element - The element that may exist.
-     * @returns {MaybeHtmlElement} The new MaybeHtmlElement instance.
-     */
-    public static fromElement(element: HTMLElement | null): MaybeHtmlElement {
-        return element ? MaybeHtmlElement.Ok(element) : MaybeHtmlElement.Err("No element provided");
-    }
-}
-
 /**
  * Fetches the HTML content of a given URL and parses it into an HTMLElement.
  *
@@ -257,77 +31,98 @@ export async function downloadImage(url: string, file: string): Promise<void> {
  * @param {HTMLElement} el - The HTMLElement whose child elements to retrieve.
  * @returns {HTMLElement[]} An array of the child elements.
  */
-export function elementChildren(el: HTMLElement): HTMLElement[] {
-    return el.childNodes
-        .filter(c => c.nodeType === NodeType.ELEMENT_NODE);
+export function children(element: HTMLElement): HTMLElement[] {
+    return element.childNodes
+        .filter(c => c.nodeType === NodeType.ELEMENT_NODE) as HTMLElement[];
 }
 
 /**
- * Returns the first child element of a given HTMLElement, or null if there are no child elements.
+ * Finds the first child element of a given HTML element.
  *
- * @param {HTMLElement} el - The HTMLElement whose first child element to retrieve.
- * @returns {HTMLElement | null} The first child element, or null if none exists.
+ * @param element The HTML element to search.
+ * @returns A `Result` object containing the first child element as a success or an error message if no child element is found.
  */
-export function firstElementChild(el: HTMLElement): HTMLElement | null {
-    for (const child of el.childNodes) {
+export function firstChild(element: HTMLElement): Result<HTMLElement, string> {
+    for (const child of element.childNodes) {
         if (child.nodeType === NodeType.ELEMENT_NODE)
-            return child as HTMLElement;
+            return Result.Ok(child as HTMLElement);
     }
 
-    return null;
+    return Result.Err("element has no HTMLElement child");
 }
 
 /**
- * Returns the last child element of a given HTMLElement, or null if there are no child elements.
+ * Finds the last child element of a given HTML element.
  *
- * @param {HTMLElement} el - The HTMLElement whose last child element to retrieve.
- * @returns {HTMLElement | null} The last child element, or null if none exists.
+ * @param element The HTML element to search.
+ * @returns A `Result` object containing the last child element as a success or an error message if no child element is found.
  */
-export function lastElementChild(el: HTMLElement): HTMLElement | null {
-    for (let i = el.childNodes.length - 1; i >= 0; i--) {
-        if (el.childNodes[i].nodeType === NodeType.ELEMENT_NODE)
-            return el.childNodes[i] as HTMLElement;
+export function lastChild(element: HTMLElement): Result<HTMLElement, string> {
+    for (let i = element.childNodes.length - 1; i >= 0; i--) {
+        if (element.childNodes[i].nodeType === NodeType.ELEMENT_NODE)
+            return Result.Ok(element.childNodes[i] as HTMLElement);
     }
 
-    return null;
+    return Result.Err("element has no HTMLElement child");
 }
 
 /**
- * Walks through an HTML element tree based on a given direction string.
+ * Defines a function that navigates an HTML element tree based on a given direction string.
  *
- * @param {HTMLElement} el - The starting HTML element.
- * @param {string} directions - A string representing the directions to walk.
- *   - '^': Move up to the parent element.
- *   - '>': Move to the next sibling element.
- *   - '<': Move to the previous sibling element.
- *   - 'v': Move down to the first child element.
- *   - '$': Move down to the last child element.
- * @returns {HTMLElement | null} The resulting HTML element after walking the directions, or null if the path is invalid.
+ * The direction string can contain the following characters:
+ *  - `^`: Move to the parent element.
+ *  - `>`: Move to the next sibling element.
+ *  - `<`: Move to the previous sibling element.
+ *  - `v`: Move to the first child element.
+ *  - `$`: Move to the last child element.
+ *
+ * This function is a `FailingMapper` because it can potentially fail due to missing elements
+ * in the navigation path specified by the direction string.
+ *
+ * @param directions A string containing navigation directions.
+ * @returns A function that takes an HTML element and returns a `Result` object.
+ *  - The success value is the HTML element reached after navigation.
+ *  - The error value is a message indicating the missing element along the path.
  */
-export function walk(el: HTMLElement, directions: string): HTMLElement | null {
-    let aux: HTMLElement | null = el;
+export function walk(directions: string): FailingMapper<HTMLElement, HTMLElement, string> {
+    return ((el: HTMLElement): Result<HTMLElement, string> => {
+        let aux: Result<HTMLElement, string> = Result.Ok(el);
 
-    for (const dir of directions) {
-        if (aux === null) return null;
+        for (let i = 0; i < directions.length; i++) {
+            const dir = directions.charAt(i);
 
-        switch (dir) {
-            case '^':
-                aux = aux.parentNode;
+            if (aux.isErr)
                 break;
-            case '>':
-                aux = aux.nextElementSibling;
-                break;
-            case '<':
-                aux = aux.previousElementSibling;
-                break;
-            case 'v':
-                aux = firstElementChild(aux);
-                break;
-            case '$':
-                aux = lastElementChild(aux);
-                break;
+
+            switch (dir) {
+                case '^':
+                    aux = aux.map(e => e.parentNode);
+                    break;
+                case '>':
+                    aux = aux.flatMap(e => Result.FromNullish(
+                        e.nextElementSibling,
+                        `missing next sibling at path '${i === 0 ? 'root' : directions.substring(0, i)}'`
+                    ));
+                    break;
+                case '<':
+                    aux = aux.flatMap(e => Result.FromNullish(
+                        e.previousElementSibling,
+                        `missing previous sibling at path '${i === 0 ? 'root' : directions.substring(0, i)}'`
+                    ));
+                    break;
+                case 'v':
+                    aux = aux.flatMap(e => firstChild(e)
+                        .mapErr(() => `missing child at path '${i === 0 ? 'root' : directions.substring(0, i)}'`)
+                    );
+                    break;
+                case '$':
+                    aux = aux.flatMap(e => lastChild(e)
+                        .mapErr(() => `missing child at path '${i === 0 ? 'root' : directions.substring(0, i)}'`)
+                    );
+                    break;
+            }
         }
-    }
 
-    return aux;
+        return aux;
+    });
 }
