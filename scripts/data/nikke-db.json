@@ -8,7 +8,7 @@
     "code": 0,
     "weapon_type": 3,
     "position": 2,
-    "manufacturer": "Abnormal",
+    "manufacturer": 4,
     "image_url": "2BS.png"
   },
   {
@@ -20,7 +20,7 @@
     "code": 0,
     "weapon_type": 5,
     "position": 0,
-    "manufacturer": "Abnormal",
+    "manufacturer": 4,
     "image_url": "A2S.png"
   },
   {
@@ -32,7 +32,7 @@
     "code": 4,
     "weapon_type": 3,
     "position": 1,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "AdeS.png"
   },
   {
@@ -44,7 +44,7 @@
     "code": 4,
     "weapon_type": 4,
     "position": 1,
-    "manufacturer": "Missilis Industry",
+    "manufacturer": 1,
     "image_url": "AdmiS.png"
   },
   {
@@ -56,7 +56,7 @@
     "code": 0,
     "weapon_type": 4,
     "position": 0,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "AliceS.png"
   },
   {
@@ -68,7 +68,7 @@
     "code": 1,
     "weapon_type": 1,
     "position": 1,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "Alice_Wonderland_BunnyS.png"
   },
   {
@@ -80,7 +80,7 @@
     "code": 4,
     "weapon_type": 5,
     "position": 2,
-    "manufacturer": "Elysion",
+    "manufacturer": 0,
     "image_url": "AnchorS.png"
   },
   {
@@ -92,7 +92,7 @@
     "code": 3,
     "weapon_type": 5,
     "position": 2,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "AnisS.png"
   },
   {
@@ -104,7 +104,7 @@
     "code": 2,
     "weapon_type": 0,
     "position": 1,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "Anis_Sparkling_SummerS.png"
   },
   {
@@ -116,7 +116,7 @@
     "code": 4,
     "weapon_type": 5,
     "position": 1,
-    "manufacturer": "Missilis Industry",
+    "manufacturer": 1,
     "image_url": "Anne_Miracle_FairyS.png"
   },
   {
@@ -127,7 +127,7 @@
     "code": 1,
     "weapon_type": 2,
     "position": 0,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "AriaS.png"
   },
   {
@@ -139,7 +139,7 @@
     "code": 0,
     "weapon_type": 3,
     "position": 0,
-    "manufacturer": "Abnormal",
+    "manufacturer": 4,
     "image_url": "/Asuka_Shikinami_LangleyS.png"
   },
   {
@@ -151,7 +151,7 @@
     "code": 0,
     "weapon_type": 5,
     "position": 2,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "BayS.png"
   },
   {
@@ -162,7 +162,7 @@
     "code": 2,
     "weapon_type": 5,
     "position": 0,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "BelortaS.png"
   },
   {
@@ -174,7 +174,7 @@
     "code": 2,
     "weapon_type": 5,
     "position": 1,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "BiscuitS.png"
   },
   {
@@ -186,7 +186,7 @@
     "code": 4,
     "weapon_type": 3,
     "position": 2,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "BlancS.png"
   },
   {
@@ -198,7 +198,7 @@
     "code": 1,
     "weapon_type": 3,
     "position": 0,
-    "manufacturer": "Elysion",
+    "manufacturer": 0,
     "image_url": "BridS.png"
   },
   {
@@ -210,7 +210,7 @@
     "code": 3,
     "weapon_type": 5,
     "position": 2,
-    "manufacturer": "Missilis Industry",
+    "manufacturer": 1,
     "image_url": "CentiS.png"
   },
   {
@@ -222,7 +222,7 @@
     "code": 2,
     "weapon_type": 1,
     "position": 1,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "ClayS.png"
   },
   {
@@ -234,7 +234,7 @@
     "code": 0,
     "weapon_type": 4,
     "position": 1,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "CocoaS.png"
   },
   {
@@ -245,7 +245,7 @@
     "code": 0,
     "weapon_type": 1,
     "position": 2,
-    "manufacturer": "Missilis Industry",
+    "manufacturer": 1,
     "image_url": "CrowS.png"
   },
   {
@@ -257,7 +257,7 @@
     "code": 3,
     "weapon_type": 2,
     "position": 2,
-    "manufacturer": "Pilgrim",
+    "manufacturer": 3,
     "image_url": "CrownS.png"
   },
   {
@@ -269,7 +269,7 @@
     "code": 4,
     "weapon_type": 1,
     "position": 0,
-    "manufacturer": "Elysion",
+    "manufacturer": 0,
     "image_url": "DS.png"
   },
   {
@@ -281,7 +281,7 @@
     "code": 0,
     "weapon_type": 4,
     "position": 1,
-    "manufacturer": "Elysion",
+    "manufacturer": 0,
     "image_url": "D_Killer_WifeS.png"
   },
   {
@@ -292,7 +292,7 @@
     "code": 4,
     "weapon_type": 4,
     "position": 2,
-    "manufacturer": "Elysion",
+    "manufacturer": 0,
     "image_url": "DeltaS.png"
   },
   {
@@ -304,7 +304,7 @@
     "code": 4,
     "weapon_type": 2,
     "position": 2,
-    "manufacturer": "Elysion",
+    "manufacturer": 0,
     "image_url": "DieselS.png"
   },
   {
@@ -315,7 +315,7 @@
     "code": 4,
     "weapon_type": 4,
     "position": 1,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "DollaS.png"
   },
   {
@@ -327,7 +327,7 @@
     "code": 1,
     "weapon_type": 3,
     "position": 1,
-    "manufacturer": "Pilgrim",
+    "manufacturer": 3,
     "image_url": "DorothyS.png"
   },
   {
@@ -339,7 +339,7 @@
     "code": 0,
     "weapon_type": 0,
     "position": 0,
-    "manufacturer": "Missilis Industry",
+    "manufacturer": 1,
     "image_url": "DrakeS.png"
   },
   {
@@ -351,7 +351,7 @@
     "code": 2,
     "weapon_type": 4,
     "position": 0,
-    "manufacturer": "Missilis Industry",
+    "manufacturer": 1,
     "image_url": "EinS.png"
   },
   {
@@ -363,7 +363,7 @@
     "code": 2,
     "weapon_type": 2,
     "position": 1,
-    "manufacturer": "Missilis Industry",
+    "manufacturer": 1,
     "image_url": "EleggS.png"
   },
   {
@@ -375,7 +375,7 @@
     "code": 1,
     "weapon_type": 5,
     "position": 0,
-    "manufacturer": "Abnormal",
+    "manufacturer": 4,
     "image_url": "EmiliaS.png"
   },
   {
@@ -387,7 +387,7 @@
     "code": 0,
     "weapon_type": 2,
     "position": 1,
-    "manufacturer": "Elysion",
+    "manufacturer": 0,
     "image_url": "EmmaS.png"
   },
   {
@@ -399,7 +399,7 @@
     "code": 4,
     "weapon_type": 1,
     "position": 0,
-    "manufacturer": "Missilis Industry",
+    "manufacturer": 1,
     "image_url": "EpinelS.png"
   },
   {
@@ -411,7 +411,7 @@
     "code": 2,
     "weapon_type": 0,
     "position": 2,
-    "manufacturer": "Missilis Industry",
+    "manufacturer": 1,
     "image_url": "EtherS.png"
   },
   {
@@ -423,7 +423,7 @@
     "code": 0,
     "weapon_type": 4,
     "position": 0,
-    "manufacturer": "Elysion",
+    "manufacturer": 0,
     "image_url": "EunhwaS.png"
   },
   {
@@ -435,7 +435,7 @@
     "code": 2,
     "weapon_type": 4,
     "position": 1,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "ExiaS.png"
   },
   {
@@ -447,7 +447,7 @@
     "code": 1,
     "weapon_type": 3,
     "position": 2,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "FolkwangS.png"
   },
   {
@@ -459,7 +459,7 @@
     "code": 3,
     "weapon_type": 4,
     "position": 1,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "FrimaS.png"
   },
   {
@@ -471,7 +471,7 @@
     "code": 2,
     "weapon_type": 2,
     "position": 0,
-    "manufacturer": "Elysion",
+    "manufacturer": 0,
     "image_url": "GuillotineS.png"
   },
   {
@@ -483,7 +483,7 @@
     "code": 4,
     "weapon_type": 0,
     "position": 0,
-    "manufacturer": "Missilis Industry",
+    "manufacturer": 1,
     "image_url": "GuiltyS.png"
   },
   {
@@ -495,7 +495,7 @@
     "code": 2,
     "weapon_type": 4,
     "position": 0,
-    "manufacturer": "Pilgrim",
+    "manufacturer": 3,
     "image_url": "HarranS.png"
   },
   {
@@ -507,7 +507,7 @@
     "code": 1,
     "weapon_type": 4,
     "position": 0,
-    "manufacturer": "Elysion",
+    "manufacturer": 0,
     "image_url": "HelmS.png"
   },
   {
@@ -519,7 +519,7 @@
     "code": 3,
     "weapon_type": 3,
     "position": 0,
-    "manufacturer": "Elysion",
+    "manufacturer": 0,
     "image_url": "Helm_AquamarineS.png"
   },
   {
@@ -531,7 +531,7 @@
     "code": 4,
     "weapon_type": 4,
     "position": 1,
-    "manufacturer": "Abnormal",
+    "manufacturer": 4,
     "image_url": "HimenoS.png"
   },
   {
@@ -542,7 +542,7 @@
     "code": 4,
     "weapon_type": 5,
     "position": 2,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "IDoll_FlowerS.png"
   },
   {
@@ -553,7 +553,7 @@
     "code": 1,
     "weapon_type": 1,
     "position": 1,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "IDoll_OceanS.png"
   },
   {
@@ -564,7 +564,7 @@
     "code": 3,
     "weapon_type": 3,
     "position": 1,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "IDoll_SunS.png"
   },
   {
@@ -576,7 +576,7 @@
     "code": 2,
     "weapon_type": 0,
     "position": 0,
-    "manufacturer": "Pilgrim",
+    "manufacturer": 3,
     "image_url": "IsabelS.png"
   },
   {
@@ -588,7 +588,7 @@
     "code": 3,
     "weapon_type": 5,
     "position": 2,
-    "manufacturer": "Missilis Industry",
+    "manufacturer": 1,
     "image_url": "JackalS.png"
   },
   {
@@ -600,7 +600,7 @@
     "code": 3,
     "weapon_type": 3,
     "position": 0,
-    "manufacturer": "Missilis Industry",
+    "manufacturer": 1,
     "image_url": "JuliaS.png"
   },
   {
@@ -612,7 +612,7 @@
     "code": 0,
     "weapon_type": 2,
     "position": 2,
-    "manufacturer": "Missilis Industry",
+    "manufacturer": 1,
     "image_url": "KiloS.png"
   },
   {
@@ -624,7 +624,7 @@
     "code": 3,
     "weapon_type": 5,
     "position": 0,
-    "manufacturer": "Missilis Industry",
+    "manufacturer": 1,
     "image_url": "LaplaceS.png"
   },
   {
@@ -636,7 +636,7 @@
     "code": 1,
     "weapon_type": 0,
     "position": 1,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "LeonaS.png"
   },
   {
@@ -648,7 +648,7 @@
     "code": 3,
     "weapon_type": 1,
     "position": 1,
-    "manufacturer": "Missilis Industry",
+    "manufacturer": 1,
     "image_url": "LiterS.png"
   },
   {
@@ -660,7 +660,7 @@
     "code": 1,
     "weapon_type": 1,
     "position": 2,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "LudmillaS.png"
   },
   {
@@ -672,7 +672,7 @@
     "code": 1,
     "weapon_type": 2,
     "position": 0,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "Ludmilla_Winter_OwnerS.png"
   },
   {
@@ -684,7 +684,7 @@
     "code": 2,
     "weapon_type": 0,
     "position": 0,
-    "manufacturer": "Elysion",
+    "manufacturer": 0,
     "image_url": "MaidenS.png"
   },
   {
@@ -696,7 +696,7 @@
     "code": 1,
     "weapon_type": 1,
     "position": 2,
-    "manufacturer": "Abnormal",
+    "manufacturer": 4,
     "image_url": "MakimaS.png"
   },
   {
@@ -708,7 +708,7 @@
     "code": 3,
     "weapon_type": 0,
     "position": 1,
-    "manufacturer": "Elysion",
+    "manufacturer": 0,
     "image_url": "MarcianaS.png"
   },
   {
@@ -720,7 +720,7 @@
     "code": 2,
     "weapon_type": 4,
     "position": 1,
-    "manufacturer": "Abnormal",
+    "manufacturer": 4,
     "image_url": "/Mari_Makinami_IllustriousS.png"
   },
   {
@@ -732,7 +732,7 @@
     "code": 1,
     "weapon_type": 0,
     "position": 1,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "MaryS.png"
   },
   {
@@ -744,7 +744,7 @@
     "code": 1,
     "weapon_type": 4,
     "position": 1,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "Mary_Bay_GoddessS.png"
   },
   {
@@ -756,7 +756,7 @@
     "code": 2,
     "weapon_type": 1,
     "position": 1,
-    "manufacturer": "Elysion",
+    "manufacturer": 0,
     "image_url": "MastS.png"
   },
   {
@@ -768,7 +768,7 @@
     "code": 3,
     "weapon_type": 4,
     "position": 0,
-    "manufacturer": "Missilis Industry",
+    "manufacturer": 1,
     "image_url": "MaxwellS.png"
   },
   {
@@ -779,7 +779,7 @@
     "code": 4,
     "weapon_type": 5,
     "position": 1,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "MicaS.png"
   },
   {
@@ -791,7 +791,7 @@
     "code": 3,
     "weapon_type": 1,
     "position": 1,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "Mica_Snow_BuddyS.png"
   },
   {
@@ -803,7 +803,7 @@
     "code": 1,
     "weapon_type": 3,
     "position": 0,
-    "manufacturer": "Missilis Industry",
+    "manufacturer": 1,
     "image_url": "MiharaS.png"
   },
   {
@@ -815,7 +815,7 @@
     "code": 1,
     "weapon_type": 4,
     "position": 0,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "MilkS.png"
   },
   {
@@ -827,7 +827,7 @@
     "code": 0,
     "weapon_type": 1,
     "position": 1,
-    "manufacturer": "Elysion",
+    "manufacturer": 0,
     "image_url": "MirandaS.png"
   },
   {
@@ -839,7 +839,7 @@
     "code": 3,
     "weapon_type": 1,
     "position": 1,
-    "manufacturer": "Abnormal",
+    "manufacturer": 4,
     "image_url": "/Misato_KatsuragiS.png"
   },
   {
@@ -851,7 +851,7 @@
     "code": 0,
     "weapon_type": 2,
     "position": 0,
-    "manufacturer": "Pilgrim",
+    "manufacturer": 3,
     "image_url": "ModerniaS.png"
   },
   {
@@ -863,7 +863,7 @@
     "code": 2,
     "weapon_type": 3,
     "position": 2,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "MoranS.png"
   },
   {
@@ -875,7 +875,7 @@
     "code": 1,
     "weapon_type": 5,
     "position": 1,
-    "manufacturer": "Missilis Industry",
+    "manufacturer": 1,
     "image_url": "N102S.png"
   },
   {
@@ -887,7 +887,7 @@
     "code": 2,
     "weapon_type": 0,
     "position": 1,
-    "manufacturer": "Missilis Industry",
+    "manufacturer": 1,
     "image_url": "NagaS.png"
   },
   {
@@ -899,7 +899,7 @@
     "code": 0,
     "weapon_type": 0,
     "position": 1,
-    "manufacturer": "Elysion",
+    "manufacturer": 0,
     "image_url": "NeonS.png"
   },
   {
@@ -911,7 +911,7 @@
     "code": 1,
     "weapon_type": 2,
     "position": 0,
-    "manufacturer": "Elysion",
+    "manufacturer": 0,
     "image_url": "Neon_Blue_OceanS.png"
   },
   {
@@ -923,7 +923,7 @@
     "code": 2,
     "weapon_type": 1,
     "position": 2,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "NeroS.png"
   },
   {
@@ -935,7 +935,7 @@
     "code": 1,
     "weapon_type": 0,
     "position": 0,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "NeveS.png"
   },
   {
@@ -947,7 +947,7 @@
     "code": 0,
     "weapon_type": 4,
     "position": 0,
-    "manufacturer": "Pilgrim",
+    "manufacturer": 3,
     "image_url": "NihilisterS.png"
   },
   {
@@ -959,7 +959,7 @@
     "code": 4,
     "weapon_type": 5,
     "position": 2,
-    "manufacturer": "Pilgrim",
+    "manufacturer": 3,
     "image_url": "NoahS.png"
   },
   {
@@ -971,7 +971,7 @@
     "code": 4,
     "weapon_type": 0,
     "position": 0,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "NoirS.png"
   },
   {
@@ -982,7 +982,7 @@
     "code": 2,
     "weapon_type": 5,
     "position": 1,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "NoiseS.png"
   },
   {
@@ -994,7 +994,7 @@
     "code": 3,
     "weapon_type": 1,
     "position": 2,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "NovelS.png"
   },
   {
@@ -1006,7 +1006,7 @@
     "code": 3,
     "weapon_type": 5,
     "position": 1,
-    "manufacturer": "Abnormal",
+    "manufacturer": 4,
     "image_url": "PascalS.png"
   },
   {
@@ -1018,7 +1018,7 @@
     "code": 4,
     "weapon_type": 0,
     "position": 1,
-    "manufacturer": "Missilis Industry",
+    "manufacturer": 1,
     "image_url": "PepperS.png"
   },
   {
@@ -1030,7 +1030,7 @@
     "code": 1,
     "weapon_type": 0,
     "position": 2,
-    "manufacturer": "Elysion",
+    "manufacturer": 0,
     "image_url": "PoliS.png"
   },
   {
@@ -1042,7 +1042,7 @@
     "code": 0,
     "weapon_type": 5,
     "position": 0,
-    "manufacturer": "Abnormal",
+    "manufacturer": 4,
     "image_url": "PowerS.png"
   },
   {
@@ -1054,7 +1054,7 @@
     "code": 1,
     "weapon_type": 3,
     "position": 0,
-    "manufacturer": "Elysion",
+    "manufacturer": 0,
     "image_url": "PrivatyS.png"
   },
   {
@@ -1066,7 +1066,7 @@
     "code": 2,
     "weapon_type": 0,
     "position": 0,
-    "manufacturer": "Elysion",
+    "manufacturer": 0,
     "image_url": "Privaty_Unkind_MaidS.png"
   },
   {
@@ -1078,7 +1078,7 @@
     "code": 2,
     "weapon_type": 4,
     "position": 1,
-    "manufacturer": "Missilis Industry",
+    "manufacturer": 1,
     "image_url": "Product_08S.png"
   },
   {
@@ -1090,7 +1090,7 @@
     "code": 0,
     "weapon_type": 2,
     "position": 0,
-    "manufacturer": "Missilis Industry",
+    "manufacturer": 1,
     "image_url": "Product_12S.png"
   },
   {
@@ -1102,7 +1102,7 @@
     "code": 4,
     "weapon_type": 0,
     "position": 1,
-    "manufacturer": "Missilis Industry",
+    "manufacturer": 1,
     "image_url": "Product_23S.png"
   },
   {
@@ -1114,7 +1114,7 @@
     "code": 2,
     "weapon_type": 1,
     "position": 1,
-    "manufacturer": "Missilis Industry",
+    "manufacturer": 1,
     "image_url": "QuencyS.png"
   },
   {
@@ -1126,7 +1126,7 @@
     "code": 4,
     "weapon_type": 5,
     "position": 1,
-    "manufacturer": "Elysion",
+    "manufacturer": 0,
     "image_url": "QuiryS.png"
   },
   {
@@ -1138,7 +1138,7 @@
     "code": 4,
     "weapon_type": 4,
     "position": 2,
-    "manufacturer": "Abnormal",
+    "manufacturer": 4,
     "image_url": "RamS.png"
   },
   {
@@ -1150,7 +1150,7 @@
     "code": 0,
     "weapon_type": 3,
     "position": 0,
-    "manufacturer": "Elysion",
+    "manufacturer": 0,
     "image_url": "RapiS.png"
   },
   {
@@ -1162,7 +1162,7 @@
     "code": 3,
     "weapon_type": 5,
     "position": 1,
-    "manufacturer": "Pilgrim",
+    "manufacturer": 3,
     "image_url": "RapunzelS.png"
   },
   {
@@ -1174,7 +1174,7 @@
     "code": 3,
     "weapon_type": 4,
     "position": 0,
-    "manufacturer": "Pilgrim",
+    "manufacturer": 3,
     "image_url": "Red_HoodS.png"
   },
   {
@@ -1186,7 +1186,7 @@
     "code": 1,
     "weapon_type": 1,
     "position": 2,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "ReiS.png"
   },
   {
@@ -1198,7 +1198,7 @@
     "code": 0,
     "weapon_type": 2,
     "position": 0,
-    "manufacturer": "Abnormal",
+    "manufacturer": 4,
     "image_url": "/Rei_AyanamiS.png"
   },
   {
@@ -1210,7 +1210,7 @@
     "code": 1,
     "weapon_type": 2,
     "position": 1,
-    "manufacturer": "Abnormal",
+    "manufacturer": 4,
     "image_url": "RemS.png"
   },
   {
@@ -1222,7 +1222,7 @@
     "code": 2,
     "weapon_type": 2,
     "position": 0,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "RosannaS.png"
   },
   {
@@ -1234,7 +1234,7 @@
     "code": 4,
     "weapon_type": 3,
     "position": 1,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "Rosanna_Chic_OceanS.png"
   },
   {
@@ -1246,7 +1246,7 @@
     "code": 3,
     "weapon_type": 3,
     "position": 0,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "RupeeS.png"
   },
   {
@@ -1258,7 +1258,7 @@
     "code": 2,
     "weapon_type": 3,
     "position": 2,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "Rupee_Winter_ShopperS.png"
   },
   {
@@ -1270,7 +1270,7 @@
     "code": 0,
     "weapon_type": 4,
     "position": 1,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "SakuraS.png"
   },
   {
@@ -1282,7 +1282,7 @@
     "code": 4,
     "weapon_type": 3,
     "position": 0,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "Sakura_Bloom_in_SummerS.png"
   },
   {
@@ -1294,7 +1294,7 @@
     "code": 2,
     "weapon_type": 3,
     "position": 0,
-    "manufacturer": "Pilgrim",
+    "manufacturer": 3,
     "image_url": "ScarletS.png"
   },
   {
@@ -1306,7 +1306,7 @@
     "code": 4,
     "weapon_type": 5,
     "position": 0,
-    "manufacturer": "Pilgrim",
+    "manufacturer": 3,
     "image_url": "Scarlet_Black_ShadowS.png"
   },
   {
@@ -1318,7 +1318,7 @@
     "code": 0,
     "weapon_type": 1,
     "position": 0,
-    "manufacturer": "Elysion",
+    "manufacturer": 0,
     "image_url": "SignalS.png"
   },
   {
@@ -1330,7 +1330,7 @@
     "code": 2,
     "weapon_type": 3,
     "position": 2,
-    "manufacturer": "Missilis Industry",
+    "manufacturer": 1,
     "image_url": "SinS.png"
   },
   {
@@ -1342,7 +1342,7 @@
     "code": 3,
     "weapon_type": 3,
     "position": 0,
-    "manufacturer": "Pilgrim",
+    "manufacturer": 3,
     "image_url": "Snow_WhiteS.png"
   },
   {
@@ -1354,7 +1354,7 @@
     "code": 3,
     "weapon_type": 3,
     "position": 0,
-    "manufacturer": "Pilgrim",
+    "manufacturer": 3,
     "image_url": "Snow_White_Innocent_DaysS.png"
   },
   {
@@ -1366,7 +1366,7 @@
     "code": 0,
     "weapon_type": 2,
     "position": 1,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "SodaS.png"
   },
   {
@@ -1378,7 +1378,7 @@
     "code": 3,
     "weapon_type": 0,
     "position": 0,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "Soda_Twinkling_BunnyS.png"
   },
   {
@@ -1390,7 +1390,7 @@
     "code": 2,
     "weapon_type": 3,
     "position": 0,
-    "manufacturer": "Elysion",
+    "manufacturer": 0,
     "image_url": "Soldier_EGS.png"
   },
   {
@@ -1402,7 +1402,7 @@
     "code": 3,
     "weapon_type": 0,
     "position": 2,
-    "manufacturer": "Elysion",
+    "manufacturer": 0,
     "image_url": "Soldier_FAS.png"
   },
   {
@@ -1414,7 +1414,7 @@
     "code": 0,
     "weapon_type": 1,
     "position": 1,
-    "manufacturer": "Elysion",
+    "manufacturer": 0,
     "image_url": "Soldier_OWS.png"
   },
   {
@@ -1426,7 +1426,7 @@
     "code": 3,
     "weapon_type": 1,
     "position": 0,
-    "manufacturer": "Elysion",
+    "manufacturer": 0,
     "image_url": "SolineS.png"
   },
   {
@@ -1438,7 +1438,7 @@
     "code": 3,
     "weapon_type": 0,
     "position": 0,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "SugarS.png"
   },
   {
@@ -1450,7 +1450,7 @@
     "code": 3,
     "weapon_type": 5,
     "position": 2,
-    "manufacturer": "Missilis Industry",
+    "manufacturer": 1,
     "image_url": "TiaS.png"
   },
   {
@@ -1462,7 +1462,7 @@
     "code": 1,
     "weapon_type": 3,
     "position": 1,
-    "manufacturer": "Missilis Industry",
+    "manufacturer": 1,
     "image_url": "ToveS.png"
   },
   {
@@ -1474,7 +1474,7 @@
     "code": 0,
     "weapon_type": 4,
     "position": 0,
-    "manufacturer": "Missilis Industry",
+    "manufacturer": 1,
     "image_url": "TronyS.png"
   },
   {
@@ -1486,7 +1486,7 @@
     "code": 1,
     "weapon_type": 5,
     "position": 0,
-    "manufacturer": "Elysion",
+    "manufacturer": 0,
     "image_url": "VestiS.png"
   },
   {
@@ -1498,7 +1498,7 @@
     "code": 1,
     "weapon_type": 0,
     "position": 0,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "ViperS.png"
   },
   {
@@ -1509,7 +1509,7 @@
     "code": 4,
     "weapon_type": 1,
     "position": 0,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "VolumeS.png"
   },
   {
@@ -1520,7 +1520,7 @@
     "code": 0,
     "weapon_type": 5,
     "position": 1,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "YanS.png"
   },
   {
@@ -1532,7 +1532,7 @@
     "code": 0,
     "weapon_type": 4,
     "position": 0,
-    "manufacturer": "Tetra Line",
+    "manufacturer": 2,
     "image_url": "YulhaS.png"
   },
   {
@@ -1544,7 +1544,7 @@
     "code": 0,
     "weapon_type": 5,
     "position": 2,
-    "manufacturer": "Missilis Industry",
+    "manufacturer": 1,
     "image_url": "YuniS.png"
   },
   {
@@ -1556,7 +1556,7 @@
     "code": 2,
     "weapon_type": 0,
     "position": 1,
-    "manufacturer": "Elysion",
+    "manufacturer": 0,
     "image_url": "/ZweiS.png"
   }
 ]

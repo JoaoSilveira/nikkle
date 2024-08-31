@@ -11,7 +11,7 @@ export const nikkes: Nikke[] = [
         code: Code.Fire,
         weapon_type: Weapon.AssaultRifle,
         position: Position.Defender,
-        manufacturer: Manufacturer.Abnormal,
+        manufacturer: Manufacturer.Abnormal
     },
     {
         name: "A2",
@@ -23,7 +23,7 @@ export const nikkes: Nikke[] = [
         code: Code.Fire,
         weapon_type: Weapon.RocketLauncher,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Abnormal,
+        manufacturer: Manufacturer.Abnormal
     },
     {
         name: "Ade",
@@ -35,7 +35,7 @@ export const nikkes: Nikke[] = [
         code: Code.Wind,
         weapon_type: Weapon.AssaultRifle,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Admi",
@@ -47,7 +47,7 @@ export const nikkes: Nikke[] = [
         code: Code.Wind,
         weapon_type: Weapon.SniperRifle,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Missilis,
+        manufacturer: Manufacturer.Missilis
     },
     {
         name: "Alice",
@@ -59,7 +59,7 @@ export const nikkes: Nikke[] = [
         code: Code.Fire,
         weapon_type: Weapon.SniperRifle,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Alice: Wonderland Bunny",
@@ -71,7 +71,7 @@ export const nikkes: Nikke[] = [
         code: Code.Water,
         weapon_type: Weapon.SubmachineGun,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Anchor",
@@ -83,7 +83,7 @@ export const nikkes: Nikke[] = [
         code: Code.Wind,
         weapon_type: Weapon.RocketLauncher,
         position: Position.Defender,
-        manufacturer: Manufacturer.Elysion,
+        manufacturer: Manufacturer.Elysion
     },
     {
         name: "Anis",
@@ -95,7 +95,7 @@ export const nikkes: Nikke[] = [
         code: Code.Iron,
         weapon_type: Weapon.RocketLauncher,
         position: Position.Defender,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Anis: Sparkling Summer",
@@ -107,7 +107,7 @@ export const nikkes: Nikke[] = [
         code: Code.Electric,
         weapon_type: Weapon.Shotgun,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Anne: Miracle Fairy",
@@ -119,19 +119,18 @@ export const nikkes: Nikke[] = [
         code: Code.Wind,
         weapon_type: Weapon.RocketLauncher,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Missilis,
+        manufacturer: Manufacturer.Missilis
     },
     {
         name: "Aria",
         image_url: "AriaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
-        weapon_name: undefined,
         squad: "Prima Donna",
         code: Code.Water,
         weapon_type: Weapon.MachineGun,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Asuka Shikinami Langley",
@@ -143,7 +142,7 @@ export const nikkes: Nikke[] = [
         code: Code.Fire,
         weapon_type: Weapon.AssaultRifle,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Abnormal,
+        manufacturer: Manufacturer.Abnormal
     },
     {
         name: "Bay",
@@ -155,19 +154,18 @@ export const nikkes: Nikke[] = [
         code: Code.Fire,
         weapon_type: Weapon.RocketLauncher,
         position: Position.Defender,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Belorta",
         image_url: "BelortaS.png",
         rarity: Rarity.Sr,
         burst: Burst.II,
-        weapon_name: undefined,
         squad: "The Carronades",
         code: Code.Electric,
         weapon_type: Weapon.RocketLauncher,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Biscuit",
@@ -179,7 +177,7 @@ export const nikkes: Nikke[] = [
         code: Code.Electric,
         weapon_type: Weapon.RocketLauncher,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Blanc",
@@ -191,7 +189,7 @@ export const nikkes: Nikke[] = [
         code: Code.Wind,
         weapon_type: Weapon.AssaultRifle,
         position: Position.Defender,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Brid",
@@ -203,7 +201,7 @@ export const nikkes: Nikke[] = [
         code: Code.Water,
         weapon_type: Weapon.AssaultRifle,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Elysion,
+        manufacturer: Manufacturer.Elysion
     },
     {
         name: "Centi",
@@ -215,7 +213,7 @@ export const nikkes: Nikke[] = [
         code: Code.Iron,
         weapon_type: Weapon.RocketLauncher,
         position: Position.Defender,
-        manufacturer: Manufacturer.Missilis,
+        manufacturer: Manufacturer.Missilis
     },
     {
         name: "Clay",
@@ -227,7 +225,7 @@ export const nikkes: Nikke[] = [
         code: Code.Electric,
         weapon_type: Weapon.SubmachineGun,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Cocoa",
@@ -239,19 +237,18 @@ export const nikkes: Nikke[] = [
         code: Code.Fire,
         weapon_type: Weapon.SniperRifle,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Crow",
         image_url: "CrowS.png",
         rarity: Rarity.Ssr,
         burst: Burst.III,
-        weapon_name: undefined,
         squad: "Exotic",
         code: Code.Fire,
         weapon_type: Weapon.SubmachineGun,
         position: Position.Defender,
-        manufacturer: Manufacturer.Missilis,
+        manufacturer: Manufacturer.Missilis
     },
     {
         name: "Crown",
@@ -263,7 +260,7 @@ export const nikkes: Nikke[] = [
         code: Code.Iron,
         weapon_type: Weapon.MachineGun,
         position: Position.Defender,
-        manufacturer: Manufacturer.Pilgrim,
+        manufacturer: Manufacturer.Pilgrim
     },
     {
         name: "D",
@@ -275,7 +272,7 @@ export const nikkes: Nikke[] = [
         code: Code.Wind,
         weapon_type: Weapon.SubmachineGun,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Elysion,
+        manufacturer: Manufacturer.Elysion
     },
     {
         name: "D: Killer Wife",
@@ -287,19 +284,18 @@ export const nikkes: Nikke[] = [
         code: Code.Fire,
         weapon_type: Weapon.SniperRifle,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Elysion,
+        manufacturer: Manufacturer.Elysion
     },
     {
         name: "Delta",
         image_url: "DeltaS.png",
         rarity: Rarity.Sr,
         burst: Burst.II,
-        weapon_name: undefined,
         squad: "The Scouts",
         code: Code.Wind,
         weapon_type: Weapon.SniperRifle,
         position: Position.Defender,
-        manufacturer: Manufacturer.Elysion,
+        manufacturer: Manufacturer.Elysion
     },
     {
         name: "Diesel",
@@ -311,19 +307,18 @@ export const nikkes: Nikke[] = [
         code: Code.Wind,
         weapon_type: Weapon.MachineGun,
         position: Position.Defender,
-        manufacturer: Manufacturer.Elysion,
+        manufacturer: Manufacturer.Elysion
     },
     {
         name: "Dolla",
         image_url: "DollaS.png",
         rarity: Rarity.Ssr,
         burst: Burst.II,
-        weapon_name: undefined,
         squad: "Talentum",
         code: Code.Wind,
         weapon_type: Weapon.SniperRifle,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Dorothy",
@@ -335,7 +330,7 @@ export const nikkes: Nikke[] = [
         code: Code.Water,
         weapon_type: Weapon.AssaultRifle,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Pilgrim,
+        manufacturer: Manufacturer.Pilgrim
     },
     {
         name: "Drake",
@@ -347,7 +342,7 @@ export const nikkes: Nikke[] = [
         code: Code.Fire,
         weapon_type: Weapon.Shotgun,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Missilis,
+        manufacturer: Manufacturer.Missilis
     },
     {
         name: "Ein",
@@ -359,7 +354,7 @@ export const nikkes: Nikke[] = [
         code: Code.Electric,
         weapon_type: Weapon.SniperRifle,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Missilis,
+        manufacturer: Manufacturer.Missilis
     },
     {
         name: "Elegg",
@@ -371,7 +366,7 @@ export const nikkes: Nikke[] = [
         code: Code.Electric,
         weapon_type: Weapon.MachineGun,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Missilis,
+        manufacturer: Manufacturer.Missilis
     },
     {
         name: "Emilia",
@@ -383,7 +378,7 @@ export const nikkes: Nikke[] = [
         code: Code.Water,
         weapon_type: Weapon.RocketLauncher,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Abnormal,
+        manufacturer: Manufacturer.Abnormal
     },
     {
         name: "Emma",
@@ -395,7 +390,7 @@ export const nikkes: Nikke[] = [
         code: Code.Fire,
         weapon_type: Weapon.MachineGun,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Elysion,
+        manufacturer: Manufacturer.Elysion
     },
     {
         name: "Epinel",
@@ -407,7 +402,7 @@ export const nikkes: Nikke[] = [
         code: Code.Wind,
         weapon_type: Weapon.SubmachineGun,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Missilis,
+        manufacturer: Manufacturer.Missilis
     },
     {
         name: "Ether",
@@ -419,7 +414,7 @@ export const nikkes: Nikke[] = [
         code: Code.Electric,
         weapon_type: Weapon.Shotgun,
         position: Position.Defender,
-        manufacturer: Manufacturer.Missilis,
+        manufacturer: Manufacturer.Missilis
     },
     {
         name: "Eunhwa",
@@ -431,7 +426,7 @@ export const nikkes: Nikke[] = [
         code: Code.Fire,
         weapon_type: Weapon.SniperRifle,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Elysion,
+        manufacturer: Manufacturer.Elysion
     },
     {
         name: "Exia",
@@ -443,7 +438,7 @@ export const nikkes: Nikke[] = [
         code: Code.Electric,
         weapon_type: Weapon.SniperRifle,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Folkwang",
@@ -455,7 +450,7 @@ export const nikkes: Nikke[] = [
         code: Code.Water,
         weapon_type: Weapon.AssaultRifle,
         position: Position.Defender,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Frima",
@@ -467,7 +462,7 @@ export const nikkes: Nikke[] = [
         code: Code.Iron,
         weapon_type: Weapon.SniperRifle,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Guillotine",
@@ -479,7 +474,7 @@ export const nikkes: Nikke[] = [
         code: Code.Electric,
         weapon_type: Weapon.MachineGun,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Elysion,
+        manufacturer: Manufacturer.Elysion
     },
     {
         name: "Guilty",
@@ -491,7 +486,7 @@ export const nikkes: Nikke[] = [
         code: Code.Wind,
         weapon_type: Weapon.Shotgun,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Missilis,
+        manufacturer: Manufacturer.Missilis
     },
     {
         name: "Harran",
@@ -503,7 +498,7 @@ export const nikkes: Nikke[] = [
         code: Code.Electric,
         weapon_type: Weapon.SniperRifle,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Pilgrim,
+        manufacturer: Manufacturer.Pilgrim
     },
     {
         name: "Helm",
@@ -515,7 +510,7 @@ export const nikkes: Nikke[] = [
         code: Code.Water,
         weapon_type: Weapon.SniperRifle,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Elysion,
+        manufacturer: Manufacturer.Elysion
     },
     {
         name: "Helm: Aquamarine",
@@ -527,7 +522,7 @@ export const nikkes: Nikke[] = [
         code: Code.Iron,
         weapon_type: Weapon.AssaultRifle,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Elysion,
+        manufacturer: Manufacturer.Elysion
     },
     {
         name: "Himeno",
@@ -539,43 +534,40 @@ export const nikkes: Nikke[] = [
         code: Code.Wind,
         weapon_type: Weapon.SniperRifle,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Abnormal,
+        manufacturer: Manufacturer.Abnormal
     },
     {
         name: "iDoll Flower",
         image_url: "IDoll_FlowerS.png",
         rarity: Rarity.R,
         burst: Burst.I,
-        weapon_name: undefined,
         squad: "Replace",
         code: Code.Wind,
         weapon_type: Weapon.RocketLauncher,
         position: Position.Defender,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "iDoll Ocean",
         image_url: "IDoll_OceanS.png",
         rarity: Rarity.R,
         burst: Burst.I,
-        weapon_name: undefined,
         squad: "Replace",
         code: Code.Water,
         weapon_type: Weapon.SubmachineGun,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "iDoll Sun",
         image_url: "IDoll_SunS.png",
         rarity: Rarity.R,
         burst: Burst.III,
-        weapon_name: undefined,
         squad: "Replace",
         code: Code.Iron,
         weapon_type: Weapon.AssaultRifle,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Isabel",
@@ -587,7 +579,7 @@ export const nikkes: Nikke[] = [
         code: Code.Electric,
         weapon_type: Weapon.Shotgun,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Pilgrim,
+        manufacturer: Manufacturer.Pilgrim
     },
     {
         name: "Jackal",
@@ -599,7 +591,7 @@ export const nikkes: Nikke[] = [
         code: Code.Iron,
         weapon_type: Weapon.RocketLauncher,
         position: Position.Defender,
-        manufacturer: Manufacturer.Missilis,
+        manufacturer: Manufacturer.Missilis
     },
     {
         name: "Julia",
@@ -611,7 +603,7 @@ export const nikkes: Nikke[] = [
         code: Code.Iron,
         weapon_type: Weapon.AssaultRifle,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Missilis,
+        manufacturer: Manufacturer.Missilis
     },
     {
         name: "Kilo",
@@ -623,7 +615,7 @@ export const nikkes: Nikke[] = [
         code: Code.Fire,
         weapon_type: Weapon.MachineGun,
         position: Position.Defender,
-        manufacturer: Manufacturer.Missilis,
+        manufacturer: Manufacturer.Missilis
     },
     {
         name: "Laplace",
@@ -635,7 +627,7 @@ export const nikkes: Nikke[] = [
         code: Code.Iron,
         weapon_type: Weapon.RocketLauncher,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Missilis,
+        manufacturer: Manufacturer.Missilis
     },
     {
         name: "Leona",
@@ -647,7 +639,7 @@ export const nikkes: Nikke[] = [
         code: Code.Water,
         weapon_type: Weapon.Shotgun,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Liter",
@@ -659,7 +651,7 @@ export const nikkes: Nikke[] = [
         code: Code.Iron,
         weapon_type: Weapon.SubmachineGun,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Missilis,
+        manufacturer: Manufacturer.Missilis
     },
     {
         name: "Ludmilla",
@@ -671,7 +663,7 @@ export const nikkes: Nikke[] = [
         code: Code.Water,
         weapon_type: Weapon.SubmachineGun,
         position: Position.Defender,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Ludmilla: Winter Owner",
@@ -683,7 +675,7 @@ export const nikkes: Nikke[] = [
         code: Code.Water,
         weapon_type: Weapon.MachineGun,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Maiden",
@@ -695,7 +687,7 @@ export const nikkes: Nikke[] = [
         code: Code.Electric,
         weapon_type: Weapon.Shotgun,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Elysion,
+        manufacturer: Manufacturer.Elysion
     },
     {
         name: "Makima",
@@ -707,7 +699,7 @@ export const nikkes: Nikke[] = [
         code: Code.Water,
         weapon_type: Weapon.SubmachineGun,
         position: Position.Defender,
-        manufacturer: Manufacturer.Abnormal,
+        manufacturer: Manufacturer.Abnormal
     },
     {
         name: "Marciana",
@@ -719,7 +711,7 @@ export const nikkes: Nikke[] = [
         code: Code.Iron,
         weapon_type: Weapon.Shotgun,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Elysion,
+        manufacturer: Manufacturer.Elysion
     },
     {
         name: "Mari Makinami Illustrious",
@@ -731,7 +723,7 @@ export const nikkes: Nikke[] = [
         code: Code.Electric,
         weapon_type: Weapon.SniperRifle,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Abnormal,
+        manufacturer: Manufacturer.Abnormal
     },
     {
         name: "Mary",
@@ -743,7 +735,7 @@ export const nikkes: Nikke[] = [
         code: Code.Water,
         weapon_type: Weapon.Shotgun,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Mary: Bay Goddess",
@@ -755,7 +747,7 @@ export const nikkes: Nikke[] = [
         code: Code.Water,
         weapon_type: Weapon.SniperRifle,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Mast",
@@ -767,7 +759,7 @@ export const nikkes: Nikke[] = [
         code: Code.Electric,
         weapon_type: Weapon.SubmachineGun,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Elysion,
+        manufacturer: Manufacturer.Elysion
     },
     {
         name: "Maxwell",
@@ -779,19 +771,18 @@ export const nikkes: Nikke[] = [
         code: Code.Iron,
         weapon_type: Weapon.SniperRifle,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Missilis,
+        manufacturer: Manufacturer.Missilis
     },
     {
         name: "Mica",
         image_url: "MicaS.png",
         rarity: Rarity.Sr,
         burst: Burst.I,
-        weapon_name: undefined,
         squad: "The Carronades",
         code: Code.Wind,
         weapon_type: Weapon.RocketLauncher,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Mica: Snow Buddy",
@@ -803,7 +794,7 @@ export const nikkes: Nikke[] = [
         code: Code.Iron,
         weapon_type: Weapon.SubmachineGun,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Mihara",
@@ -815,7 +806,7 @@ export const nikkes: Nikke[] = [
         code: Code.Water,
         weapon_type: Weapon.AssaultRifle,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Missilis,
+        manufacturer: Manufacturer.Missilis
     },
     {
         name: "Milk",
@@ -827,7 +818,7 @@ export const nikkes: Nikke[] = [
         code: Code.Water,
         weapon_type: Weapon.SniperRifle,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Miranda",
@@ -839,7 +830,7 @@ export const nikkes: Nikke[] = [
         code: Code.Fire,
         weapon_type: Weapon.SubmachineGun,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Elysion,
+        manufacturer: Manufacturer.Elysion
     },
     {
         name: "Misato Katsuragi",
@@ -851,7 +842,7 @@ export const nikkes: Nikke[] = [
         code: Code.Iron,
         weapon_type: Weapon.SubmachineGun,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Abnormal,
+        manufacturer: Manufacturer.Abnormal
     },
     {
         name: "Modernia",
@@ -863,7 +854,7 @@ export const nikkes: Nikke[] = [
         code: Code.Fire,
         weapon_type: Weapon.MachineGun,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Pilgrim,
+        manufacturer: Manufacturer.Pilgrim
     },
     {
         name: "Moran",
@@ -875,7 +866,7 @@ export const nikkes: Nikke[] = [
         code: Code.Electric,
         weapon_type: Weapon.AssaultRifle,
         position: Position.Defender,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "N102",
@@ -887,7 +878,7 @@ export const nikkes: Nikke[] = [
         code: Code.Water,
         weapon_type: Weapon.RocketLauncher,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Missilis,
+        manufacturer: Manufacturer.Missilis
     },
     {
         name: "Naga",
@@ -899,7 +890,7 @@ export const nikkes: Nikke[] = [
         code: Code.Electric,
         weapon_type: Weapon.Shotgun,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Missilis,
+        manufacturer: Manufacturer.Missilis
     },
     {
         name: "Neon",
@@ -911,7 +902,7 @@ export const nikkes: Nikke[] = [
         code: Code.Fire,
         weapon_type: Weapon.Shotgun,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Elysion,
+        manufacturer: Manufacturer.Elysion
     },
     {
         name: "Neon: Blue Ocean",
@@ -923,7 +914,7 @@ export const nikkes: Nikke[] = [
         code: Code.Water,
         weapon_type: Weapon.MachineGun,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Elysion,
+        manufacturer: Manufacturer.Elysion
     },
     {
         name: "Nero",
@@ -935,7 +926,7 @@ export const nikkes: Nikke[] = [
         code: Code.Electric,
         weapon_type: Weapon.SubmachineGun,
         position: Position.Defender,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Neve",
@@ -947,7 +938,7 @@ export const nikkes: Nikke[] = [
         code: Code.Water,
         weapon_type: Weapon.Shotgun,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Nihilister",
@@ -959,7 +950,7 @@ export const nikkes: Nikke[] = [
         code: Code.Fire,
         weapon_type: Weapon.SniperRifle,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Pilgrim,
+        manufacturer: Manufacturer.Pilgrim
     },
     {
         name: "Noah",
@@ -971,7 +962,7 @@ export const nikkes: Nikke[] = [
         code: Code.Wind,
         weapon_type: Weapon.RocketLauncher,
         position: Position.Defender,
-        manufacturer: Manufacturer.Pilgrim,
+        manufacturer: Manufacturer.Pilgrim
     },
     {
         name: "Noir",
@@ -983,19 +974,18 @@ export const nikkes: Nikke[] = [
         code: Code.Wind,
         weapon_type: Weapon.Shotgun,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Noise",
         image_url: "NoiseS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
-        weapon_name: undefined,
         squad: "Prima Donna",
         code: Code.Electric,
         weapon_type: Weapon.RocketLauncher,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Novel",
@@ -1007,7 +997,7 @@ export const nikkes: Nikke[] = [
         code: Code.Iron,
         weapon_type: Weapon.SubmachineGun,
         position: Position.Defender,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Pascal",
@@ -1019,7 +1009,7 @@ export const nikkes: Nikke[] = [
         code: Code.Iron,
         weapon_type: Weapon.RocketLauncher,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Abnormal,
+        manufacturer: Manufacturer.Abnormal
     },
     {
         name: "Pepper",
@@ -1031,7 +1021,7 @@ export const nikkes: Nikke[] = [
         code: Code.Wind,
         weapon_type: Weapon.Shotgun,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Missilis,
+        manufacturer: Manufacturer.Missilis
     },
     {
         name: "Poli",
@@ -1043,7 +1033,7 @@ export const nikkes: Nikke[] = [
         code: Code.Water,
         weapon_type: Weapon.Shotgun,
         position: Position.Defender,
-        manufacturer: Manufacturer.Elysion,
+        manufacturer: Manufacturer.Elysion
     },
     {
         name: "Power",
@@ -1055,7 +1045,7 @@ export const nikkes: Nikke[] = [
         code: Code.Fire,
         weapon_type: Weapon.RocketLauncher,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Abnormal,
+        manufacturer: Manufacturer.Abnormal
     },
     {
         name: "Privaty",
@@ -1067,7 +1057,7 @@ export const nikkes: Nikke[] = [
         code: Code.Water,
         weapon_type: Weapon.AssaultRifle,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Elysion,
+        manufacturer: Manufacturer.Elysion
     },
     {
         name: "Privaty: Unkind Maid",
@@ -1079,7 +1069,7 @@ export const nikkes: Nikke[] = [
         code: Code.Electric,
         weapon_type: Weapon.Shotgun,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Elysion,
+        manufacturer: Manufacturer.Elysion
     },
     {
         name: "Product 08",
@@ -1091,7 +1081,7 @@ export const nikkes: Nikke[] = [
         code: Code.Electric,
         weapon_type: Weapon.SniperRifle,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Missilis,
+        manufacturer: Manufacturer.Missilis
     },
     {
         name: "Product 12",
@@ -1103,7 +1093,7 @@ export const nikkes: Nikke[] = [
         code: Code.Fire,
         weapon_type: Weapon.MachineGun,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Missilis,
+        manufacturer: Manufacturer.Missilis
     },
     {
         name: "Product 23",
@@ -1115,7 +1105,7 @@ export const nikkes: Nikke[] = [
         code: Code.Wind,
         weapon_type: Weapon.Shotgun,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Missilis,
+        manufacturer: Manufacturer.Missilis
     },
     {
         name: "Quency",
@@ -1127,7 +1117,7 @@ export const nikkes: Nikke[] = [
         code: Code.Electric,
         weapon_type: Weapon.SubmachineGun,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Missilis,
+        manufacturer: Manufacturer.Missilis
     },
     {
         name: "Quiry",
@@ -1139,7 +1129,7 @@ export const nikkes: Nikke[] = [
         code: Code.Wind,
         weapon_type: Weapon.RocketLauncher,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Elysion,
+        manufacturer: Manufacturer.Elysion
     },
     {
         name: "Ram",
@@ -1151,7 +1141,7 @@ export const nikkes: Nikke[] = [
         code: Code.Wind,
         weapon_type: Weapon.SniperRifle,
         position: Position.Defender,
-        manufacturer: Manufacturer.Abnormal,
+        manufacturer: Manufacturer.Abnormal
     },
     {
         name: "Rapi",
@@ -1163,7 +1153,7 @@ export const nikkes: Nikke[] = [
         code: Code.Fire,
         weapon_type: Weapon.AssaultRifle,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Elysion,
+        manufacturer: Manufacturer.Elysion
     },
     {
         name: "Rapunzel",
@@ -1175,7 +1165,7 @@ export const nikkes: Nikke[] = [
         code: Code.Iron,
         weapon_type: Weapon.RocketLauncher,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Pilgrim,
+        manufacturer: Manufacturer.Pilgrim
     },
     {
         name: "Red Hood",
@@ -1187,7 +1177,7 @@ export const nikkes: Nikke[] = [
         code: Code.Iron,
         weapon_type: Weapon.SniperRifle,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Pilgrim,
+        manufacturer: Manufacturer.Pilgrim
     },
     {
         name: "Rei",
@@ -1199,7 +1189,7 @@ export const nikkes: Nikke[] = [
         code: Code.Water,
         weapon_type: Weapon.SubmachineGun,
         position: Position.Defender,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Rei Ayanami",
@@ -1211,7 +1201,7 @@ export const nikkes: Nikke[] = [
         code: Code.Fire,
         weapon_type: Weapon.MachineGun,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Abnormal,
+        manufacturer: Manufacturer.Abnormal
     },
     {
         name: "Rem",
@@ -1223,7 +1213,7 @@ export const nikkes: Nikke[] = [
         code: Code.Water,
         weapon_type: Weapon.MachineGun,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Abnormal,
+        manufacturer: Manufacturer.Abnormal
     },
     {
         name: "Rosanna",
@@ -1235,7 +1225,7 @@ export const nikkes: Nikke[] = [
         code: Code.Electric,
         weapon_type: Weapon.MachineGun,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Rosanna: Chic Ocean",
@@ -1247,7 +1237,7 @@ export const nikkes: Nikke[] = [
         code: Code.Wind,
         weapon_type: Weapon.AssaultRifle,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Rupee",
@@ -1259,7 +1249,7 @@ export const nikkes: Nikke[] = [
         code: Code.Iron,
         weapon_type: Weapon.AssaultRifle,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Rupee: Winter Shopper",
@@ -1271,7 +1261,7 @@ export const nikkes: Nikke[] = [
         code: Code.Electric,
         weapon_type: Weapon.AssaultRifle,
         position: Position.Defender,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Sakura",
@@ -1283,7 +1273,7 @@ export const nikkes: Nikke[] = [
         code: Code.Fire,
         weapon_type: Weapon.SniperRifle,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Sakura: Bloom in Summer",
@@ -1295,7 +1285,7 @@ export const nikkes: Nikke[] = [
         code: Code.Wind,
         weapon_type: Weapon.AssaultRifle,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Scarlet",
@@ -1307,7 +1297,7 @@ export const nikkes: Nikke[] = [
         code: Code.Electric,
         weapon_type: Weapon.AssaultRifle,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Pilgrim,
+        manufacturer: Manufacturer.Pilgrim
     },
     {
         name: "Scarlet: Black Shadow",
@@ -1319,7 +1309,7 @@ export const nikkes: Nikke[] = [
         code: Code.Wind,
         weapon_type: Weapon.RocketLauncher,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Pilgrim,
+        manufacturer: Manufacturer.Pilgrim
     },
     {
         name: "Signal",
@@ -1331,7 +1321,7 @@ export const nikkes: Nikke[] = [
         code: Code.Fire,
         weapon_type: Weapon.SubmachineGun,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Elysion,
+        manufacturer: Manufacturer.Elysion
     },
     {
         name: "Sin",
@@ -1343,7 +1333,7 @@ export const nikkes: Nikke[] = [
         code: Code.Electric,
         weapon_type: Weapon.AssaultRifle,
         position: Position.Defender,
-        manufacturer: Manufacturer.Missilis,
+        manufacturer: Manufacturer.Missilis
     },
     {
         name: "Snow White",
@@ -1355,7 +1345,7 @@ export const nikkes: Nikke[] = [
         code: Code.Iron,
         weapon_type: Weapon.AssaultRifle,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Pilgrim,
+        manufacturer: Manufacturer.Pilgrim
     },
     {
         name: "Snow White: Innocent Days",
@@ -1367,7 +1357,7 @@ export const nikkes: Nikke[] = [
         code: Code.Iron,
         weapon_type: Weapon.AssaultRifle,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Pilgrim,
+        manufacturer: Manufacturer.Pilgrim
     },
     {
         name: "Soda",
@@ -1379,7 +1369,7 @@ export const nikkes: Nikke[] = [
         code: Code.Fire,
         weapon_type: Weapon.MachineGun,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Soda: Twinkling Bunny",
@@ -1391,7 +1381,7 @@ export const nikkes: Nikke[] = [
         code: Code.Iron,
         weapon_type: Weapon.Shotgun,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Soldier EG",
@@ -1403,7 +1393,7 @@ export const nikkes: Nikke[] = [
         code: Code.Electric,
         weapon_type: Weapon.AssaultRifle,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Elysion,
+        manufacturer: Manufacturer.Elysion
     },
     {
         name: "Soldier FA",
@@ -1415,7 +1405,7 @@ export const nikkes: Nikke[] = [
         code: Code.Iron,
         weapon_type: Weapon.Shotgun,
         position: Position.Defender,
-        manufacturer: Manufacturer.Elysion,
+        manufacturer: Manufacturer.Elysion
     },
     {
         name: "Soldier OW",
@@ -1427,7 +1417,7 @@ export const nikkes: Nikke[] = [
         code: Code.Fire,
         weapon_type: Weapon.SubmachineGun,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Elysion,
+        manufacturer: Manufacturer.Elysion
     },
     {
         name: "Soline",
@@ -1439,7 +1429,7 @@ export const nikkes: Nikke[] = [
         code: Code.Iron,
         weapon_type: Weapon.SubmachineGun,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Elysion,
+        manufacturer: Manufacturer.Elysion
     },
     {
         name: "Sugar",
@@ -1451,7 +1441,7 @@ export const nikkes: Nikke[] = [
         code: Code.Iron,
         weapon_type: Weapon.Shotgun,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Tia",
@@ -1463,7 +1453,7 @@ export const nikkes: Nikke[] = [
         code: Code.Iron,
         weapon_type: Weapon.RocketLauncher,
         position: Position.Defender,
-        manufacturer: Manufacturer.Missilis,
+        manufacturer: Manufacturer.Missilis
     },
     {
         name: "Tove",
@@ -1475,7 +1465,7 @@ export const nikkes: Nikke[] = [
         code: Code.Water,
         weapon_type: Weapon.AssaultRifle,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Missilis,
+        manufacturer: Manufacturer.Missilis
     },
     {
         name: "Trony",
@@ -1487,7 +1477,7 @@ export const nikkes: Nikke[] = [
         code: Code.Fire,
         weapon_type: Weapon.SniperRifle,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Missilis,
+        manufacturer: Manufacturer.Missilis
     },
     {
         name: "Vesti",
@@ -1499,7 +1489,7 @@ export const nikkes: Nikke[] = [
         code: Code.Water,
         weapon_type: Weapon.RocketLauncher,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Elysion,
+        manufacturer: Manufacturer.Elysion
     },
     {
         name: "Viper",
@@ -1511,31 +1501,29 @@ export const nikkes: Nikke[] = [
         code: Code.Water,
         weapon_type: Weapon.Shotgun,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Volume",
         image_url: "VolumeS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
-        weapon_name: undefined,
         squad: "Prima Donna",
         code: Code.Wind,
         weapon_type: Weapon.SubmachineGun,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Yan",
         image_url: "YanS.png",
         rarity: Rarity.Ssr,
         burst: Burst.I,
-        weapon_name: undefined,
         squad: "Talentum",
         code: Code.Fire,
         weapon_type: Weapon.RocketLauncher,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Yulha",
@@ -1547,7 +1535,7 @@ export const nikkes: Nikke[] = [
         code: Code.Fire,
         weapon_type: Weapon.SniperRifle,
         position: Position.Attacker,
-        manufacturer: Manufacturer.Tetra,
+        manufacturer: Manufacturer.Tetra
     },
     {
         name: "Yuni",
@@ -1559,7 +1547,7 @@ export const nikkes: Nikke[] = [
         code: Code.Fire,
         weapon_type: Weapon.RocketLauncher,
         position: Position.Defender,
-        manufacturer: Manufacturer.Missilis,
+        manufacturer: Manufacturer.Missilis
     },
     {
         name: "Zwei",
@@ -1571,6 +1559,6 @@ export const nikkes: Nikke[] = [
         code: Code.Electric,
         weapon_type: Weapon.Shotgun,
         position: Position.Supporter,
-        manufacturer: Manufacturer.Elysion,
+        manufacturer: Manufacturer.Elysion
     }
 ];

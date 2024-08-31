@@ -1,0 +1,5 @@
+import { Burst, Code, Manufacturer, Position, Rarity, Weapon, type Nikke } from "./utils";
+
+export const nikkes: Nikke[] = [
+#CONTENTS#
+];

@@ -1,4 +1,4 @@
-import { Burst, Code, Manufacturer, Rarity, Weapon } from '../src/lib/nikke';
+import { Burst, Code, Manufacturer, Position, Rarity, Weapon } from '../src/lib/nikke';
 import { Result } from './result';
 
 /**

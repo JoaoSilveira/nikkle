@@ -1,5 +1,5 @@
 import { type HTMLElement } from 'node-html-parser';
-import { Burst, Code, Manufacturer, Nikke, Position, Rarity, Weapon } from '../src/lib/nikke';
+import { Burst, Code, Manufacturer, Nikke as NikkeFinal, Position, Rarity, Weapon } from '../src/lib/nikke';
 import { fetchHtml, downloadImage, walk, children, firstChild, lastChild } from './html-utils';
 import { makeObj, Result } from './result';
 import { parseBurst, parseCode, parseManufacturer, parsePosition, parseRarity, parseWeapon } from './parsers';
@@ -9,21 +9,26 @@ const Paths = {
    fandomBase: 'https://nikke-goddess-of-victory-international.fandom.com',
    database: './scripts/data/nikke-db.json',
    imageBase: './static/images/characters',
+   listOutput: './src/lib/nikke/list.ts',
+
+   templates: {
+      list: './scripts/assets/list-template.txt',
+   },
 
    get fandomHome(): string {
-      return this.urlFromPath('/wiki/Home');
+      return Paths.urlFromPath('/wiki/Home');
    },
 
    urlFromPath(path: string): string {
-      return this.fandomBase + path;
+      return Paths.fandomBase + path;
    },
 
    imageBig(filename: string): string {
-      return this.imageBase + `/big/${filename}`;
+      return Paths.imageBase + `/big/${filename}`;
    },
 
    imageSmall(filename: string): string {
-      return this.imageBase + `/small/${filename}`;
+      return Paths.imageBase + `/small/${filename}`;
    },
 };
 
@@ -44,18 +49,7 @@ type Nikke = {
       position: Position;
       manufacturer: Manufacturer;
    };
-   'final': {
-      name: string;
-      image_url: string;
-      rarity: Rarity;
-      burst: Burst;
-      weapon_name?: string;
-      squad: string;
-      code: Code;
-      weapon_type: Weapon;
-      position: Position;
-      manufacturer: Manufacturer;
-   };
+   'final': NikkeFinal;
 };
 
 function extractNikkeList(document: HTMLElement): Nikke['list-entry'][] {
@@ -187,7 +181,7 @@ async function updateData(): Promise<void> {
 
       console.log('updating', nikke.name);
 
-      const imageFilename = nikke.image_url.substring(nikke.image_url.lastIndexOf('/'));
+      const imageFilename = nikke.image_url.substring(nikke.image_url.lastIndexOf('/') + 1);
 
       await Promise.all([
          updateImages(nikke.image_url, imageFilename),
@@ -250,8 +244,8 @@ async function updateTsNikkeList(): Promise<void> {
       "Manufacturer.Abnormal",
    ];
 
-   const dbFile = await Bun.file('./scripts/data/nikke-db.json').json() as Nikke['final'][];
-   const template = await Bun.file('./list-template.txt').text();
+   const dbFile = await Bun.file(Paths.database).json() as Nikke['final'][];
+   const template = await Bun.file(Paths.templates.list).text();
 
    const items = dbFile.map(n => {
       const lines = [
@@ -272,7 +266,7 @@ async function updateTsNikkeList(): Promise<void> {
       return ['    {', lines, '    }'].join('\n');
    }).join(',\n');
 
-   await Bun.write('./src/lib/nikke/list.ts', template.replace('#CONTENTS#', items));
+   await Bun.write(Paths.listOutput, template.replace('#CONTENTS#', items));
 }
 
 await updateData();

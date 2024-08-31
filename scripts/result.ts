@@ -258,6 +258,8 @@ export function makeObj<T extends Record<string, any>>(obj: T): Result<OkObject<
             } else {
                 err[key] = obj[key].unwrapErr();
             }
+        } else {
+            ok[key] = obj[key];
         }
     }
 
