@@ -214,6 +214,18 @@
     "image_url": "CentiS.png"
   },
   {
+    "name": "Cinderella",
+    "rarity": 2,
+    "burst": 2,
+    "weapon_name": "Glass Slippers",
+    "squad": "Old Tales",
+    "code": 2,
+    "weapon_type": 5,
+    "position": 2,
+    "manufacturer": 3,
+    "image_url": "CinderellaS.png"
+  },
+  {
     "name": "Clay",
     "rarity": 2,
     "burst": 1,
@@ -439,6 +451,18 @@
     "image_url": "ExiaS.png"
   },
   {
+    "name": "Flora",
+    "rarity": 2,
+    "burst": 1,
+    "weapon_name": "Natural Garden",
+    "squad": "Botanic Garden",
+    "code": 2,
+    "weapon_type": 2,
+    "position": 1,
+    "manufacturer": 1,
+    "image_url": "FloraS.png"
+  },
+  {
     "name": "Folkwang",
     "rarity": 2,
     "burst": 1,
@@ -461,6 +485,18 @@
     "position": 1,
     "manufacturer": 2,
     "image_url": "FrimaS.png"
+  },
+  {
+    "name": "Grave",
+    "rarity": 2,
+    "burst": 1,
+    "weapon_name": "Writer's Eraser",
+    "squad": "Old Tales",
+    "code": 0,
+    "weapon_type": 3,
+    "position": 1,
+    "manufacturer": 3,
+    "image_url": "GraveS.png"
   },
   {
     "name": "Guillotine",
@@ -1022,6 +1058,18 @@
     "image_url": "PepperS.png"
   },
   {
+    "name": "Phantom",
+    "rarity": 2,
+    "burst": 2,
+    "weapon_name": "Midnight Thief",
+    "squad": "Best Seller",
+    "code": 1,
+    "weapon_type": 3,
+    "position": 0,
+    "manufacturer": 0,
+    "image_url": "PhantomS.png"
+  },
+  {
     "name": "Poli",
     "rarity": 2,
     "burst": 1,
@@ -1118,6 +1166,18 @@
     "image_url": "QuencyS.png"
   },
   {
+    "name": "Quency: Escape Queen",
+    "rarity": 2,
+    "burst": 2,
+    "weapon_name": "Secret Exit",
+    "squad": "Real Kindness",
+    "code": 1,
+    "weapon_type": 1,
+    "position": 0,
+    "manufacturer": 1,
+    "image_url": "Quency_Escape_QueenS.png"
+  },
+  {
     "name": "Quiry",
     "rarity": 2,
     "burst": 2,
@@ -1164,6 +1224,18 @@
     "position": 1,
     "manufacturer": 3,
     "image_url": "RapunzelS.png"
+  },
+  {
+    "name": "Rapunzel: Pure Grace",
+    "rarity": 2,
+    "burst": 0,
+    "weapon_name": "Holy Grace",
+    "squad": "Goddess",
+    "code": 3,
+    "weapon_type": 4,
+    "position": 2,
+    "manufacturer": 3,
+    "image_url": "Rapunzel_Pure_GraceS.png"
   },
   {
     "name": "Red Hood",
@@ -1236,6 +1308,30 @@
     "position": 1,
     "manufacturer": 2,
     "image_url": "Rosanna_Chic_OceanS.png"
+  },
+  {
+    "name": "Rouge",
+    "rarity": 2,
+    "burst": 0,
+    "weapon_name": "Jackpot",
+    "squad": "777",
+    "code": 2,
+    "weapon_type": 4,
+    "position": 1,
+    "manufacturer": 2,
+    "image_url": "RougeS.png"
+  },
+  {
+    "name": "Rumani",
+    "rarity": 2,
+    "burst": 0,
+    "weapon_name": "Look At Me",
+    "squad": "Nepenthe",
+    "code": 0,
+    "weapon_type": 5,
+    "position": 2,
+    "manufacturer": 2,
+    "image_url": "RumaniS.png"
   },
   {
     "name": "Rupee",

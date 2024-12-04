@@ -216,6 +216,18 @@ export const nikkes: Nikke[] = [
         manufacturer: Manufacturer.Missilis
     },
     {
+        name: "Cinderella",
+        image_url: "CinderellaS.png",
+        rarity: Rarity.Ssr,
+        burst: Burst.III,
+        weapon_name: "Glass Slippers",
+        squad: "Old Tales",
+        code: Code.Electric,
+        weapon_type: Weapon.RocketLauncher,
+        position: Position.Defender,
+        manufacturer: Manufacturer.Pilgrim
+    },
+    {
         name: "Clay",
         image_url: "ClayS.png",
         rarity: Rarity.Ssr,
@@ -441,6 +453,18 @@ export const nikkes: Nikke[] = [
         manufacturer: Manufacturer.Tetra
     },
     {
+        name: "Flora",
+        image_url: "FloraS.png",
+        rarity: Rarity.Ssr,
+        burst: Burst.II,
+        weapon_name: "Natural Garden",
+        squad: "Botanic Garden",
+        code: Code.Electric,
+        weapon_type: Weapon.MachineGun,
+        position: Position.Supporter,
+        manufacturer: Manufacturer.Missilis
+    },
+    {
         name: "Folkwang",
         image_url: "FolkwangS.png",
         rarity: Rarity.Ssr,
@@ -463,6 +487,18 @@ export const nikkes: Nikke[] = [
         weapon_type: Weapon.SniperRifle,
         position: Position.Supporter,
         manufacturer: Manufacturer.Tetra
+    },
+    {
+        name: "Grave",
+        image_url: "GraveS.png",
+        rarity: Rarity.Ssr,
+        burst: Burst.II,
+        weapon_name: "Writer's Eraser",
+        squad: "Old Tales",
+        code: Code.Fire,
+        weapon_type: Weapon.AssaultRifle,
+        position: Position.Supporter,
+        manufacturer: Manufacturer.Pilgrim
     },
     {
         name: "Guillotine",
@@ -1024,6 +1060,18 @@ export const nikkes: Nikke[] = [
         manufacturer: Manufacturer.Missilis
     },
     {
+        name: "Phantom",
+        image_url: "PhantomS.png",
+        rarity: Rarity.Ssr,
+        burst: Burst.III,
+        weapon_name: "Midnight Thief",
+        squad: "Best Seller",
+        code: Code.Water,
+        weapon_type: Weapon.AssaultRifle,
+        position: Position.Attacker,
+        manufacturer: Manufacturer.Elysion
+    },
+    {
         name: "Poli",
         image_url: "PoliS.png",
         rarity: Rarity.Ssr,
@@ -1120,6 +1168,18 @@ export const nikkes: Nikke[] = [
         manufacturer: Manufacturer.Missilis
     },
     {
+        name: "Quency: Escape Queen",
+        image_url: "Quency_Escape_QueenS.png",
+        rarity: Rarity.Ssr,
+        burst: Burst.III,
+        weapon_name: "Secret Exit",
+        squad: "Real Kindness",
+        code: Code.Water,
+        weapon_type: Weapon.SubmachineGun,
+        position: Position.Attacker,
+        manufacturer: Manufacturer.Missilis
+    },
+    {
         name: "Quiry",
         image_url: "QuiryS.png",
         rarity: Rarity.Ssr,
@@ -1165,6 +1225,18 @@ export const nikkes: Nikke[] = [
         code: Code.Iron,
         weapon_type: Weapon.RocketLauncher,
         position: Position.Supporter,
+        manufacturer: Manufacturer.Pilgrim
+    },
+    {
+        name: "Rapunzel: Pure Grace",
+        image_url: "Rapunzel_Pure_GraceS.png",
+        rarity: Rarity.Ssr,
+        burst: Burst.I,
+        weapon_name: "Holy Grace",
+        squad: "Goddess",
+        code: Code.Iron,
+        weapon_type: Weapon.SniperRifle,
+        position: Position.Defender,
         manufacturer: Manufacturer.Pilgrim
     },
     {
@@ -1237,6 +1309,30 @@ export const nikkes: Nikke[] = [
         code: Code.Wind,
         weapon_type: Weapon.AssaultRifle,
         position: Position.Supporter,
+        manufacturer: Manufacturer.Tetra
+    },
+    {
+        name: "Rouge",
+        image_url: "RougeS.png",
+        rarity: Rarity.Ssr,
+        burst: Burst.I,
+        weapon_name: "Jackpot",
+        squad: "777",
+        code: Code.Electric,
+        weapon_type: Weapon.SniperRifle,
+        position: Position.Supporter,
+        manufacturer: Manufacturer.Tetra
+    },
+    {
+        name: "Rumani",
+        image_url: "RumaniS.png",
+        rarity: Rarity.Ssr,
+        burst: Burst.I,
+        weapon_name: "Look At Me",
+        squad: "Nepenthe",
+        code: Code.Fire,
+        weapon_type: Weapon.RocketLauncher,
+        position: Position.Defender,
         manufacturer: Manufacturer.Tetra
     },
     {

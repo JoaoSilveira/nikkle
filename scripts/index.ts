@@ -57,7 +57,7 @@ function extractNikkeList(document: HTMLElement): Nikke['list-entry'][] {
    let groupActive = false;
    let container = Result
       .FromNullish(document.querySelector('div.lcs-container'), "cannot find 'div.lcs-container' in document")
-      .flatMap(walk('$$'))
+      .flatMap(walk('$$v'))
       .map(children);
 
    for (const card of container.orDefault([])) {
@@ -67,7 +67,8 @@ function extractNikkeList(document: HTMLElement): Nikke['list-entry'][] {
       const result = makeObj({
          name: img
             .mapErr(err => 'missing <img>: ' + err)
-            .flatMap(e => Result.FromNullish(e.attrs['alt'], 'missing "alt" attribute on image tag')),
+            .flatMap(e => Result.FromNullish(e.attrs['alt'], 'missing "alt" attribute on image tag'))
+            .map(n => n.substring(0, n.length - 1)), // remove trailing 'S'
          url: link
             .mapErr(err => 'missing <a>: ' + err)
             .flatMap(e => Result.FromNullish(e.attrs['href'], 'missing "href" attribute on link'))
@@ -192,7 +193,7 @@ async function updateData(): Promise<void> {
                   image_url: imageFilename,
                });
             } else {
-               console.error(res.unwrapErr());
+               console.error('failed to fetch metadata: ', res.unwrapErr());
             }
          })
       ]);
