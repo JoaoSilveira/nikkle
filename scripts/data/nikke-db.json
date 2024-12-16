@@ -511,6 +511,18 @@
     "image_url": "GuillotineS.png"
   },
   {
+    "name": "Guillotine: Winter Slayer",
+    "rarity": 2,
+    "burst": 2,
+    "weapon_name": "Brave Sword",
+    "squad": "Extrinsic",
+    "code": 1,
+    "weapon_type": 3,
+    "position": 0,
+    "manufacturer": 0,
+    "image_url": "Guillotine_Winter_SlayerS.png"
+  },
+  {
     "name": "Guilty",
     "rarity": 2,
     "burst": 1,
@@ -722,6 +734,18 @@
     "position": 0,
     "manufacturer": 0,
     "image_url": "MaidenS.png"
+  },
+  {
+    "name": "Maiden: Ice Rose",
+    "rarity": 2,
+    "burst": 2,
+    "weapon_name": "Diamond Dust",
+    "squad": "Extrinsic",
+    "code": 2,
+    "weapon_type": 5,
+    "position": 2,
+    "manufacturer": 0,
+    "image_url": "Maiden_Ice_RoseS.png"
   },
   {
     "name": "Makima",

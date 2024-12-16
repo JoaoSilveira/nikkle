@@ -513,6 +513,18 @@ export const nikkes: Nikke[] = [
         manufacturer: Manufacturer.Elysion
     },
     {
+        name: "Guillotine: Winter Slayer",
+        image_url: "Guillotine_Winter_SlayerS.png",
+        rarity: Rarity.Ssr,
+        burst: Burst.III,
+        weapon_name: "Brave Sword",
+        squad: "Extrinsic",
+        code: Code.Water,
+        weapon_type: Weapon.AssaultRifle,
+        position: Position.Attacker,
+        manufacturer: Manufacturer.Elysion
+    },
+    {
         name: "Guilty",
         image_url: "GuiltyS.png",
         rarity: Rarity.Ssr,
@@ -723,6 +735,18 @@ export const nikkes: Nikke[] = [
         code: Code.Electric,
         weapon_type: Weapon.Shotgun,
         position: Position.Attacker,
+        manufacturer: Manufacturer.Elysion
+    },
+    {
+        name: "Maiden: Ice Rose",
+        image_url: "Maiden_Ice_RoseS.png",
+        rarity: Rarity.Ssr,
+        burst: Burst.III,
+        weapon_name: "Diamond Dust",
+        squad: "Extrinsic",
+        code: Code.Electric,
+        weapon_type: Weapon.RocketLauncher,
+        position: Position.Defender,
         manufacturer: Manufacturer.Elysion
     },
     {
